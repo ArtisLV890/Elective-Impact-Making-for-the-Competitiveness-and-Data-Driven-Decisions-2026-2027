@@ -2,7 +2,7 @@
 
 The practical assignment runs through the whole course: take existing research or knowledge and turn it into a real, applicable tool that improves competitiveness, productivity or another business or social issue. It works best at the **macro / policy level**, usually by changing laws and regulations or how they are implemented.
 
-**Working title:** _TBD_
+**Working title:** Riga Knowledge Mile (see [`research/case-angles.md`](research/case-angles.md))
 **Group members:** _TBD_
 
 | # | File | Course step | Due |
