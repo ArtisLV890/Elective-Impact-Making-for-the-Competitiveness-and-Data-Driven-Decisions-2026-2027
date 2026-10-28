@@ -1,5 +1,7 @@
 # Sources: Riga Knowledge Mile
 
+> **Looking for top-journal (AJG 4*/4, FT50) papers?** See [`starred-papers.md`](starred-papers.md).
+
 Reading list for an impact case on the **Riga Knowledge Mile** (Zināšanu jūdze): the cluster of LU, RTU, RSU, RISEBA and BA Turība in Pārdaugava.
 
 The LaSER report ([`laser-knowledge-mile-summary.md`](laser-knowledge-mile-summary.md)) gives us the **local facts**. The sources below give the **academic backbone** that the LaSER report mostly lacks. All citations below were checked against publisher or repository records. Where I couldn't read the full text, the summary is based on the abstract and is marked *(abstract only)*.
