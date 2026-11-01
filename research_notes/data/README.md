@@ -40,3 +40,9 @@ Read live, full consolidated text, 1 November 2026 (not saved as separate files 
 - MK Noteikumi Nr. 252 (likumi.lv/ta/id/331784)
 - Grozījumi Zinātniskās darbības likumā, 2024 (likumi.lv/ta/id/357463)
 - Publiskas personas mantas atsavināšanas likums (likumi.lv/ta/id/68490)
+
+## World Bank (via the datasets/gdp and datasets/population mirrors on GitHub)
+
+| File | Source | Notes |
+| --- | --- | --- |
+| `worldbank_gdp_population_baltics_2000_2023.csv` | World Bank WDI GDP (current US$, `NY.GDP.MKTP.CD`) and population (`SP.POP.TOTL`), as republished under CC-BY 4.0 at `github.com/datasets/gdp` (last updated 2026-04-08) and `github.com/datasets/population`; downloaded 1 November 2026 | Country level, 2000–2023. Nominal US dollars, so year-to-year changes include exchange-rate effects (e.g. the 2015 euro–dollar drop). Eurostat's country-level PPS series (`tec00114` / `nama_10_pc`) could not be reached from the cloud session. |

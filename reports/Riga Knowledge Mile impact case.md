@@ -213,6 +213,33 @@ The Baltic comparison is the most persuasive argument for Latvian policymakers. 
 
 The honest framing is therefore that the neighbours have not solved everything, but **each has an owner for the problem, and Riga does not**. Because Riga is late, it can copy the governance and skip the over-investment in buildings that Lithuania's evaluators criticised.
 
+## Why Vilnius pulled ahead: organisation, not geography
+
+**The national picture matches the capitals.** On World Bank data (current US$), Latvia and Lithuania had almost the same GDP per head in 2010 (US$11,421 vs US$11,988). By 2023 Lithuania was at **US$27,106** and Latvia at **US$23,160**, a growth of 126% against 103% since 2010. Lithuania's whole economy (US$77.8bn) was **1.8 times Latvia's** (US$43.6bn); Estonia's was US$40.7bn, at US$29,735 per head ([World Bank WDI via datasets/gdp](https://github.com/datasets/gdp)). Eurostat's price-adjusted index tells the same story: in 2010 Latvia was at 52% of the EU average, Lithuania at 58% and Estonia at 65% (first estimates). Preliminary 2024 figures put Lithuania at about 87%, Estonia at 79% and Latvia at 68–71%. Sources differ on Latvia's figure ([LRT](https://www.lrt.lt/en/news-in-english/19/2783105/lithuania-s-real-gdp-at-87-of-eu-average-ahead-of-other-baltic-states)) [S; verify in Eurostat tec00114].
+
+No study isolates the causes, but Vilnius's take-off coincides with deliberate choices that Riga did not make:
+
+- **Fintech: a regulator that courted the industry.**
+  - The Bank of Lithuania built the EU's most active fintech licensing regime and advertised licensing "2–3 times faster" than elsewhere in the EU.
+  - It licensed Google and Revolut in December 2018. By the end of 2020 it supervised about 80 e-money and 52 payment institutions, whose payment transactions tripled to over €50bn that year ([Bank of Lithuania](https://www.lb.lt/en/news/electronic-money-and-payment-institutions-the-amount-of-payment-transactions-tripled-and-exceeded-eu50-billion-in-2020); [FinTech Futures](https://www.fintechfutures.com/fintech/licence-lust-lets-lithuania-s-fintech-sector-soar)).
+  - A Lithuanian licence lets a firm operate across the EU, so Vilnius became an EU fintech gateway.
+- **Foreign investment in business services.**
+  - Lithuania targeted global business-services and tech centres: Barclays, Danske Bank, Nasdaq and Western Union, whose Vilnius site is described as its largest in the world.
+  - Invest Lithuania counts 80+ such centres with over 26,000 jobs [S]. In 2024 Vilnius won 26 of Lithuania's 47 new investment projects ([Invest Lithuania](https://investlithuania.com/report/gbs-report-2024/); [Go Vilnius](https://www.govilnius.lt/economic-overview)).
+- **Home-grown tech and talent inflows.**
+  - Vinted and Nord Security became unicorns, and their alumni have founded about 30 more start-ups ([tech.eu](https://tech.eu/2025/10/24/lithuanias-tech-ecosystem-founders-discuss-its-evolution/)).
+  - After 2020, dozens of Belarusian and later Russian IT firms moved staff to Vilnius ([OSW](https://www.osw.waw.pl/en/publikacje/analyses/2024-10-01/shadow-recent-glory-belarusian-it-sector-after-2022)).
+- **More graduates.** 60.8% of Lithuanians aged 25–34 hold a tertiary degree, against 44.7% in Latvia (Eurostat 2025).
+- **The city as organiser.** Vilnius co-founded Sunrise Valley in 2003, runs the Go Vilnius agency and leased municipal buildings for Vilnius Tech Park.
+
+**On Riga's side:**
+- Transit and East–West business shrank after 2014 and again after 2022.
+- Non-resident banking contracted after the ABLV collapse in 2018, although its direct share of GDP was small, about 0.8–1.5% ([GMF](https://gmfus.org/news/latvian-banking-recent-reforms-sustainable-solutions)).
+
+**Caveat on the comparison:** LT011 is Vilnius county including its suburbs, while LV00A is the city of Riga only. City-only figures are usually flattered by in-commuting, so the true gap is, if anything, understated.
+
+**Implication for the case:** fintech and business services are exactly the graduate-hungry sectors that a functioning Knowledge Mile should feed. Riga's universities are not yet connected to any such strategy, which is why the "city as organiser" role is the core of our ask.
+
 ## Agreements work only when they carry a work programme, money and data
 
 ### City–university agreements: Espoo, Tampere and the UK warning

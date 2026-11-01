@@ -6,7 +6,7 @@ author: "[Team names] · Impact Making for the Competitiveness and Data-Driven D
 
 # 1. What problem are we solving, and why does it matter?
 
-**Riga is falling behind its Baltic neighbours.** In 2000, Riga and Vilnius had the same GDP per head (54% and 53% of the EU average in purchasing-power terms). By 2023, Vilnius had reached **131%** and Riga only **101%**, so Vilnius is now about 30% richer per head. Riga is the **second-poorest of the EU's 27 capital regions**; only Cyprus's capital region is lower (Eurostat). The gap opened after 2010 and has not closed since 2020 (Figure 1). Riga has also lost people: its population fell from 766,000 in 2000 to **588,911 in 2026** (Statistics Latvia). Since 2025, Vilnius has been officially recognised as the largest Baltic city.
+**Riga is falling behind its Baltic neighbours.** In 2000, Riga and Vilnius had the same GDP per head (54% and 53% of the EU average in purchasing-power terms). By 2023, Vilnius had reached **131%** and Riga only **101%**, so Vilnius is now about 30% richer per head. Riga is the **second-poorest of the EU's 27 capital regions**; only Cyprus's capital region is lower (Eurostat). The gap opened after 2010 and has not closed since 2020 (Figure 1). Riga has also lost people: its population fell from 766,000 in 2000 to **588,911 in 2026** (Statistics Latvia). Since 2025, Vilnius has been officially recognised as the largest Baltic city. The same pattern holds nationally: in 2010 Latvia and Lithuania had almost the same GDP per head (about US$11,400 vs US$12,000), but by 2023 Lithuania was at US$27,100 against Latvia's US$23,200, and Lithuania's economy was 1.8 times Latvia's (World Bank).
 
 ![Figure 1. GDP per inhabitant (PPS), % of EU27 average. Source: Eurostat nama_10r_3gdp.](../reports/figures/gdp_baltic_capitals.png){width=15.5cm}
 
@@ -44,6 +44,15 @@ Large subsidy-led cluster programmes have weaker records. Duranton (2011) calls 
 | Tampere | City–university agreement for 2026–2029 | Work programme and a management group meeting four times a year |
 | Eindhoven | Brainport foundation and development agency | About €1 per inhabitant from municipalities, plus about €2 raised from other sources for each public euro |
 | **Riga** | **Memoranda (2023, 2024)** | **Signatory only: no entity, budget or KPIs** |
+
+**Why Vilnius pulled ahead: organisation, not geography.** Vilnius's take-off after 2010 coincides with deliberate choices:
+
+- **Fintech.** The Bank of Lithuania built the EU's most active fintech licensing regime. It advertised licensing "2–3 times faster" than elsewhere in the EU, licensed Google and Revolut in December 2018, and by the end of 2020 supervised about 80 e-money and 52 payment institutions, whose payment transactions tripled to over €50bn that year. A Lithuanian licence lets a firm operate across the EU, so Vilnius became an EU fintech gateway.
+- **Investment.** Lithuania targeted global business-services and tech centres (Barclays, Danske Bank, Nasdaq, Western Union). Invest Lithuania counts 80+ such centres with over 26,000 jobs.
+- **Home-grown tech.** Firms such as Vinted and Nord Security grew into unicorns, and Vilnius start-ups raised about €212m of venture capital in 2025, against Latvia's €78m.
+- **The city as organiser.** Vilnius co-founded Sunrise Valley in 2003, runs the Go Vilnius development agency, and leased municipal buildings for Vilnius Tech Park.
+
+Regulators and cities that organise attract talent and capital; Riga's universities have not been connected to such a strategy.
 
 Two lessons from abroad shape our design:
 
@@ -104,7 +113,7 @@ Commercialisation reforms are the coordinator's next agenda. Under the science-f
   - **the five rectors and the Rectors' Council:** the Study Agreement;
   - **the five student councils:** users and advocates;
   - **LaSER:** research credibility;
-  - **LTRK and FICIL:** the business voice missing from the memorandum;
+  - **LTRK, FICIL and Riga's fintech and tech firms:** the business voice missing from the memorandum;
   - **IZM and AIC:** the regulation.
 
 **What success looks like:** a funded owner by the end of 2027 and the first public Knowledge Mile progress report in October 2028. That would be the first time anyone can answer the deputies' question: *how are we doing?*
@@ -161,4 +170,4 @@ The Riga-specific diagnosis comes from LaSER (2026), *Rīgas Zināšanu jūdze (
 - Toivanen, O. & Väänänen, L. (2016). *REStat* 98(2).
 - Valero, A. & Van Reenen, J. (2019). *Economics of Education Review* 68.
 - European Commission, *European Innovation Scoreboard 2026*.
-- Eurostat; Statistics Latvia.
+- Eurostat; Statistics Latvia; World Bank WDI; Bank of Lithuania; Invest Lithuania.
