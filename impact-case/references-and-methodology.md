@@ -108,7 +108,7 @@ Its central argument is that geographical proximity is **neither necessary nor s
 - **Result:** a 25% reduction in meetings implies about an 8% drop in citations.
 - **Status:** an NBER working paper, not yet peer reviewed.
 
-**Catalini (2018), natural experiment** (if cited in the text).
+**Catalini (2018), natural experiment**.
 
 - **Design:** asbestos removal at the Jussieu campus in Paris forced labs to relocate largely for reasons unrelated to research. This created quasi-random variation in which labs ended up next to each other.
 - **Result:** co-location made two labs **3.5 times** more likely to collaborate.
