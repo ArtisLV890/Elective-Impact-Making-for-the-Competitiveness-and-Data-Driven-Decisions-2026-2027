@@ -35,9 +35,19 @@ Progress report on the local-machine verification pass requested in `impact-case
 - Publiskas personas mantas atsavināšanas likums: confirmed Art. 3(2) sets auction as the **default** disposal method for public property, and confirmed Art. 2(2)(1)'s carve-out for "mantiskas tiesības" is genuinely ambiguous on whether it covers IP — the text itself doesn't resolve the question LaSER and the 2023–2025 TAP consultation were arguing about.
 - Full detail and citations: `research_notes/Riga Knowledge Mile impact case/latvian_regulation_and_actors.md` (new "Verification update" section).
 
+## Papers read in full (user sent PDFs directly, saved to `papers/`)
+
+5 of 12 core papers read and findings confirmed against the report's claims:
+
+1. **Boschma (2005)**, *Regional Studies* 39(1), 61–74. Confirmed DOI 10.1080/0034340052000320887. Five dimensions of proximity (cognitive, organizational, social, institutional, geographical); geographical proximity alone is neither necessary nor sufficient for interactive learning — exactly the framework the report cites for why the Knowledge Mile's geographic proximity hasn't produced collaboration.
+2. **Catalini (2018)**, *Management Science* 64(9), 4348–4364. **The "3.5×" figure in the report is exact**: "colocation increases the likelihood that two labs will collaborate by 3.5 times" (Jussieu campus asbestos-relocation natural experiment). Effect driven by lab pairs with higher search costs ex ante.
+3. **Delgado, Porter & Stern (2014)**, *Research Policy* 43(10), 1785–1799. Confirms cluster-agglomeration effects on regional employment/patenting growth net of convergence; a one-SD increase in cluster strength → ~1.3pp higher annual employment growth.
+4. **Boudreau et al. (2017)**, *Review of Economics and Statistics* 99(4), 565–576. **Confirmed exactly**: random assignment to the same 90-minute breakout room raised the probability of co-applying for a grant by 75% (0.16%→0.28%). Effect concentrated among pairs in the same clinical area — directly analogous to a Knowledge Mile cross-enrolment/shared-space intervention.
+5. **Toivanen & Väänänen (2016)**, *Review of Economics and Statistics* 98(2), 382–396. Using distance-to-nearest-technical-university as an instrument: university engineering education has a positive causal effect on patenting; counterfactual shows Finland's 3 new technical universities raised national USPTO patents by ~20%. Useful analogy for "more/closer higher-education capacity → more invention."
+
 ## Not done yet
 
-- **The 12 academic papers** (Boschma 2005, Catalini 2018, Boudreau et al. 2017, Delgado/Porter/Stern 2014, Toivanen & Väänänen 2016, Valero & Van Reenen 2019, Hvide & Jones 2018, Andrews 2023, Russo/van den Berg/Lavanga 2007, Martin & Sunley 2003, Etzkowitz & Leydesdorff 2000, Nathan 2022) have not been read yet. EBSCO access was confirmed working (Boschma 2005 located, full-text PDF available via the Stockholm School of Economics in Riga institutional login) but the browser tool hit a technical snag reading EBSCO's page content, and then **you offered to send the papers directly instead** — that's the plan going forward.
+- **7 of the 12 core papers** still unread: Valero & Van Reenen (2019), Hvide & Jones (2018), Andrews (2023), Russo/van den Berg/Lavanga (2007), Martin & Sunley (2003), Etzkowitz & Leydesdorff (2000), Nathan (2022). Three more PDFs were sent by the user and sit in `papers/` unread (`EBSCO-FullText-11_01_2026 (4).pdf`, `(5).pdf`, and `1-s2.0-S0048733320302134-main.pdf`) — these should be read next.
 - The EBSCO search for 5–10 new papers on innovation-district governance, Baltic science parks, university–city partnerships, and international-student retention — not started.
 - `papers_full_text.md` reading notes — not started (depends on the above).
 - Augstskolu likums Art. 50, 55, 55.¹ (student rights / programme structure / joint programmes) — not pulled.
