@@ -10,6 +10,42 @@ Builds on `impact-case/research/laser-knowledge-mile-summary.md` and `case-angle
 
 ---
 
+## Verification update — 1 November 2026 (read live on likumi.lv from a local machine)
+
+**MK No. 240 (likumi.lv/ta/id/266187), full consolidated text, in force 05.10.2023–...:**
+- Confirmed: bachelor's programme = compulsory part **≥60 KP** (point 8) + restricted-choice part **≥30 KP** + free-choice part.
+- **The free-choice part has no stated minimum anywhere in the regulation.** It is simply whatever remains once the total programme volume (≥180 KP, point 6) and the other two parts are set. This settles the Q1 gap: there is no minimum to find, because none exists.
+
+**MK No. 793 (likumi.lv/ta/id/303956), in force 01.09.2024–31.12.2027, lapses 01.01.2028:**
+- Confirmed exactly as previously noted.
+- Point 2.3.5 explicitly excludes "studiju programmas brīvās izvēles daļas" (the programme's free-choice part) from academic-staff-workload calculations — confirms the free-choice-part-excluded-from-workload snippet.
+
+**MK No. 795 (likumi.lv/ta/id/303957), in force 30.12.2025–...:**
+- Confirmed: point 1.1 explicitly covers licensing of "kopīgo studiju programmu" (joint study programmes); point 14 requires proof of compliance with Augstskolu likuma 55.1 panta otrā/trešā daļa for joint-programme applications.
+
+**MK No. 252 (likumi.lv/ta/id/331784), in force 16.09.2025–...:**
+- **There is no separate annex.** The patent/publication weighting LaSER describes is embedded directly in point 3 of the regulation's own funding formula (the "Publ" element), not in a "pielikums".
+- Exact coefficients: **Q1 WoS/Scopus journal article = peer-reviewed scientific monograph = international patent → coefficient 3** (all three literally share one coefficient). Q2 article → coefficient 2. Other WoS/Scopus articles and **other (non-international) patents** → coefficient 1. Other international-database original articles → coefficient 0.5. A 0.1× penalty applies to papers with >50 authors where the institution's author isn't 1st/2nd/last.
+- Separately, EU Framework Programme (Horizon) project funding gets its own ×2 multiplier inside a different formula element ("Konk") — same coefficient value as Q2 articles, but a structurally separate line, not the same mechanism.
+- **Licences and spin-offs appear nowhere in the formula.** This confirms (by omission, on the full text) LaSER's claim that "licences get no multiplier; spin-offs count zero" — there is no indicator for either. The only commercialisation-adjacent element is "Ligum" (contract-research revenue, which also sweeps in IP-transfer-rights revenue), counted as money, not as a weighted output.
+
+**Grozījumi Zinātniskās darbības likumā (likumi.lv/ta/id/357463), in force 01.01.2025:**
+- Confirmed ownership (Art. 39.1), definition of commercialisation, and the requirement for a state scientific institution to adopt an investment/technology-transfer strategy (Art. 32.1).
+- Art. 39.5 requires commercialisation "pēc iespējas valstij izdevīgākā veidā, saņemot tādu atlīdzību, kas ir līdzvērtīga tirgus cenai" (in the way most advantageous to the state, at market-equivalent remuneration) — this does **not** itself mandate an auction; it leaves the method open, consistent with the finding below.
+- Pārejas noteikumi, point 45: the Cabinet had to issue the implementing MK regulations (including the one on IP commercialisation, i.e. 25-TA-879) **by 30 June 2025**. Worth checking in the case whether that deadline was met — the TAP portal page for 25-TA-879 itself could not be loaded this round (its annotation is a .docx that downloads rather than renders in-browser).
+
+**Publiskas personas mantas atsavināšanas likums (likumi.lv/ta/id/68490), in force 01.01.2026–...:**
+- Confirmed: Article 3(2) states the law's **default/basic method of disposing of public property is sale by auction** ("Publisku personu mantas atsavināšanas pamatveids ir mantas pārdošana izsolē"); other methods may be used only in cases the law specifically allows.
+- Article 2(2)(1) excludes "publiskai personai piederošu mantisku tiesību (vērtspapīri, kapitāla daļas kapitālsabiedrībās u.tml.) atsavināšanu" (disposal of intangible property rights such as securities, equity shares, "and the like") from the law's scope, leaving their disposal to other laws.
+- **This is genuinely ambiguous on IP**: whether patents/know-how count as "mantiskas tiesības ... u.tml." (and are thus exempt) or as ordinary "kustama manta" (movable property, subject to the Article 3(2) auction default) is exactly the point the 2023–2025 TAP consultation opinions argued over, per the earlier research. The text itself does not resolve it either way — hence the push for 25-TA-879 to settle it by regulation.
+
+### Still open after this round
+- TAP portal status of 25-TA-879 and 23-TA-2275 (the .docx annotation would not render for reading in-browser; adoption status unconfirmed).
+- Augstskolu likums Art. 50 (student rights), Art. 55 (programme structure) and Art. 55.¹ (joint programmes) — not yet pulled in full text.
+- Current Minister for Education and Science, and current rectors of LU, RSU, RISEBA and BA Turība (November 2026) — not checked this round.
+
+---
+
 ## Q1. Cross-university study: can an RTU student take a C-part (free-choice) course at RISEBA or LU and have it count?
 
 ### Takeaway
