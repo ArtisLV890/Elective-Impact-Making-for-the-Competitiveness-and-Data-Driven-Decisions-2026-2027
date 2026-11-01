@@ -11,7 +11,7 @@ Three chapters: (1) Is Riga a student city? (2) Where does science commercialisa
 ## The problem, in numbers
 
 **Riga is falling behind**
-- Riga is the **poorest capital in the EU** by GDP per capita (Eurostat). Tallinn overtook it first, then Vilnius. In 2025 Vilnius also became the largest Baltic city.
+- LaSER says Riga is the **poorest capital in the EU** by GDP per capita. *Verified correction (Eurostat 2023, PPS): Riga is the **second-poorest** of 27 EU capital regions at 101% of the EU average; Cyprus's capital region (97%) is poorest.* Tallinn overtook it first, then Vilnius. In 2025 Vilnius also became the largest Baltic city.
 - **Oxford Economics Global Cities Index 2026:** Riga 351st, Vilnius 264th, Tallinn 207th.
 - **Mercer Quality of Living 2023:** Riga 93rd, Vilnius 87th, Tallinn 91st.
 - **EC survey:** 80% of Riga residents are satisfied with life in the city. The EU average is 87%, Tallinn 91% and Vilnius 92%.

@@ -6,7 +6,7 @@ Riga's Knowledge Mile does not need more universities or buildings. What it lack
 2. **The five rectors** sign a **cross-enrolment agreement**, which needs no change to the law.
 3. **IZM and AIC** write an explicit partner-institution elective clause into the **accreditation regulations that must replace Cabinet Regulation (MK) No. 793 before it lapses on 1 January 2028**.
 
-The stakes are measurable. On preliminary 2024 data, Vilnius is about 36% richer per head than Riga. Latvia sits 25th of 27 in the European Innovation Scoreboard at 61% of the EU average, while Estonia and Lithuania have each gained about 20 points since 2019. Vilnius start-ups raised roughly 2.5 times Riga's venture capital in 2025.
+The stakes are measurable. On Eurostat data (GDP per inhabitant in PPS), Riga was level with Vilnius in 2000 and 8 points behind it in 2010; by 2023 Riga stood at **101%** of the EU average and Vilnius at **131%**, about 30% richer per head. Latvia sits 25th of 27 in the European Innovation Scoreboard at 61% of the EU average, while Estonia and Lithuania have each gained about 20 points since 2019. Vilnius start-ups raised roughly 2.5 times Riga's venture capital in 2025.
 
 Each Baltic competitor gave its district a legal entity with the city at the table: Tartu in 1996, Vilnius in 2003, and Tallinn through Tehnopol and a city co-funded TalTech professorship. Riga has signed memoranda (2023, 2024) that have no owner, budget or KPIs. The best causal evidence favours this kind of cheap coordination. At Harvard Medical School, a 90-minute structured matchmaking session raised scientists' co-application rate by 75%. In Silicon Valley, cutting a quarter of face-to-face meetings cut patent citations by about 8%. By contrast, large cluster programmes and building-led districts have mixed or null evaluations.
 
@@ -17,7 +17,7 @@ The research also corrects five of the team's working assumptions:
 - Finland's JOO system no longer exists; the RIPA digital service has replaced it.
 - LaSER's €385m and €15,780-per-student figures cannot both describe international students. Divided, they imply about 24,400 international students, roughly double Latvia's whole stock of 11,600.
 
-Almost every figure here comes from search-engine snippets, because the primary sites (Eurostat, likumi.lv, QS, espoo.fi and others) were unreachable. The evidence register near the end lists what must be re-checked before 3 November.
+**Verification status (1 November 2026):** the headline data (Eurostat GDP, R&D and tertiary attainment; Statistics Latvia population and students; EIS 2026; QS 2027; Oxford Economics 2026), the key Latvian legal texts (MK No. 240, 793, 795, 252; Law on Scientific Activity; public-property disposal law) and five core papers (Boschma, Catalini, Boudreau et al., Delgado et al., Toivanen & Väänänen) have now been checked against primary sources. The biggest correction: Riga is at 101% of the EU average, the **second-poorest** EU capital region, not the poorest at ~77%. Figures that remain unverified are still tagged and listed in the evidence register near the end.
 
 **How figures are flagged.**
 
@@ -31,40 +31,51 @@ Almost every figure here comes from search-engine snippets, because the primary 
 
 An untagged figure in a citation is [P].
 
-## Riga has slipped from parity with Vilnius to a 36% gap
+## Riga has slipped from parity with Vilnius to a 30-point gap
 
 The trajectory is the core of the problem statement.
 
-**GDP per capita**
-- Riga and Vilnius were level in 2000. Riga "began to fall behind Vilnius precisely after 2010", according to Bank of Latvia economist Oļegs Krasnopjorovs ([TVNet](https://www.tvnet.lv/8260013/noskaties-kapec-riga-sava-attistiba-jau-hroniski-atpaliek-no-vilnas-un-tallinas)).
-- Vilnius overtook Tallinn as the richest Baltic city in 2018.
-- On **preliminary 2024 data, Vilnius GDP per capita is about 36% above Riga's, 9% above Tallinn's and about 5% above the EU average** [S]. This comes from a Luminor economist quoting preliminary Eurostat figures, without saying whether they are nominal or PPS ([Lithuania.lt](https://lithuania.lt/governance-in-lithuania/vilnius-surpasses-baltic-capitals-and-eu-average-a-baltic-tiger-on-the-rise/)).
-- If all three figures use the same measure, Riga would sit at **about 77% of the EU average** and Tallinn at about 96% [A].
-- The nominal NUTS3 figures point the same way, although years and territorial units differ: Vilnius County €41,500 (2024), Harju County €38,900 (2024) and the Riga region €30,400 (2023) ([Wikipedia compilation](https://en.wikipedia.org/wiki/List_of_regions_of_Baltic_States_by_GDP) [S]; [CSP](https://stat.gov.lv/en/statistics-themes/economy/national-accounts/press-releases/24724-gdp-regions-2023)).
+**GDP per capita: verified Eurostat data** (`nama_10r_3gdp`, PPS per inhabitant, % of EU27 average; pulled 1 November 2026; Riga is NUTS3 code **LV00A** since the 2021 NUTS revision, which is why LV006 returned nothing earlier)
+
+| Year | Riga (LV00A) | Vilnius (LT011) | Tallinn (EE001) | Vilnius minus Riga |
+| --- | --- | --- | --- | --- |
+| 2000 | 54% | 53% | 64% | −1 pt |
+| 2005 | 77% | 79% | 91% | +2 pts |
+| 2010 | 79% | 87% | 93% | +8 pts |
+| 2015 | 96% | 110% | 110% | +14 pts |
+| 2020 | 98% | 128% | 116% | +30 pts |
+| 2023 | **101%** (38,700 PPS) | **131%** (50,100 PPS) | **107%** (41,000 PPS) | **+30 pts** |
+| 2024 | not yet published | 133% | 106% | — |
+
+- Riga and Vilnius were level in 2000. Riga "began to fall behind Vilnius precisely after 2010", according to Bank of Latvia economist Oļegs Krasnopjorovs ([TVNet](https://www.tvnet.lv/8260013/noskaties-kapec-riga-sava-attistiba-jau-hroniski-atpaliek-no-vilnas-un-tallinas)). The Eurostat series confirms it: the gap grew from 8 points in 2010 to 30 points in 2020 and has stayed there.
+- **Vilnius is about 29.5% richer per head than Riga (2023, PPS)**. The 36% figure used earlier came from a Luminor economist's preliminary 2024 estimate with unclear measurement; do not use it.
+- Riga has **converged on the EU average** (from 54% to 101%), so the problem is **relative decline against its direct competitors**, not absolute poverty. Vilnius pulled away; Tallinn was overtaken by Vilnius around 2014–2015 and has drifted down since 2018.
 
 **Income and quality of life**
 - Riga lags Vilnius and Tallinn by **7–8 years on income**, and grows at 5–6% a year while its neighbours grow faster. Krasnopjorovs concludes that "at the current pace of development Riga will never catch up" ([LSM](https://www.lsm.lv/raksts/zinas/ekonomika/ekonomists-riga-ienakumu-un-dzives-kvalitates-zina-atpaliek-no-tallinas-un-vilnas.a454023/)).
 - He ties the gap to a quality-of-life deficit (safety, trust, governance) that drives depopulation.
 
-**The "poorest capital in the EU" claim**
-- LaSER's headline is that Riga is the "poorest capital in the EU". It is widely repeated but **could not be checked against a Eurostat table** [L][U].
-- The defensible version is Krasnopjorovs's: in 2021, Riga was **one of only three EU metropolitan areas with GDP per capita below the EU average** ([IR.lv](https://ir.lv/2022/07/29/ka-rigai-panakt-vilnu-tallinu-un-ziemeleiropu-laiks-secinajumiem/)).
+**The "poorest capital in the EU" claim: corrected**
+- Ranking all 27 EU capital regions (NUTS3, 2023, PPS per inhabitant), **Riga is the second-poorest (101%)**. The poorest is Cyprus's capital region (97%). Tallinn is third (107%), Vilnius 11th (131%).
+- So LaSER's headline "poorest capital in the EU" is slightly wrong on the latest Eurostat data. Use: **"Riga is the second-poorest capital region in the EU, and the poorest in the Baltics by a wide margin."**
+- Krasnopjorovs's version (2021: one of only three EU metropolitan areas below the EU average) was true for 2021, when Riga was at 102% on today's series but measured differently; avoid it now ([IR.lv](https://ir.lv/2022/07/29/ka-rigai-panakt-vilnu-tallinu-un-ziemeleiropu-laiks-secinajumiem/)).
 
 **Population**
-- Riga had **about 589,000 residents on 1 January 2026**, down 1.0% in a year ([CSP](https://www.csp.gov.lv/en/article/latvia-has-population-1845-million-0)).
+- Riga had **588,911 residents on 1 January 2026** (Statistics Latvia, table IRS031; verified), down 1.0% in a year and from **766,381 in 2000** (archive table IRS030; the two tables have a boundary/methodology break in 2012, so compare with care). On the current series alone, Riga lost **48,000 people (−7.5%) between 2012 and 2026**.
 - Vilnius was officially declared the largest Baltic city in June 2025 ([Go Vilnius](https://www.govilnius.lt/media-news/vilnius-officially-becomes-the-largest-city-in-the-baltics)).
 - That claim depends on register versus statistical definitions. An earlier LRT fact-check found that Statistics Lithuania still put Riga ahead ([LRT](https://www.lrt.lt/en/news-in-english/19/1773997/lrt-facts-has-vilnius-really-become-the-biggest-city-in-the-baltic-states)). Phrase it as "officially recognised as largest since 2025".
 
 **Innovation**
 
 The innovation data show the same divergence.
-- In the **European Innovation Scoreboard 2026**, Latvia ranks **25th at 61.0% of the EU average**, an Emerging Innovator. It is roughly flat since 2019, while **Estonia gained 19.8 points and Lithuania 19.7** ([The Recursive](https://www.therecursive.com/europes-innovation-landscape-in-2026/) [S]).
-- Estonia sits 11th at 108.6% ([estonia.ee](https://estonia.ee/stories/estonia-ranks-11th-european-innovation-scoreboard-2026)). Lithuania's 86.6% and 18th place come from LaSER and the 2025 edition [L].
+- In the **European Innovation Scoreboard 2026**, Latvia ranks **25th at 61.0% of the EU average**, an Emerging Innovator. It is roughly flat since 2019, while **Estonia gained 19.8 points and Lithuania 19.7** ([The Recursive](https://www.therecursive.com/europes-innovation-landscape-in-2026/)). **Verified against the EC country-profile PDFs, 1 November 2026.**
+- Estonia sits 11th at 108.6% and Lithuania 18th at 86.6%. **All three headline figures verified exactly** against the EIS 2026 country profiles.
 
 **R&D spending**
-- Latvia's R&D intensity was **0.92% of GDP in 2024**, against Lithuania's provisional 1.04% ([INSEE, Eurostat data](https://www.insee.fr/en/statistiques/6045841)).
+- **Verified Eurostat R&D intensity** (`rd_e_gerdtot`, % of GDP): Latvia **0.82% (2023) → 0.94% (2024)**; Lithuania 1.04% → 1.12%; Estonia 1.84% → **1.98%**. Latvia has risen from 0.62% in 2010 but is still at less than half of Estonia's level.
+- **Tertiary attainment of 25–34-year-olds** (Eurostat `edat_lfse_03`, 2025): Latvia **44.7%**, Estonia 44.3%, Lithuania **60.8%**. Lithuania's lead in young graduates is one structural reason Vilnius pulled away.
 - Government R&D budgets per inhabitant were **€104 in Latvia, €138 in Lithuania and €284 in Estonia** (2025, provisional) ([LSM](https://eng.lsm.lv/article/society/education/04.12.2025-latvia-remains-low-in-eu-rd-league.a625105/)).
-- An August 2026 LSM headline reports R&D spending up more than 30% in a year ([LSM](https://eng.lsm.lv/article/society/education/07.08.2026-latvias-rd-spending-up-by-more-than-30-in-a-year.a657221/)). The team should check whether this refers to 2025 data that would move the 0.92% figure.
+- An August 2026 LSM headline reports R&D spending up more than 30% in a year ([LSM](https://eng.lsm.lv/article/society/education/07.08.2026-latvias-rd-spending-up-by-more-than-30-in-a-year.a657221/)). The verified 2024 figure (0.94%) is already up from 0.82% in 2023, which is consistent with that headline.
 
 **Start-ups**
 
@@ -84,7 +95,7 @@ On the most conservative reading, Vilnius's start-up ecosystem is worth about 3.
 
 Latvia attracts students well:
 - Enrolment rose in 2024/25 to almost 75,000, the first increase since 2005 ([LSM](https://eng.lsm.lv/article/society/education/04.08.2025-student-numbers-saw-positive-trends-last-year-in-latvia.a609104/)).
-- The international share rose from 9.3% in 2018 to **13.4% in 2023** ([Eurydice](https://eurydice.eacea.ec.europa.eu/eurypedia/latvia/mobility-and-internationalisation)). That is above Estonia's 8.7% ([Harno](https://harno.ee/en/news/eero-loonurm-about-study-estonia-2030-todays-international-students-are-tomorrows-strategic)) and level with Lithuanian universities' 13.2% ([Statistics Lithuania](https://osp.stat.gov.lt/lietuvos-svietimas-ir-kultura-2023/svietimas/aukstasis-mokslas)).
+- **Verified (Statistics Latvia, table IGA050, mobile students):** international students rose from **5,255 (6.1%) in 2014 to 11,895 (15.6%) in 2025** of 76,384 tertiary students. Total enrolment fell from 131,125 in 2005 to 74,017 in 2023, then rose to 76,384 in 2025. (Eurydice's 13.4% for 2023 uses a different definition; CSB gives 14.1%.) That is above Estonia's 8.7% ([Harno](https://harno.ee/en/news/eero-loonurm-about-study-estonia-2030-todays-international-students-are-tomorrows-strategic)) and level with Lithuanian universities' 13.2% ([Statistics Lithuania](https://osp.stat.gov.lt/lietuvos-svietimas-ir-kultura-2023/svietimas/aukstasis-mokslas)).
 
 It keeps few of them:
 - RSU says **only about 5% of its foreign graduates stay** ([RSU](https://www.rsu.lv/en/node/279683)).
@@ -93,9 +104,9 @@ It keeps few of them:
 
 **Riga's one bright spot is as a student city**
 
-According to LaSER, Riga ranks **105th in QS Best Student Cities 2027, ahead of Vilnius (114th) and Tallinn (129th)** [L][U]. The ranking was published in July 2026 ([QS](https://newsletters.qs.com/seoul-tokyo-and-london-top-qs-best-student-cities-2027/)), but the Baltic ranks could not be confirmed because topuniversities.com was blocked.
+**Verified on topuniversities.com (1 November 2026):** Riga ranks **105th in QS Best Student Cities 2027** (score 59.7), ahead of **Vilnius (=114th, 56.1)** and **Tallinn (=135th, 50.6)**. Correction: Tallinn is =135th, not 129th as LaSER states.
 
-LaSER's Oxford Economics Global Cities ranks (Riga 351st, Vilnius 264th, Tallinn 207th) are also unconfirmed [L][U]. What is confirmed is that Oxford Economics singled out **Tallinn as a European "city to watch"**, with the strongest expected GDP growth among major EU cities over the next decade ([Euronews](https://www.euronews.com/business/2026/09/17/europe-versus-the-us-the-worlds-best-cities-in-2026-ranked)).
+**Verified on oxfordeconomics.com:** Oxford Economics Global Cities Index 2026 ranks Riga **351st**, Vilnius 264th and Tallinn 207th. Oxford Economics also singled out **Tallinn as a European "city to watch"**, with the strongest expected GDP growth among major EU cities over the next decade ([Euronews](https://www.euronews.com/business/2026/09/17/europe-versus-the-us-the-worlds-best-cities-in-2026-ranked)).
 
 Taken together, the Knowledge Mile sits where Riga's main weakness (innovation and talent retention) meets its only comparative strength (attractiveness to students). That is why it is the right lever.
 
@@ -107,7 +118,7 @@ Several claims in the team's files, most inherited from LaSER, do not survive th
 - LaSER says "accreditation rules prevent students from taking electives at a neighbouring university". On the evidence found, that is an overstatement.
 - In a 2015 consultation answer, IZM said that recognising courses taken in another programme is **"entirely up to the institution"**, decided case by case by the university's commission ([LV portāls](https://lvportals.lv/e-konsultacijas/7756-studiju-kursu-pielidzinasana-2015)) [P, snippet].
 - LU's own recognition procedure already lets courses taken elsewhere be **included in the restricted-choice (B) or free-choice (C) part** of a programme ([LU](https://www.jf.lu.lv/fileadmin/user_upload/lu_portal/par/starptautiska-sadarbiba/ERASMUS/Studiju_kursu_atzisanas_kartiba_Latvijas_Universitate.pdf)).
-- The academic standard, MK No. 240, sets minimums for the compulsory (60 KP) and restricted-choice (30 KP) parts. The snippets showed nothing that prohibits taking the free-choice part at another institution ([likumi.lv 266187](https://likumi.lv/ta/id/266187)) [U: exact current wording not read].
+- The academic standard, MK No. 240, sets minimums for the compulsory (60 KP) and restricted-choice (30 KP) parts. **Verified on the full consolidated text:** MK No. 240 sets no minimum for the free-choice part at all, and nothing in it prohibits taking that part at another institution ([likumi.lv 266187](https://likumi.lv/ta/id/266187)). MK No. 793 (in force to 31.12.2027) even excludes the free-choice part from academic-staff-workload calculations (point 2.3.5).
 - The real frictions are administrative: programme descriptions are fixed at licensing, recognition is case by case, there is no shared catalogue, and budget-funded places are tied to one institution.
 - So **a rectors' agreement is the realistic fix**, and a regulation change is the reinforcement.
 - A smaller correction: the programme licensing regulation is **MK No. 795, not No. 794** ([likumi.lv 303957](https://m.likumi.lv/ta/id/303957-studiju-programmu-licencesanas-noteikumi)).
@@ -116,8 +127,11 @@ Several claims in the team's files, most inherited from LaSER, do not survive th
 - The team's files attribute the closed IP auction to the Law on Scientific Activity. The consultation record on draft 23-TA-2275 shows something different.
 - Stakeholders argued that the **Law on Disposal of Public Person Property** should no longer apply to IP. Under that law, IP is treated as movable property sold by the normal disposal procedure, typically an auction ([TAP 23-TA-2275 opinions](https://tapportals.mk.gov.lv/attachments/legal_acts/reviews/additional_documents/2a5d231e-bee7-4809-8a11-eef2a8f04837/download)).
 - The amended Law on Scientific Activity does something else: it gives state scientific institutions ownership of publicly funded inventions and lets them reinvest the income ([likumi.lv 357463](https://likumi.lv/ta/id/357463)).
-- A pending draft Cabinet regulation, 25-TA-879, would set prices **"through auctions, negotiations or independent expert valuation"** ([TAP annotation](https://tapportals.mk.gov.lv/annotation/33808ad1-f36f-4545-86cb-2220b49f4160.docx)). Its adoption status is unknown [U].
-- No 2025 amendment added licence or spin-off indicators to the MK No. 252 base-funding formula. The September 2025 change (MK No. 541) concerned funding mechanics and the doctoral model ([likumi.lv 363042](https://likumi.lv/ta/id/363042)). LaSER's claims about the weighting table remain [L][U].
+- **Verified on the full texts (1 November 2026):**
+  - The **Law on Disposal of Public Person Property, Art. 3(2)**, makes sale by auction the **default** method for disposing of public property. Art. 2(2)(1) exempts "mantiskas tiesības (securities, equity shares and the like)", and it is genuinely ambiguous whether IP falls under that exemption ([likumi.lv 68490](https://likumi.lv/ta/id/68490)).
+  - The amended **Law on Scientific Activity** (in force 01.01.2025) requires commercialisation "in the way most advantageous to the state, at market-equivalent remuneration" (Art. 39.5). It does **not** itself mandate an auction. Its transitional provisions (point 45) required the Cabinet to adopt the implementing regulations **by 30 June 2025**.
+- A pending draft Cabinet regulation, 25-TA-879, would set prices **"through auctions, negotiations or independent expert valuation"** ([TAP annotation](https://tapportals.mk.gov.lv/annotation/33808ad1-f36f-4545-86cb-2220b49f4160.docx)). Whether it was adopted by the 30 June 2025 deadline is still unconfirmed [U]. A missed legal deadline is itself a strong media angle.
+- **MK No. 252 verified on the full text:** the weighting is in the funding formula itself (point 3, "Publ" element), not an annex. An **international patent = a Q1 journal article = a peer-reviewed monograph (coefficient 3)**; Q2 articles = 2; national patents = 1. EU Framework project funding gets a separate ×2 multiplier. **Licences and spin-offs appear nowhere in the formula.** The September 2025 amendment (MK No. 541) did not change this ([likumi.lv 331784](https://likumi.lv/ta/id/331784)).
 
 **3. The UK Civic University Agreements are a warning, not a success story.**
 - The team's best-ideas file says "50+ universities signed". They **pledged**. When Wonkhe followed up with the Civic University Network, only **10 agreements covering 17 universities** were in place ([Wonkhe](https://wonkhe.com/blogs/are-universities-civic-washing/)).
@@ -141,7 +155,7 @@ Several claims in the team's files, most inherited from LaSER, do not survive th
 - **Use €385m as a national figure and do not pair it with €15,780 until LaSER clarifies.**
 
 **Smaller fixes**
-- **R&D intensity.** LaSER's 0.83% of GDP is the 2023 value; 2024 is 0.92% ([INSEE](https://www.insee.fr/en/statistiques/6045841)).
+- **R&D intensity.** LaSER's 0.83% is close to the verified 2023 value (0.82%); 2024 is **0.94%** (Eurostat).
 - **The "10% by 2030" target** is a **share of foreign students** target, which Latvia has already exceeded, not a retention target ([Eurydice](https://eurydice.eacea.ec.europa.eu/eurypedia/latvia/mobility-and-internationalisation)).
 - **Riga's mayor has changed.** Since 27 June 2025 the mayor is **Viesturs Kleinbergs (Progresīvie)**. Vilnis Ķirsis, the mayor who signed the 2024 memorandum, is now a deputy mayor ([LSM](https://www.lsm.lv/raksts/zinas/latvija/27.06.2025-par-rigas-meru-ievelets-viesturs-kleinbergs-no-progresivajiem.a604705/); [LSM](https://www.lsm.lv/raksts/zinas/latvija/01.07.2025-par-rigas-mera-vietniekiem-ievele-ratnieku-kirsi-un-sprindzuku.a605211/)).
 - **Student numbers in the Mile.** A Mad City planning article puts the area at **40,000 students and 20,000+ workers**, not 30,000 ([LSM](https://www.lsm.lv/raksts/dzive--stils/pilsetvide/septinas-mad-city-idejas-daugavas-kreisa-krasta-infrastrukturas-uzlabosanai.a323108/)) [U].
@@ -266,8 +280,8 @@ The literature agrees that universities raise local output, wages and patenting,
 Riga is not founding a university, so these are context. Andrews and Moretti together do make **attracting and keeping students and graduates** a credible and measurable impact channel.
 
 **Coordination studies: the right anchor for Riga's intervention**
-- **Boudreau et al. (2017), a randomised experiment at Harvard Medical School.** A 90-minute structured information-sharing session raised the chance that a pair of scientists co-applied for a grant by **75% (0.16% to 0.28%)**, even among scientists in the same institution ([RePEc](https://ideas.repec.org/a/tpr/restat/v99y2017i4p565-576.html)).
-- **Catalini (2018), a natural experiment at Paris's Jussieu campus.** Asbestos removal forced labs to relocate. Co-located labs were **about 3.5 times** more likely to collaborate [U: figure from a search summary of the abstract], and separating labs did not break existing ties ([MIT DSpace](https://dspace.mit.edu/handle/1721.1/120163)).
+- **Boudreau et al. (2017), a randomised experiment at Harvard Medical School.** A 90-minute structured information-sharing session raised the chance that a pair of scientists co-applied for a grant by **75% (0.16% to 0.28%)**, even among scientists in the same institution (**verified in the full paper**; the effect is concentrated among pairs in the same clinical area) ([RePEc](https://ideas.repec.org/a/tpr/restat/v99y2017i4p565-576.html)).
+- **Catalini (2018), a natural experiment at Paris's Jussieu campus.** Asbestos removal forced labs to relocate. **Verified in the full paper:** "colocation increases the likelihood that two labs will collaborate by 3.5 times", driven by lab pairs with high search costs beforehand; separating labs did not break existing ties ([MIT DSpace](https://dspace.mit.edu/handle/1721.1/120163)).
 - **Atkin, Chen & Popov (2022), using smartphone data from Silicon Valley.** Removing a quarter of face-to-face meetings would cut patent citations by **about 8%** ([NBER WP 30147](https://www.nber.org/papers/w30147); working paper).
 - **Boschma (2005)** explains why: geographical proximity without organisational, institutional, social and cognitive proximity does not produce learning ([Regional Studies](https://doi.org/10.1080/0034340052000320887)).
 
@@ -353,7 +367,7 @@ Targets are our proposals, chosen to be measurable from public or university dat
 - a KPI dashboard mock-up.
 
 **Communication.** The story is a contrast that journalists can verify: *"Tartu's city co-founded its science park in 1996, and Vilnius did the same in 2003. Riga signed a memo in 2024, and nobody owns it."*
-- The supporting chart is Riga's slide from GDP parity with Vilnius in 2000 to a 36% gap.
+- The supporting chart is the verified Eurostat line chart: Riga and Vilnius level in 2000, then Vilnius 30 points ahead (131% vs 101% of the EU average) by 2020–2023.
 - Natural outlets: LSM, which has already covered Krasnopjorovs's analysis, plus TVNet and IR.lv.
 - Credible voices: LaSER and the Bank of Latvia.
 - Students are the faces: the cross-enrolment pilot is a story about a person taking a course across the river.
@@ -404,30 +418,40 @@ The research changes the case in an important way: the binding constraint is imp
 
 That makes the ask more credible to policymakers, because each decision sits with one identifiable actor and is timed to a window that is already open: Riga 2050, the 2027 drafting of the MK No. 793 replacement, and the 2027/28 academic year. It also shows why the Baltic comparison matters more than the elite international models. Tartu and Vilnius did not out-build Riga; they out-organised it, decades earlier. The UK experience shows that organising without measuring fails. The case should therefore be judged, and should judge itself, by whether an annual Knowledge Mile progress report exists in October 2027.
 
-## Evidence register: figures to re-check before 3 November
+## Evidence register (updated 1 November 2026 after primary-source verification)
 
-| Figure | Status | How to verify |
+Status key: ✅ verified on the primary source · ✏️ corrected · ⚠️ still unverified.
+
+| Figure | Status | Source / correct value |
 | --- | --- | --- |
-| Vilnius +36% vs Riga, about 105% of EU average (2024) | [S] preliminary, measure unclear | Eurostat nama_10r_3gdp, PPS per inhabitant, LV006 / LT011 / EE001 |
-| "Poorest EU capital" | [L][U] | Rank all capital NUTS3 regions in the same table |
-| Riga about 77% of EU average | [A] | As above |
-| EIS 2026: LV 61.0% (25th), EE 108.6% (11th), LT 86.6% (18th) | LV and EE [P/S]; LT [L] | EIS 2026 country profiles |
-| R&D 0.92% (2024) vs 0.83% (2023) | [P] via INSEE | Eurostat rd_e_gerdtot; check the August 2026 "+30%" report |
-| Riga VC $85.3m; Vilnius €212m vs €215m | [P][U] | Dealroom snapshot date; Go Vilnius release |
-| QS Best Student Cities 2027: 105 / 114 / 129 | [L][U] | topuniversities.com city rankings |
-| Oxford Economics 351 / 264 / 207 | [L][U] | Oxford Economics GCI 2026 tables |
-| Mercer and EC satisfaction figures | [L] | Primary reports |
-| RSU 5% stay; 42.6% plan to leave; 4-month residence window | [S][U] | FREE Network/BICEPS brief; RSU |
-| €385m vs €15,780 per student | [L] internally inconsistent | Ask LaSER for method and student base |
-| 30,000 vs 40,000 students; 4,000 researchers | [L] vs [S] | University statistics for the five institutions |
-| €93m Saulėtekis total | [U] | SMSM valley project table |
-| Ülemiste 400+ vs 500+ companies | [U] | Mainor Ülemiste reports |
-| Catalini 3.5× | [U] | Open-access PDF on MIT DSpace |
-| MK No. 240 free-choice minimum; KP vs ECTS | [U] | Consolidated text on likumi.lv |
-| IP auction legal basis; status of 25-TA-879 | [P] snippet; status [U] | likumi.lv; TAP portal |
-| MK No. 252 weighting (patent = Q1 article, etc.) | [L][U] | Annex to MK No. 252 |
-| Current Minister for Education and Science; current rectors (LU, RSU, RISEBA, Turība) | [U] | Ministry and university websites |
-| Brainport €1.09 per inhabitant | [P] proposal document | Adopted MRE budget 2025 |
+| Riga vs Vilnius GDP per head | ✏️ corrected | Eurostat `nama_10r_3gdp` 2023, PPS: Riga **101%** of EU avg, Vilnius **131%**, Tallinn **107%**; Vilnius ≈29.5% richer (not 36%) |
+| "Poorest EU capital" | ✏️ corrected | Riga is **2nd-poorest of 27 capital regions** (Cyprus 97% is poorest) |
+| Riga about 77% of EU average | ✏️ corrected | Wrong; 101% (2023) |
+| EIS 2026: LV 61.0% (25th), EE 108.6% (11th), LT 86.6% (18th) | ✅ | EC country-profile PDFs |
+| R&D intensity | ✏️ refined | LV 0.82% (2023), **0.94% (2024)**; LT 1.12%; EE 1.98% (2024) |
+| Tertiary attainment 25–34 | ✅ new | LV 44.7%, EE 44.3%, LT 60.8% (2025) |
+| Riga population | ✅ | 588,911 (1.1.2026); 766,381 in 2000 (series break in 2012) |
+| International students in Latvia | ✏️ refined | CSB: 11,895 = **15.6%** of 76,384 (2025); 14.1% (2023) |
+| QS Best Student Cities 2027 | ✏️ partly corrected | Riga 105 ✅, Vilnius =114 ✅, **Tallinn =135** (not 129) |
+| Oxford Economics GCI 2026: 351 / 264 / 207 | ✅ | oxfordeconomics.com city search |
+| MK No. 240 free-choice minimum | ✅ | None exists in the regulation |
+| MK No. 252 weighting | ✅ | Int'l patent = Q1 article = monograph (coef. 3); licences and spin-offs absent |
+| IP auction legal basis | ✅ | Public-property disposal law Art. 3(2) (auction default); Art. 2(2)(1) carve-out ambiguous for IP; science law requires market-equivalent price only |
+| Catalini 3.5× | ✅ | Full paper |
+| Boudreau et al. 75% (0.16% → 0.28%) | ✅ | Full paper |
+| Delgado, Porter & Stern; Toivanen & Väänänen ~20% | ✅ | Full papers |
+| Boschma (2005) five proximities | ✅ | Full paper |
+| Status of 25-TA-879 (due by 30.06.2025) | ⚠️ | TAP portal |
+| Riga VC $85.3m; Vilnius €212m vs €215m | ⚠️ | Dealroom snapshot date; Go Vilnius |
+| Mercer and EC satisfaction figures | ⚠️ | Primary reports |
+| RSU 5% stay; 42.6% plan to leave; 4-month residence window | ⚠️ | FREE Network/BICEPS brief; RSU |
+| €385m vs €15,780 per student | ⚠️ inconsistent | Ask LaSER |
+| Students per institution (30,000 vs 40,000) | ⚠️ | Not in CSB's public API; use each university's statistics |
+| €93m Saulėtekis; Ülemiste 400+ vs 500+ | ⚠️ | SMSM; Mainor Ülemiste |
+| Current education minister; rectors of LU, RSU, RISEBA, Turība | ⚠️ | Ministry and university sites |
+| Valero & Van Reenen, Hvide & Jones, Andrews, Russo et al., Martin & Sunley, Etzkowitz & Leydesdorff, Nathan | ⚠️ abstract-level only | Read in full |
+| Brainport €1.09 per inhabitant | ⚠️ | Adopted MRE budget 2025 |
+
 
 ---
 
@@ -439,7 +463,7 @@ That makes the ask more credible to policymakers, because each decision sits wit
 ### 1. What problem are we planning to solve, and why is it important?
 
 Riga is falling behind its Baltic neighbours, and the gap is widening.
-- In 2000, Riga and Vilnius had the same GDP per capita. On preliminary 2024 data, Vilnius is about 36% richer per head and above the EU average.
+- In 2000, Riga and Vilnius had the same GDP per head. By 2023 (Eurostat, PPS), Vilnius was at 131% of the EU average and Riga at 101%: Vilnius is about 30% richer per head. Riga is the second-poorest of the EU's 27 capital regions.
 - Latvia ranks 25th of 27 in the European Innovation Scoreboard 2026, at 61% of the EU average. It is roughly flat since 2019, while Estonia and Lithuania each gained about 20 points.
 - Vilnius start-ups raised about €212m of venture capital in 2025, roughly 2.5 times Riga's.
 - Riga's population fell to about 589,000 in 2026, and Vilnius is now officially the largest Baltic city.
@@ -458,8 +482,8 @@ This matters because geography alone does not create collaboration. Riga has the
 
 **How big is the problem?**
 - Bank of Latvia economist Krasnopjorovs estimates that Riga lags Vilnius and Tallinn by 7–8 years in income and diverged from Vilnius after 2010. In 2021 it was one of only three EU metropolitan areas below the EU average in GDP per capita.
-- On innovation, Latvia's R&D spending was 0.92% of GDP in 2024 (Lithuania 1.04%). Government R&D budgets are €104 per inhabitant, against €138 in Lithuania and €284 in Estonia.
-- On talent, the pipeline leaks at the exit: 13.4% of Latvia's students are international, more than Estonia's 8.7%, but RSU reports that only about 5% of its foreign graduates stay. Estonia keeps about half of its international students for five years (OECD).
+- On innovation, Latvia's R&D spending was 0.94% of GDP in 2024 (Lithuania 1.12%, Estonia 1.98%). Only 44.7% of Latvians aged 25–34 hold a tertiary degree, against 60.8% in Lithuania. Government R&D budgets are €104 per inhabitant, against €138 in Lithuania and €284 in Estonia.
+- On talent, the pipeline leaks at the exit: 15.6% of Latvia's students are international (11,895 in 2025, up from 5,255 in 2014), more than Estonia's 8.7%, but RSU reports that only about 5% of its foreign graduates stay. Estonia keeps about half of its international students for five years (OECD).
 - LaSER estimates that higher-education exports are worth about €385m a year, just under 1% of GDP. Retaining and expanding this is a direct economic gain.
 
 **Why the problem exists, and how it can be solved.**
@@ -554,7 +578,7 @@ Riga-specific diagnosis comes from LaSER (2026). That report used desk research,
 | # | Slide title | On the slide | Time |
 | --- | --- | --- | --- |
 | 1 | Five universities, one mile, no owner | Map of Pārdaugava with the 5 campuses, "~3 km, 30–40k students" | 0:00–0:30 |
-| 2 | Riga is falling behind, and the gap is widening | Line chart: Riga vs Vilnius GDP per capita, 2000 → 2024 (parity → +36%); EIS 61% vs 87% vs 109%; VC €212m vs ~€80m | 0:30–1:30 |
+| 2 | Riga is falling behind, and the gap is widening | Eurostat line chart: Riga vs Vilnius vs Tallinn GDP per head (% EU avg), 2000 → 2023 (54/53/64 → 101/131/107); EIS 61% vs 87% vs 109%; VC €212m vs ~€80m | 0:30–1:30 |
 | 3 | Our neighbours built institutions; we signed memos | Timeline: Tartu 1996 · Vilnius 2003 · Tallinn professorship · Riga memo 2024; three-asset table (economic ✓, physical ~, networking ✗) | 1:30–2:30 |
 | 4 | What the research says works, and what doesn't | Boudreau +75%; Atkin −25% meetings → −8% citations; Tampere work programme; UK pledges vs 10 agreements | 2:30–3:30 |
 | 5 | The ask: three decisions, three decision-makers | City: owner and KPIs in Riga 2050 · Rectors: Study Agreement · IZM/AIC: clause in the MK No. 793 replacement | 3:30–4:45 |
@@ -566,7 +590,7 @@ Riga-specific diagnosis comes from LaSER (2026). That report used desk research,
 
 **Slide 1 (0:30).** "Within three kilometres in Pārdaugava sit LU, RTU, RSU, RISEBA and Turība, plus two clinical hospitals and the National Library. That's thirty to forty thousand students and four thousand researchers. Vilnius or Tallinn would call this an innovation district. In Riga it has a name, the Knowledge Mile, but no owner, no budget and not even a website. Our case is about fixing that."
 
-**Slide 2 (1:00).** "Why does this matter? In 2000, Riga and Vilnius were equally rich. After 2010 Riga fell behind, and on preliminary 2024 data Vilnius is about a third richer per head. The Bank of Latvia's Krasnopjorovs says we are seven to eight years behind in income. On innovation, Latvia is 25th of 27 in the EU scoreboard, flat since 2019, while Estonia and Lithuania each gained about 20 points. Vilnius start-ups raised about two and a half times Riga's venture capital last year. One thing is different: Latvia attracts international students at a higher rate than Estonia. But we keep very few of them. RSU says about five percent of its foreign graduates stay. The pipeline leaks at the exit."
+**Slide 2 (1:00).** "Why does this matter? In 2000, Riga and Vilnius were equally rich. After 2010 Riga fell behind: by 2023 Vilnius is at 131 percent of the EU average and Riga at 101, so Vilnius is about thirty percent richer per head, and Riga is now the second-poorest capital region in the whole EU. The Bank of Latvia's Krasnopjorovs says we are seven to eight years behind in income. On innovation, Latvia is 25th of 27 in the EU scoreboard, flat since 2019, while Estonia and Lithuania each gained about 20 points. Vilnius start-ups raised about two and a half times Riga's venture capital last year. One thing is different: Latvia attracts international students at a higher rate than Estonia. But we keep very few of them. RSU says about five percent of its foreign graduates stay. The pipeline leaks at the exit."
 
 **Slide 3 (1:00).** "Our neighbours saw this decades ago. Tartu's city co-founded its science park in 1996. Vilnius's city co-founded Sunrise Valley in 2003, with its universities. Tallinn's city co-funds a TalTech professorship inside Ülemiste City. Riga signed a memorandum in 2024. LaSER found it's three pages long, with no KPIs, no budget, and no RISEBA, Turība or business. In the language of the innovation-district literature, Riga has strong economic assets and improving physical ones, but no networking assets and no governance. Boschma calls this geographic proximity without organisational proximity. Being close is not enough."
 

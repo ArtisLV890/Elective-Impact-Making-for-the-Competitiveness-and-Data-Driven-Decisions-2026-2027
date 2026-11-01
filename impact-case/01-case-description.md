@@ -1,7 +1,7 @@
 # Case description: Riga Knowledge Mile
 
 > **Brief (28.10):** About 3 pages, plus an appendix on methodology. Due 03.11.2026.
-> **Draft generated from** [`reports/Riga Knowledge Mile impact case.md`](../reports/Riga%20Knowledge%20Mile%20impact%20case.md). Before submitting, check every figure flagged in that report's "Evidence register" section.
+> **Draft generated from** [`reports/Riga Knowledge Mile impact case.md`](../reports/Riga%20Knowledge%20Mile%20impact%20case.md), with figures verified against Eurostat, Statistics Latvia, EIS 2026, QS 2027 and likumi.lv on 01.11.2026. Remaining unverified figures are listed in that report's evidence register.
 
 **Title:** Five universities, one mile, no owner: making the Riga Knowledge Mile work
 **Author(s):** [team names]
@@ -9,7 +9,7 @@
 ## 1. What problem are we planning to solve, and why is it important?
 
 Riga is falling behind its Baltic neighbours, and the gap is widening.
-- In 2000, Riga and Vilnius had the same GDP per capita. On preliminary 2024 data, Vilnius is about 36% richer per head and above the EU average.
+- In 2000, Riga and Vilnius had the same GDP per head. By 2023 (Eurostat, PPS), Vilnius was at 131% of the EU average and Riga at 101%: Vilnius is about 30% richer per head. Riga is the second-poorest of the EU's 27 capital regions.
 - Latvia ranks 25th of 27 in the European Innovation Scoreboard 2026, at 61% of the EU average. It is roughly flat since 2019, while Estonia and Lithuania each gained about 20 points.
 - Vilnius start-ups raised about €212m of venture capital in 2025, roughly 2.5 times Riga's.
 - Riga's population fell to about 589,000 in 2026, and Vilnius is now officially the largest Baltic city.
@@ -28,8 +28,8 @@ This matters because geography alone does not create collaboration. Riga has the
 
 **How big is the problem?**
 - Bank of Latvia economist Krasnopjorovs estimates that Riga lags Vilnius and Tallinn by 7–8 years in income and diverged from Vilnius after 2010. In 2021 it was one of only three EU metropolitan areas below the EU average in GDP per capita.
-- On innovation, Latvia's R&D spending was 0.92% of GDP in 2024 (Lithuania 1.04%). Government R&D budgets are €104 per inhabitant, against €138 in Lithuania and €284 in Estonia.
-- On talent, the pipeline leaks at the exit: 13.4% of Latvia's students are international, more than Estonia's 8.7%, but RSU reports that only about 5% of its foreign graduates stay. Estonia keeps about half of its international students for five years (OECD).
+- On innovation, Latvia's R&D spending was 0.94% of GDP in 2024 (Lithuania 1.12%, Estonia 1.98%). Only 44.7% of Latvians aged 25–34 hold a tertiary degree, against 60.8% in Lithuania. Government R&D budgets are €104 per inhabitant, against €138 in Lithuania and €284 in Estonia.
+- On talent, the pipeline leaks at the exit: 15.6% of Latvia's students are international (11,895 in 2025, up from 5,255 in 2014), more than Estonia's 8.7%, but RSU reports that only about 5% of its foreign graduates stay. Estonia keeps about half of its international students for five years (OECD).
 - LaSER estimates that higher-education exports are worth about €385m a year, just under 1% of GDP. Retaining and expanding this is a direct economic gain.
 
 **Why the problem exists, and how it can be solved.**
@@ -114,4 +114,3 @@ Riga-specific diagnosis comes from LaSER (2026). That report used desk research,
 - back-of-envelope transfers of effect sizes, which are illustrations and not forecasts.
 
 **Limitations.** Many primary sources (Eurostat, likumi.lv, QS) could not be accessed in full, so several figures are from secondary sources and are flagged for verification. No causal evaluation of a Baltic innovation district exists, and no official stay rate for international graduates in Latvia exists. The comparison table is therefore partly an original contribution, and partly a call for better data.
-

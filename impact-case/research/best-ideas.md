@@ -32,7 +32,7 @@ The shared goal is to make Otaniemi "the most attractive, diverse and internatio
 
 ## 2. UK Civic University Agreements ⭐ the fix for "nobody asks how we're doing"
 
-**What it is:** in 2019 the **UPP Foundation's Civic University Commission**, chaired by Lord Kerslake, published *Truly Civic*. It proposed that every university sign a **Civic University Agreement** with its local government and major local institutions. Within months **50+ universities signed**, including Glasgow, Warwick and Coventry.
+**What it is:** in 2019 the **UPP Foundation's Civic University Commission**, chaired by Lord Kerslake, published *Truly Civic*. It proposed that every university sign a **Civic University Agreement** with its local government and major local institutions. Within months **50+ universities pledged** (verified later: only about 10 agreements covering 17 universities followed, with little policy impact, so treat this as a warning as much as a model), including Glasgow, Warwick and Coventry.
 
 **Good ideas in it:**
 - The agreement is **written with local government** and based on an analysis of local needs.
@@ -67,7 +67,7 @@ Eindhoven went from crisis to one of Europe's most innovative regions.
 
 **Good idea:** Brainport Development's rule is to **only do what needs collaboration**, never what a single partner can do alone. This answers the universities' fear that the city will take over their decisions. LaSER says governance should not take over universities' own development decisions.
 
-**Also:** it was **born from crisis**. Riga being the poorest capital in the EU is our crisis framing.
+**Also:** it was **born from crisis**. Riga falling 30 points behind Vilnius (101% vs 131% of the EU average, Eurostat 2023) and being the EU's second-poorest capital region is our crisis framing.
 
 **Source:** Bronneberg, Pieterse & Post (2023), "Brainport Eindhoven: born from crisis – 25 years as a Triple Helix governed ecosystem", *Journal of Innovation Management*. [Link](https://journalsojs3.fe.up.pt/index.php/jim/article/view/1345) *(open access)*
 
