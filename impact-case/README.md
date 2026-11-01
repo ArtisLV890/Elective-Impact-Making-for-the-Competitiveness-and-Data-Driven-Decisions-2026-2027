@@ -15,6 +15,6 @@ The practical assignment runs through the whole course: take existing research o
 | 6 | [Press release](06-press-release.md) | Media (11.11) | 30.11.2026 |
 | 7 | [Video script](07-video-script.md) | Media (11.11) | 30.11.2026 |
 
-Sources and reading notes go in [`research/`](research/).
+Sources and reading notes go in [`research/`](research/). The full research report answering the brief is [`../reports/Riga Knowledge Mile impact case.md`](../reports/Riga%20Knowledge%20Mile%20impact%20case.md), and the raw research notes are in [`../research_notes/`](../research_notes/).
 
 Keep `PRODUCT + COMMUNICATION + PARTNERSHIP = IMPACT` in mind at every step.

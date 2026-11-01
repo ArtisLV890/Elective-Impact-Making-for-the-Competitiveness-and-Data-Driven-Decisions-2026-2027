@@ -1,5 +1,7 @@
 # Possible angles for our Knowledge Mile case
 
+> **Update (01.11.2026, after deep research):** Option B's premise was wrong. No national rule bans cross-university electives: IZM says recognition is up to each institution, and LU's rules already allow it. The fix is a **rectors' Study Agreement** plus a clause in the regulation that replaces MK No. 793 (it lapses 01.01.2028). See [`../../reports/Riga Knowledge Mile impact case.md`](../../reports/Riga%20Knowledge%20Mile%20impact%20case.md).
+
 The course asks for a **macro-level** problem that can be fixed at the **policy level**, ideally by changing a law, a regulation or how one is implemented. "Develop the Knowledge Mile" is too broad: nobody can be asked to "do" it. We need **one concrete ask aimed at one concrete decision-maker**.
 
 Sauka's formula is **Product + Communication + Partnership = Impact**.
