@@ -1,0 +1,58 @@
+rank,city,country,eu_member,overall_score,student_view,student_mix,employer_activity,desirability,affordability,rankings
+3,London,United Kingdom,False,97.3,99.0,94.6,92.5,81.6,14.4,98.0
+=5,Munich,Germany,True,94.1,93.1,87.4,89.5,92.5,41.0,61.1
+7,Paris,France,True,92.5,81.4,82.2,87.2,83.7,42.4,79.5
+8,Berlin,Germany,True,91.8,100.0,79.8,81.9,82.3,52.2,57.0
+9,Vienna,Austria,True,90.9,90.3,88.3,75.6,96.8,53.6,43.8
+10,Zurich,Switzerland,False,90.6,95.2,93.3,81.0,88.2,25.9,63.7
+13,Edinburgh,United Kingdom,False,89.1,92.0,96.1,79.4,90.3,21.9,60.1
+19,Amsterdam,Netherlands,True,86.8,94.9,93.2,69.5,100.0,15.2,55.4
+=23,Lausanne,Switzerland,False,84.7,72.4,91.1,81.0,72.0,40.7,60.6
+25,Stockholm,Sweden,True,84.6,93.9,84.7,77.9,79.1,27.5,54.3
+27,Prague,Czechia,True,84.0,85.0,91.1,69.7,80.4,51.0,37.2
+28,Copenhagen,Denmark,True,83.4,87.0,76.6,73.9,96.0,24.4,53.9
+29,Madrid,Spain,True,83.2,77.2,83.3,75.4,88.4,26.0,60.2
+31,Glasgow,United Kingdom,False,82.7,98.6,94.6,59.6,83.3,19.2,52.9
+32,Barcelona,Spain,True,81.8,76.7,79.0,84.0,81.8,27.4,54.7
+=35,Dublin,Ireland,True,80.6,80.8,98.1,77.9,67.0,11.8,62.3
+=35,Leuven,Belgium,True,80.6,72.8,92.4,71.6,61.0,44.6,55.5
+39,Milan,Italy,True,80.1,68.6,79.3,83.1,73.8,30.4,60.2
+40,Manchester,United Kingdom,False,80.0,78.2,97.1,75.3,70.9,17.6,55.7
+43,Newcastle Upon Tyne,United Kingdom,False,79.5,87.2,90.7,67.7,67.9,22.1,56.6
+45,Coventry,United Kingdom,False,76.8,82.9,95.5,64.8,61.4,25.0,49.2
+47,Rome,Italy,True,74.5,64.6,67.8,65.7,72.4,54.4,43.0
+48,Nottingham,United Kingdom,False,74.3,84.2,91.2,50.8,64.9,27.8,47.6
+49,Leeds,United Kingdom,False,74.2,80.9,85.0,59.0,68.6,24.1,48.8
+50,Bristol,United Kingdom,False,74.1,86.0,87.4,59.2,67.0,16.5,49.7
+51,Gothenburg,Sweden,True,74.0,82.1,85.2,51.3,70.7,35.6,40.4
+53,Birmingham,United Kingdom,False,73.6,83.2,86.2,54.8,66.2,20.5,52.2
+54,Liverpool,United Kingdom,False,73.4,93.6,80.2,47.7,74.0,28.1,38.8
+56,Lisbon,Portugal,True,73.2,58.1,94.0,63.5,78.9,30.5,36.0
+58,Warsaw,Poland,True,72.5,98.8,56.8,62.5,61.6,49.1,28.8
+=61,Belfast,United Kingdom,False,71.4,82.3,92.9,47.8,63.4,28.1,37.9
+=61,Brussels,Belgium,True,71.4,68.3,87.2,50.8,68.5,45.5,32.3
+63,Brno,Czechia,True,71.3,86.2,88.6,37.0,65.3,56.1,18.5
+64,Budapest,Hungary,True,70.3,71.1,67.5,74.6,55.2,60.0,18.6
+66,Turin,Italy,True,70.0,69.0,76.4,56.9,55.0,58.9,29.2
+68,Helsinki,Finland,True,69.7,53.1,67.9,60.3,92.7,25.9,44.3
+70,Sheffield,United Kingdom,False,69.4,74.8,86.9,43.5,61.3,27.4,48.4
+71,Lyon,France,True,69.0,71.3,60.6,52.1,63.5,59.6,33.3
+88,Oslo,Norway,False,63.3,72.9,64.4,48.7,86.3,1.0,39.1
+89,Valencia,Spain,True,63.0,54.3,76.0,32.0,77.4,54.2,17.2
+=95,Aberdeen,United Kingdom,False,60.8,71.8,68.9,35.4,67.5,31.7,24.7
+=100,Brighton,United Kingdom,False,60.2,88.5,76.6,27.7,63.3,15.6,25.2
+103,Hamburg,Germany,True,60.0,74.5,66.1,37.7,83.3,8.0,26.6
+105,Riga,Latvia,True,59.7,66.4,73.5,46.5,49.8,47.6,10.9
+111,Krakow,Poland,True,57.6,55.1,62.3,44.1,48.1,53.3,21.6
+112,Athens,Greece,True,57.5,50.7,66.7,58.7,52.1,30.9,24.7
+=114,Vilnius,Lithuania,True,56.1,46.5,70.2,33.0,66.8,42.0,18.3
+116,Stuttgart,Germany,True,55.8,42.4,63.2,29.1,81.5,40.4,18.8
+=124,Graz,Austria,True,53.9,42.4,54.6,33.1,67.9,55.3,12.9
+=124,Toulouse,France,True,53.9,53.7,37.1,40.3,62.7,59.4,12.9
+127,Leicester,United Kingdom,False,53.3,49.7,89.4,23.7,57.2,24.0,19.0
+=135,Nicosia,Cyprus,True,50.6,66.3,91.2,1.1,45.9,32.1,13.3
+=135,Tallinn,Estonia,True,50.6,45.8,46.1,30.1,70.9,51.4,5.5
+145,Kaunas,Lithuania,True,48.5,47.5,65.9,21.4,53.3,46.6,4.7
+147,Montpellier,France,True,47.8,17.5,70.9,16.1,58.3,61.1,12.0
+149,Cluj-Napoca,Romania,True,47.2,29.1,47.1,29.5,51.3,73.4,2.7
+150,Wroclaw,Poland,True,47.1,51.5,53.5,24.7,,,

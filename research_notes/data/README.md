@@ -46,3 +46,9 @@ Read live, full consolidated text, 1 November 2026 (not saved as separate files 
 | File | Source | Notes |
 | --- | --- | --- |
 | `worldbank_gdp_population_baltics_2000_2023.csv` | World Bank WDI GDP (current US$, `NY.GDP.MKTP.CD`) and population (`SP.POP.TOTL`), as republished under CC-BY 4.0 at `github.com/datasets/gdp` (last updated 2026-04-08) and `github.com/datasets/population`; downloaded 1 November 2026 | Country level, 2000–2023. Nominal US dollars, so year-to-year changes include exchange-rate effects (e.g. the 2015 euro–dollar drop). Eurostat's country-level PPS series (`tec00114` / `nama_10_pc`) could not be reached from the cloud session. |
+
+## QS Best Student Cities 2027 (European cities)
+
+| File | Source | Notes |
+| --- | --- | --- |
+| `qs_best_student_cities_2027_europe.csv` | QS Quacquarelli Symonds, *QS Best Student Cities 2027* (published 21 July 2026), table copied by the user from topuniversities.com/city-rankings on 2 November 2026 | 57 European cities (38 in EU member states) with global rank, overall score and six indicator scores. The last three indicator column names (desirability, affordability, rankings) are inferred from the QS layout; check them on the site. Wroclaw's last three indicators were missing from the copied data. |
