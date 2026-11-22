@@ -265,12 +265,12 @@ s.addText([
 ], { x: 0.9, y: 1.7, w: 3.55, h: 4.6, fontSize: 15, color: C.background1, margin: 0, valign: "top", paraSpaceAfter: 10, isTextBox: true, objectName: "Policy results" });
 s.addText("2. Learning results (by 2030)", { x: 4.95, y: 1.5, w: 4.6, h: 0.45, fontFace: "Cambria", bold: true, fontSize: 18, color: C.accent1, margin: 0, isTextBox: true, objectName: "Learning heading" });
 s.addTable([
-  [{ text: "KPI", options: hdr }, { text: "Now", options: hdr }, { text: "2030", options: hdr }],
-  ["9th-grade index (of 20)", "12.3", "14.0"],
-  ["9th graders who calculate simple interest", "57%", "75%"],
-  ["9th graders who never learn about money at school", "36%", "< 10%"],
-  ["Social-studies teachers trained", "–", "80%"],
-], { x: 4.95, y: 2.05, w: 4.6, colW: [2.6, 1.0, 1.0], fontSize: 14, color: C.text1, border: { type: "solid", pt: 0.5, color: "D5DDD8" }, rowH: [0.45, 0.85, 0.85, 0.95, 0.75], valign: "middle", objectName: "KPI table" });
+  [{ text: "KPI", options: hdr }, { text: "Now", options: hdr }, { text: "Base", options: hdr }, { text: "Stretch", options: hdr }],
+  ["9th-grade index (of 20)", "12.3", "13.2", "14.0"],
+  ["9th graders who calculate simple interest", "57%", "68%", "75%"],
+  ["9th graders who never learn about money at school", "36%", "15%", "< 10%"],
+  ["Social-studies teachers trained", "–", "60%", "80%"],
+], { x: 4.95, y: 2.05, w: 4.6, colW: [2.2, 0.75, 0.75, 0.9], fontSize: 14, color: C.text1, border: { type: "solid", pt: 0.5, color: "D5DDD8" }, rowH: [0.45, 0.85, 0.85, 0.95, 0.75], valign: "middle", objectName: "KPI table" });
 card(s, 9.8, 1.5, 2.93, 4.95, C.background2, "Cost card");
 s.addText([
   { text: "3. Cost", options: { fontFace: "Cambria", bold: true, fontSize: 18, color: C.text2, breakLine: true } },
@@ -280,7 +280,7 @@ s.addText([
   { text: "a year", options: { fontSize: 14, breakLine: true } },
   { text: "≈1% of one year's fraud losses", options: { fontSize: 14, color: C.accent6 } },
 ], { x: 10.05, y: 1.7, w: 2.5, h: 4.6, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "Cost text" });
-src(s, "Baselines: Latvijas Banka 9th-grade assessment 2025. Targets within research effect sizes (Kaiser & Menkhoff 2020). Costs illustrative (Frisancho 2020; Bruhn et al. 2016); to be checked with IZM.");
+src(s, "Baselines: Latvijas Banka 9th-grade assessment 2025. Base = +0.3 SD (research effect sizes); stretch ≈ +0.5 SD. Costs illustrative (Frisancho 2020; Bruhn et al. 2016); to be checked with IZM.");
 s.addNotes("Lead with the institutional result: the rules change, so it does not depend on one minister. Then learning gains within the range research shows is realistic. Behaviour follows more slowly.");
 
 // ======================= 12. (v) regulation
