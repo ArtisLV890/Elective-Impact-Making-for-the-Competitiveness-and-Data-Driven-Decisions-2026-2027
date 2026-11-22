@@ -89,42 +89,40 @@ s.addNotes("Open with the paradox: financial literacy is compulsory in every Lat
 // ======================= 2. (i) the issue
 s = slide("CONTENT", "(i) The issue");
 s.addText("Latvia is joint last in the EU on financial literacy", { placeholder: "title" });
-stat(s, 0.6, 1.6, 3.85, 2.8, "11%", "of Latvian adults have high financial literacy: joint last in the EU (EU 18%, Estonia 23%)");
-stat(s, 4.74, 1.6, 3.85, 2.8, "26%", "have no emergency savings: the highest share in the EU (EU 16%)", C.accent5);
-stat(s, 8.88, 1.6, 3.85, 2.8, "27%", "of adults fell victim to financial fraud in two years; 74% faced an attempt", C.accent2);
-s.addText("The problem is not only knowledge: Latvia ranks 26th of 27 on financial behaviour and joint last on investing (9% own funds, stocks or bonds).",
-  { x: 0.6, y: 4.75, w: 12.1, h: 1.2, fontSize: 20, color: C.text2, margin: 0, valign: "top", isTextBox: true, objectName: "Takeaway" });
-src(s, "Sources: Flash Eurobarometer 525 (European Commission, 2023), data annex; OECD & Latvijas Banka, Kantar survey of 1,400 adults (presented 20.11.2026).");
-s.addNotes("Three numbers frame the problem: low literacy, no buffer, and high exposure to fraud. All three are EU-worst or near-worst.");
+s.addImage({ path: "financial-literacy/presentation/source-figures/eb_overall_score_by_country.png", x: 0.6, y: 1.45, w: 8.0, h: 4.03, altText: "Eurobarometer 525 chart F3: overall financial literacy score by country; Latvia and Portugal lowest high-score share (11%)", objectName: "Source chart" });
+const st2 = [["11%", "high financial literacy: joint last in the EU (EU 18%, Estonia 23%)", C.accent5], ["26%", "no emergency savings: highest in the EU", C.accent5], ["26th of 27", "on financial behaviour; joint last on investing (9%)", C.accent1]];
+st2.forEach((t, i) => {
+  const y = 1.45 + i * 1.38;
+  card(s, 8.9, y, 3.83, 1.25);
+  s.addText(t[0], { x: 9.1, y: y + 0.08, w: 3.4, h: 0.55, fontFace: "Cambria", fontSize: 26, bold: true, color: t[2], margin: 0, valign: "middle", isTextBox: true, objectName: "Stat value" });
+  s.addText(t[1], { x: 9.1, y: y + 0.62, w: 3.5, h: 0.58, fontSize: 13, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Stat label" });
+});
+s.addText("Only 46% of Latvian adults reach the OECD minimum score (OECD 58%); 27% fell victim to fraud in two years.", { x: 0.6, y: 5.75, w: 12.1, h: 0.7, fontSize: 16, color: C.text2, margin: 0, valign: "top", isTextBox: true, objectName: "Takeaway" });
+src(s, "Chart: European Commission, Flash Eurobarometer 525 (2023), figure F3, p. 17. Other figures: Eurobarometer 525 data annex; OECD/INFE 2023; OECD and Latvijas Banka (2026).");
+s.addNotes("Point at the far right of the chart: Latvia, 11% with a high score, joint last with Portugal. The real gap is behaviour and buffers.");
 
 // ======================= 3. (i) young people
 s = slide("CONTENT", "(i) The issue");
 s.addText("The youngest adults are the least financially literate", { placeholder: "title" });
-s.addChart(pres.charts.BAR, [{ name: "Index (0–20)", labels: ["18–19", "20–29", "30–39", "40–49", "50–59", "60–69", "70–79"], values: [8.0, 11.0, 12.6, 13.1, 11.9, 12.7, 11.9] }],
-  chartBase({ x: 0.6, y: 1.5, w: 7.0, h: 4.9, barDir: "col", title: "Latvijas Banka financial literacy index by age, 2022 (all adults: 12.2)", showLegend: false, dataLabelFormatCode: "0.0",
-    chartColors: [HEX.green, HEX.green, HEX.grey, HEX.grey, HEX.grey, HEX.grey, HEX.grey], valAxisMinVal: 0, valAxisMaxVal: 15, objectName: "Index by age chart" }));
-card(s, 8.0, 1.5, 4.73, 4.9);
+s.addImage({ path: "financial-literacy/presentation/source-figures/lb2022_index_by_age.png", x: 0.6, y: 1.5, w: 8.0, h: 4.47, altText: "Latvijas Banka 2022: financial literacy index by gender and age; ages 18-19 score 8.0 of 20, all adults 12.2", objectName: "Source chart" });
+card(s, 8.9, 1.45, 3.83, 4.9);
 s.addText([
-  { text: "5.1 → 3.9", options: { fontFace: "Cambria", fontSize: 32, bold: true, color: C.accent5, breakLine: true } },
-  { text: "adult knowledge score (of 7), 2015 → 2022", options: { fontSize: 14, breakLine: true } },
+  { text: "8.0 / 20", options: { fontFace: "Cambria", fontSize: 28, bold: true, color: C.accent5, breakLine: true } },
+  { text: "ages 18–19 (all adults 12.2)", options: { fontSize: 13, breakLine: true } },
   { text: " ", options: { fontSize: 8, breakLine: true } },
-  { text: "40%", options: { fontFace: "Cambria", fontSize: 32, bold: true, color: C.accent1, breakLine: true } },
-  { text: "of 18–19-year-olds can calculate simple interest (all adults: 58%)", options: { fontSize: 14, breakLine: true } },
+  { text: "5.1 → 3.9", options: { fontFace: "Cambria", fontSize: 28, bold: true, color: C.accent5, breakLine: true } },
+  { text: "knowledge score (of 7), 2015 → 2022", options: { fontSize: 13, breakLine: true } },
   { text: " ", options: { fontSize: 8, breakLine: true } },
-  { text: "11%", options: { fontFace: "Cambria", fontSize: 32, bold: true, color: C.accent1, breakLine: true } },
-  { text: "of 18–19-year-olds could cover a month's income in unexpected costs", options: { fontSize: 14 } },
-], { x: 8.3, y: 1.7, w: 4.2, h: 4.5, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Key numbers" });
-src(s, "Source: Latvijas Banka, financial literacy survey 2022 (n = 1,007; OECD/INFE method). The 18–19 group is small (~30); ages 20–29 (11.0) confirm the pattern.");
-s.addNotes("Knowledge fell on every question since 2015; the flat headline index hides it because attitudes improved. Young adults score lowest.");
+  { text: "40%", options: { fontFace: "Cambria", fontSize: 28, bold: true, color: C.accent1, breakLine: true } },
+  { text: "of 18–19-year-olds solve simple interest (all 58%)", options: { fontSize: 13 } },
+], { x: 9.15, y: 1.65, w: 3.35, h: 4.55, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Key numbers" });
+src(s, "Charts: Latvijas Banka, Latvijas iedzīvotāju finanšu pratības aptauja 2022 (n = 1,007), p. 8. The 18–19 group is small (~30); ages 20–29 (11.0) confirm the pattern.");
+s.addNotes("Left: index by group, look at age 18-19. Middle: knowledge fell from 5.1 to 3.9 out of 7 in seven years.");
 
 // ======================= 4. (i) school gap
 s = slide("CONTENT", "(i) The issue");
 s.addText("School is where teenagers learn least about money", { placeholder: "title" });
-s.addChart(pres.charts.BAR, [
-  { name: "Always or often", labels: ["Family", "Internet", "Friends", "School and clubs"], values: [63, 46, 18, 9] },
-  { name: "Never", labels: ["Family", "Internet", "Friends", "School and clubs"], values: [3, 8, 18, 36] }],
-  chartBase({ x: 0.6, y: 1.5, w: 7.2, h: 4.9, barDir: "col", title: "9th graders: where do you learn about money? (%)", showLegend: true, legendPos: "t", legendFontSize: 12, legendFontFace: "+mn-lt", legendColor: HEX.muted,
-    chartColors: [HEX.green, HEX.grey], dataLabelFormatCode: '0"%"', valAxisMinVal: 0, valAxisMaxVal: 75, objectName: "Sources chart" }));
+s.addImage({ path: "financial-literacy/presentation/source-figures/lb9_info_sources.png", x: 0.6, y: 1.5, w: 7.3, h: 4.11, altText: "Latvijas Banka 9th-grade assessment 2025: sources of information about money; 36% never learn about money at school", objectName: "Source chart" });
 const rows4 = [["36%", "of 9th graders never learn about money at school; 31% only rarely"],
   ["Weak", "teachers' own knowledge of simple and compound interest is insufficient (Latvijas Banka, 2024)"],
   ["0", "minimum lessons: finance is one topic inside social studies, taught \"superficially\" (LSM, 2026)"]];
@@ -134,8 +132,8 @@ rows4.forEach((r, i) => {
   s.addText(r[0], { x: 8.3, y: y + 0.15, w: 1.4, h: 1.2, fontFace: "Cambria", fontSize: 28, bold: true, color: C.accent5, margin: 0, valign: "middle", isTextBox: true, objectName: "Fact value" });
   s.addText(r[1], { x: 9.75, y: y + 0.12, w: 2.85, h: 1.26, fontSize: 14, color: C.text1, margin: 0, valign: "middle", isTextBox: true, objectName: "Fact text" });
 });
-src(s, "Sources: Latvijas Banka, 9th-grade assessment 2025 (n = 1,159, 75 schools); Brikše (Latvijas Banka), Saeima conference 2025; LSM 18.02.2026; Skola2030.");
-s.addNotes("Financial literacy became compulsory with Skola2030, but as a topic inside social studies, without a minimum number of lessons and with under-prepared teachers.");
+src(s, "Chart: Latvijas Banka / RAIT, 9th-grade financial literacy assessment 2025 (n = 1,159, 75 schools), slide 15. Also: Brikše (Latvijas Banka), Saeima conference 2025; LSM 18.02.2026.");
+s.addNotes("Bottom row of the chart: school and clubs. 36% never, only 9% always or often. Not teachers' fault: no guaranteed hours and little training.");
 
 // ======================= 5. (i) why now
 s = slide("CONTENT", "(i) The issue");
@@ -163,39 +161,48 @@ s.addNotes("Fraud makes this urgent: the first financial decisions of today's te
 // ======================= 6. (ii) research
 s = slide("CONTENT", "(ii) Research and data");
 s.addText("Research: school financial education works when it is intensive", { placeholder: "title" });
-s.addChart(pres.charts.BAR, [{ name: "Effect (SD)", labels: ["Meta-analysis (37 studies)", "Brazil RCT (892 schools)", "Peru RCT (300 schools)", "Online game RCT (4 countries)"], values: [0.33, 0.25, 0.15, 0.31] }],
-  chartBase({ x: 0.6, y: 1.5, w: 6.6, h: 4.9, barDir: "col", title: "Effect of school financial education on knowledge (standard deviations)", showLegend: false, chartColors: [HEX.green], dataLabelFormatCode: "+0.00", valAxisMinVal: 0, valAxisMaxVal: 0.4, catAxisLabelFontSize: 11, objectName: "Effects chart" }));
+const hdr6 = { bold: true, color: C.background1, fill: { color: THEME.colors.dk2 } };
+s.addTable([
+  [{ text: "Study", options: hdr6 }, { text: "Design", options: hdr6 }, { text: "Effect on knowledge", options: hdr6 }],
+  ["Kaiser & Menkhoff (2020)", "Meta-analysis, 37 school studies", "+0.33 SD (RCTs +0.15)"],
+  ["Kaiser et al. (2022), JFE", "Meta-analysis, 76 RCTs, 160,000+ people", "Positive, robust"],
+  ["Bruhn et al. (2016), AEJ", "RCT, Brazil, 892 schools", "+0.25 SD"],
+  ["Frisancho (2020), IDB", "RCT, Peru, 300 schools", "+0.15 SD; better credit 3 yrs later"],
+  ["Cannistrà et al. (2024), JCE", "RCT, 4 countries, online game", "+0.31 SD"],
+], { x: 0.6, y: 1.5, w: 6.8, colW: [2.3, 2.6, 1.9], fontSize: 13, color: C.text1, border: { type: "solid", pt: 0.5, color: "D5DDD8" }, rowH: [0.45, 0.85, 0.85, 0.85, 0.85, 0.85], valign: "middle", objectName: "Evidence table" });
 const lessons = [["Intensity matters", "dedicated lessons beat scattered mentions (Kaiser & Menkhoff 2017, 2020)"],
   ["Teachers matter", "trained teachers are the key ingredient (Compen et al. 2019)"],
-  ["Timing matters", "link lessons to real decisions: cards, scams, first salary"],
+  ["Timing matters", "link lessons to real decisions; scam lessons fade without repetition"],
   ["A mandate alone fails", "US mandates without real teaching had no effect (Cole et al. 2016): Latvia's risk today"]];
 lessons.forEach((l, i) => {
   const y = 1.55 + i * 1.2;
-  num(s, 7.55, y + 0.12, i + 1, i === 3 ? C.accent5 : C.accent1);
-  s.addText([{ text: l[0], options: { bold: true, breakLine: true } }, { text: l[1] }], { x: 8.3, y, w: 4.43, h: 1.1, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Lesson" });
+  num(s, 7.75, y + 0.12, i + 1, i === 3 ? C.accent5 : C.accent1);
+  s.addText([{ text: l[0], options: { bold: true, breakLine: true } }, { text: l[1] }], { x: 8.45, y, w: 4.28, h: 1.1, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Lesson" });
 });
-src(s, "Sources: Kaiser & Menkhoff (2020) Econ. of Education Review; Bruhn et al. (2016) AEJ: Applied; Frisancho (2020) IDB; Cannistrà et al. (2024) J. Comparative Economics; Kaiser et al. (2022) JFE (76 RCTs).");
-s.addNotes("Knowledge effects are solid; behaviour effects are smaller (about +0.07 SD) and appear over years. Design for intensity, trained teachers and real decisions.");
+src(s, "Sources: as listed; Urban et al. (2020) Econ. of Education Review; Cole et al. (2016) J. Human Resources; Burke et al. (2021).");
+s.addNotes("Knowledge effects are solid; behaviour effects are smaller (about +0.07 SD) and appear over years.");
 
 // ======================= 7. (ii) activity vs results
 s = slide("CONTENT", "(ii) Research and data");
 s.addText("Latvia has lots of activity, but knowledge is falling", { placeholder: "title" });
-s.addChart(pres.charts.BAR, [
-  { name: "2015", labels: ["Interest-free loan", "Simple interest", "Compound interest", "Inflation"], values: [89, 72, 48, 68] },
-  { name: "2022", labels: ["Interest-free loan", "Simple interest", "Compound interest", "Inflation"], values: [76, 58, 26, 41] }],
-  chartBase({ x: 0.6, y: 1.5, w: 6.6, h: 4.9, barDir: "col", title: "Latvian adults answering correctly (%)", showLegend: true, legendPos: "t", legendFontSize: 12, legendFontFace: "+mn-lt", legendColor: HEX.muted,
-    chartColors: [HEX.grey, HEX.red], dataLabelFormatCode: '0"%"', valAxisMinVal: 0, valAxisMaxVal: 100, objectName: "Knowledge decline chart" }));
-card(s, 7.55, 1.5, 5.18, 2.3);
-bullets(s, ["230+ activities by strategy partners since 2021", "Money Day reached 78% of schools", "But only ~9% of activities target teachers"], 7.85, 1.7, 4.7, 1.9, 15);
-card(s, 7.55, 4.05, 5.18, 2.35, C.text2, "Estonia card");
+s.addImage({ path: "financial-literacy/presentation/source-figures/lb2022_interest_questions.png", x: 0.6, y: 1.45, w: 4.0, h: 4.91, altText: "Latvijas Banka 2022: correct answers on simple interest fell from 72% to 58% and on compound interest from 48% to 26%, 2015 to 2022", objectName: "Source chart" });
+card(s, 4.95, 1.45, 7.78, 2.35);
+s.addText([{ text: "Correct answers fell: ", options: { bold: true, color: C.accent5 } }, { text: "simple interest 72% → 58%, compound interest 48% → 26% (2015 → 2022), while:", options: { breakLine: true } },
+  { text: "230+ activities by strategy partners since 2021", options: { bullet: true, breakLine: true } },
+  { text: "Money Day reached 78% of schools", options: { bullet: true, breakLine: true } },
+  { text: "But only ~9% of activities target teachers", options: { bullet: true } }],
+  { x: 5.25, y: 1.6, w: 7.2, h: 2.1, fontSize: 15, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "Activity text" });
+card(s, 4.95, 4.05, 7.78, 2.3, C.text2, "Benchmark card");
 s.addText([
   { text: "Estonia: ", options: { bold: true, color: C.accent2 } },
   { text: "PISA 547, best in the world; finance built into teacher training.", options: { color: C.background1, breakLine: true } },
   { text: "England: ", options: { bold: true, color: C.accent2 } },
-  { text: "compulsory since 2014, yet only 38% recall it; now being strengthened.", options: { color: C.background1 } }],
-  { x: 7.85, y: 4.2, w: 4.7, h: 2.1, fontSize: 14, paraSpaceAfter: 8, margin: 0, valign: "top", isTextBox: true, objectName: "Estonia text" });
-src(s, "Sources: Latvijas Banka surveys 2015/2022 and strategy evaluation 2025; OECD PISA 2018; Estonian Ministry of Finance; APPG on Financial Education / Young Enterprise (UK).");
-s.addNotes("The strategy counts events, not learning. Latvia doesn't need more one-off events; it needs intensive classroom learning by trained teachers.");
+  { text: "compulsory since 2014, yet only 38% of young people recall it; now being strengthened.", options: { color: C.background1, breakLine: true } },
+  { text: "Lesson: ", options: { bold: true, color: C.accent2 } },
+  { text: "more events won't fix it; intensive teaching by trained teachers will.", options: { color: C.background1 } }],
+  { x: 5.25, y: 4.2, w: 7.2, h: 2.05, fontSize: 15, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "Benchmark text" });
+src(s, "Chart: Latvijas Banka, financial literacy survey 2022, p. 52. Also: Latvijas Banka strategy evaluation 2025; OECD PISA 2018; APPG on Financial Education / Young Enterprise (UK).");
+s.addNotes("Top block of the chart: simple interest. Bottom block: compound interest. Red bars shrink from 2015 to 2022.");
 
 // ======================= 8. (iii) strategy
 s = slide("CONTENT", "(iii) Strategy");
@@ -315,39 +322,35 @@ s = slide("SECTION_DARK", "Appendix");
 s.addText("Appendix", { placeholder: "title" });
 s.addText("Extra data, fraud evidence, regulatory timeline and methodology", { placeholder: "body" });
 
-const eu = [["Netherlands", 28], ["Slovenia", 27], ["Sweden", 27], ["Denmark", 27], ["Germany", 24], ["Luxembourg", 23], ["Estonia", 23], ["Austria", 21], ["Slovakia", 20], ["Malta", 20], ["Croatia", 20], ["Belgium", 20], ["Ireland", 19], ["Italy", 18], ["EU-27", 18], ["France", 17], ["Finland", 17], ["Czechia", 17], ["Lithuania", 16], ["Hungary", 16], ["Greece", 16], ["Poland", 15], ["Cyprus", 15], ["Bulgaria", 15], ["Spain", 13], ["Romania", 12], ["Portugal", 11], ["Latvia", 11]];
 s = slide("CONTENT", "Appendix");
-s.addText("A1. High financial literacy across the EU, 2023", { placeholder: "title" });
-s.addChart(pres.charts.BAR, [{ name: "High score (%)", labels: eu.map(e => e[0]), values: eu.map(e => e[1]) }],
-  chartBase({ x: 0.6, y: 1.45, w: 12.13, h: 5.0, barDir: "col", title: "Share of adults with a high overall financial literacy score (%)", showLegend: false, catAxisLabelFontSize: 10, catAxisLabelRotate: -60, dataLabelFontSize: 10,
-    chartColors: eu.map(e => e[0] === "Latvia" ? HEX.red : (e[0] === "Estonia" || e[0] === "Lithuania") ? HEX.green : e[0] === "EU-27" ? HEX.dark : HEX.grey), valAxisMinVal: 0, valAxisMaxVal: 32, objectName: "EU ranking chart" }));
-src(s, "Source: Flash Eurobarometer 525 (2023), data annex; high = 9–10 on the combined knowledge and behaviour scale. Latvia is joint last with Portugal.");
+s.addText("A1. Emergency savings across the EU, 2023", { placeholder: "title" });
+s.addImage({ path: "financial-literacy/presentation/source-figures/eb_emergency_savings_by_country.png", x: 1.6, y: 1.4, w: 10.1, h: 5.08, altText: "Eurobarometer 525 Q8: how long people could cover living expenses after losing income; Latvia has the most people with no emergency savings", objectName: "Source chart" });
+src(s, "Chart: European Commission, Flash Eurobarometer 525 (2023), Q8, p. 26. Latvia (far right): 26% have no emergency savings, the highest in the EU; only 19% could last 6+ months.");
 
 s = slide("CONTENT", "Appendix");
-s.addText("A2. Resilience and investing: Latvia vs Baltics and EU, 2023", { placeholder: "title" });
-const lab2 = ["No emergency savings", "Could live 6+ months without income", "Own funds, stocks or bonds", "Own crypto-assets"];
-s.addChart(pres.charts.BAR, [{ name: "Latvia", labels: lab2, values: [26, 19, 9, 10] }, { name: "Estonia", labels: lab2, values: [15, 32, 24, 12] }, { name: "Lithuania", labels: lab2, values: [17, 36, 14, 11] }, { name: "EU-27", labels: lab2, values: [16, 33, 24, 6] }],
-  chartBase({ x: 0.6, y: 1.45, w: 12.13, h: 5.0, barDir: "col", title: "% of adults", showLegend: true, legendPos: "t", legendFontSize: 12, legendFontFace: "+mn-lt", legendColor: HEX.muted, dataLabelFontSize: 11,
-    chartColors: [HEX.red, HEX.green, "95B8A3", HEX.dark], dataLabelFormatCode: '0"%"', valAxisMinVal: 0, valAxisMaxVal: 42, objectName: "Resilience chart" }));
-src(s, "Source: Flash Eurobarometer 525 (2023), Q8 and Q9.");
+s.addText("A2. Latvian adults: index vs OECD, and coping with a shock", { placeholder: "title" });
+s.addImage({ path: "financial-literacy/presentation/source-figures/lb2022_index_trend.png", x: 0.6, y: 1.6, w: 5.9, h: 3.18, altText: "Latvijas Banka 2022: financial literacy index 63% (2015), 61% (2022), OECD average 62%", objectName: "Source chart" });
+s.addImage({ path: "financial-literacy/presentation/source-figures/lb2022_financial_shocks.png", x: 6.8, y: 1.45, w: 5.93, h: 4.62, altText: "Latvijas Banka 2022: share able to cover an expense equal to a month's income without borrowing, 2015 to 2022", objectName: "Source chart" });
+src(s, "Charts: Latvijas Banka, financial literacy survey 2022, pp. 7 and 24. Only 43% could cover an expense equal to a month's income without borrowing (2015: 29%).");
 
 s = slide("CONTENT", "Appendix");
 s.addText("A3. New OECD evidence: fraud among Latvian adults (2026)", { placeholder: "title" });
-s.addChart(pres.charts.BAR, [{ name: "% of adults", labels: ["Purchase fraud", "Phishing", "Investment fraud", "Unauthorised transactions"], values: [15, 8, 6.5, 5.6] }],
-  chartBase({ x: 0.6, y: 1.45, w: 6.8, h: 4.9, barDir: "bar", title: "Most common fraud types, past two years (% of adults)", showLegend: false, chartColors: [HEX.amber], dataLabelFormatCode: '0.0"%"', valAxisMinVal: 0, valAxisMaxVal: 18, catAxisOrientation: "maxMin", objectName: "Fraud types chart" }));
+const hdrA3 = { bold: true, color: C.background1, fill: { color: THEME.colors.dk2 } };
+s.addTable([
+  [{ text: "Indicator (past two years)", options: hdrA3 }, { text: "Latvia", options: hdrA3 }],
+  ["Faced a fraud attempt", "74%"], ["Became a victim", "27%"], ["Victims who lost money", "55%"],
+  ["Purchase fraud / phishing", "15% / 8%"], ["Investment fraud / unauthorised transactions", "6.5% / 5.6%"], ["Victims who told no one", "37%"],
+], { x: 0.6, y: 1.45, w: 6.8, colW: [4.9, 1.9], fontSize: 14, color: C.text1, border: { type: "solid", pt: 0.5, color: "D5DDD8" }, rowH: 0.62, valign: "middle", objectName: "Fraud table" });
 card(s, 7.75, 1.45, 4.98, 4.9);
-bullets(s, ["74% faced a fraud attempt; 27% became victims", "55% of victims lost money; others gave away data or access", "37% told no one, mostly because \"it would change nothing\"",
-  "OECD proposes a digital financial literacy action plan, coordinated by Latvijas Banka", "OECD/INFE 2023: 18% of Latvian adults were fraud victims (Lithuania 14%)"], 8.05, 1.7, 4.45, 4.5, 15);
-src(s, "Sources: OECD (2026), Improving Adults' Resilience Against Financial Scams and Frauds in Latvia; Kantar survey n = 1,400, ages 18–79 (via Latvijas Banka and LSM, 20.11.2026); OECD/INFE 2023.");
+bullets(s, ["Main reason for not reporting: \"it would change nothing\" (57%)", "OECD proposes a digital financial literacy action plan, coordinated by Latvijas Banka", "OECD/INFE 2023: 18% of Latvian adults were fraud victims (Lithuania 14%)", "€7.8m lost in the first half of 2026 (Finance Latvia)"], 8.05, 1.7, 4.45, 4.5, 15);
+src(s, "Sources: OECD (2026), Improving Adults' Resilience Against Financial Scams and Frauds in Latvia; Kantar survey n = 1,400 (via Latvijas Banka and LSM, 20.11.2026); OECD/INFE 2023.");
 
 s = slide("CONTENT", "Appendix");
 s.addText("A4. 9th graders: exposure to risk and fraud, 2025", { placeholder: "title" });
-const lab4 = ["Offered 'easy money' online", "Think Bitcoin is legal tender", "Asked to be a money mule", "Scammed buying online", "Bought crypto themselves", "Gave away password or PIN"];
-s.addChart(pres.charts.BAR, [{ name: "% of 9th graders", labels: lab4, values: [48, 31, 18, 16, 12, 6] }],
-  chartBase({ x: 0.6, y: 1.45, w: 7.4, h: 4.9, barDir: "bar", title: "% of 9th graders (age ~15)", showLegend: false, chartColors: [HEX.red], dataLabelFormatCode: '0"%"', valAxisMinVal: 0, valAxisMaxVal: 58, catAxisOrientation: "maxMin", objectName: "Risk chart" }));
+s.addImage({ path: "financial-literacy/presentation/source-figures/lb9_risky_situations.png", x: 0.6, y: 1.5, w: 7.4, h: 4.16, altText: "Latvijas Banka 9th-grade assessment 2025: experience with risky or fraudulent situations; 48% offered money-making schemes, 18% asked to pass money through their account", objectName: "Source chart" });
 card(s, 8.3, 1.45, 4.43, 4.9);
-bullets(s, ["Only 44% agree that a higher return means higher risk", "43% think car insurance is voluntary", "40% can't work out the VAT in a price", "Only 15% regularly change passwords"], 8.6, 1.7, 3.9, 4.5, 15);
-src(s, "Source: Latvijas Banka, 9th-grade financial literacy assessment, Feb–Apr 2025 (n = 1,159 pupils, 75 schools; RAIT).");
+bullets(s, ["48% offered \"easy money\" by strangers online", "18% asked to pass money through their account (money mule)", "16% scammed when buying online", "Only 44% agree that a higher return means higher risk", "31% think Bitcoin is legal tender"], 8.6, 1.7, 3.9, 4.5, 15);
+src(s, "Chart: Latvijas Banka / RAIT, 9th-grade financial literacy assessment 2025 (n = 1,159, 75 schools), slide 25.");
 
 s = slide("CONTENT", "Appendix");
 s.addText("A5. International models: what other countries do", { placeholder: "title" });

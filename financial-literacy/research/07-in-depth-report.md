@@ -58,9 +58,9 @@ The European Commission's Flash Eurobarometer 525 is the only survey that measur
 | Own crypto-assets | 10% | 12% | 11% | 6% | 9th highest |
 | Confident investment advice is in their interest | 24% | 29% | 34% | 38% | 25th |
 
-![Figure 1. Share of adults with a high overall financial literacy score, EU-27, 2023](../reports/figures/01_eu_high_financial_literacy_ranking.png)
+![Figure 1. Overall financial literacy score by country (Flash Eurobarometer 525, figure F3)](../presentation/source-figures/eb_overall_score_by_country.png)
 
-![Figure 2. Financial resilience and investing, Latvia vs Baltics and EU, 2023](../reports/figures/02_baltic_resilience_investing.png)
+![Figure 2. How long people could cover living expenses after losing income (Flash Eurobarometer 525, Q8)](../presentation/source-figures/eb_emergency_savings_by_country.png)
 
 **What this tells us**
 
@@ -81,7 +81,7 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
 | Attitudes (0–4) | 2.0 | 2.9 |
 | Self-rated knowledge (1–5) | 3.2 | 2.6 |
 
-![Figure 3. Latvian adults answering knowledge questions correctly, 2015 vs 2022](../reports/figures/03_knowledge_decline_2015_2022.png)
+![Figure 3. Simple and compound interest questions, 2015–2022 (Latvijas Banka survey 2022, p. 52)](../presentation/source-figures/lb2022_interest_questions.png)
 
 **Correct answers, 2015 → 2022**
 
@@ -110,7 +110,7 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
 
 ## 3. Young people: the weakest group
 
-![Figure 4. Financial literacy index by age, 2022](../reports/figures/04_finlit_index_by_age_2022.png)
+![Figure 4. Financial literacy index by gender and age (Latvijas Banka survey 2022, p. 8)](../presentation/source-figures/lb2022_index_by_age.png)
 
 **Young adults (Latvijas Banka 2022)**
 
@@ -143,7 +143,7 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
 
 ## 4. The school system: compulsory but superficial
 
-![Figure 5. Where 9th graders learn about money, 2025](../reports/figures/05_ninth_grade_sources_of_money_info.png)
+![Figure 5. Where 9th graders get information about money (Latvijas Banka / RAIT 2025, slide 15)](../presentation/source-figures/lb9_info_sources.png)
 
 - **Legal status.** Since Skola2030, financial literacy is part of compulsory social studies from grade 1 and of the upper-secondary social and civic courses. Before that, "economics and financial literacy" was an elective. The basic education standard (Cabinet Regulation No. 747, in force from 01.09.2020) and the general secondary standard (No. 416 of 03.09.2019) set outcomes for the subject area. **They set no minimum number of finance lessons.**
 - **What pupils experience.**
@@ -181,9 +181,7 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
 | Purchase fraud / phishing / investment fraud / unauthorised transactions | 15% / 8% / 6.5% / 5.6% |
 | Victims who told no one | **37%**. Main reason: "it would change nothing" (57%). Shopping scams go unreported most often |
 
-![Figure 6. Financial fraud among Latvian adults, past two years](../reports/figures/07_fraud_funnel_latvia_2026.png)
 
-![Figure 7. Most common types of financial fraud in Latvia](../reports/figures/08_fraud_types_latvia_2026.png)
 
 **Losses and cases**
 
@@ -199,7 +197,7 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
   - **16%** have been scammed buying online;
   - **6%** have given away a password or PIN.
 
-![Figure 8. 9th graders' exposure to risk and fraud, 2025](../reports/figures/06_ninth_grade_risk_exposure_2025.png)
+![Figure 6. 9th graders' experience with risky or fraudulent situations (Latvijas Banka / RAIT 2025, slide 25)](../presentation/source-figures/lb9_risky_situations.png)
 
 **International context (OECD, *Protecting Consumers from Financial Scams and Frauds*, June 2026)**
 
@@ -209,7 +207,6 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
 - Older adults are **not** always the main victims.
 - The OECD/INFE 2023 survey found **18%** of Latvian adults were fraud victims (Lithuania 14%).
 
-![Figure 9. Fraud victims in the past two years, two OECD surveys](../reports/figures/09_fraud_victims_two_surveys.png)
 
 ## 5a. Beyond fraud: the wider risk landscape for young people
 
@@ -225,9 +222,7 @@ Fraud is not the only financial risk young Latvians meet early. Several separate
 | **Investing** | Only **23%** of 18–30-year-olds invest; **22%** say they lack the knowledge, **19%** don't know how to start; crypto (16%) is almost as common as the 3rd pension pillar (17%) | Swedbank youth survey, Jan 2025 (n = 4,214) |
 | **Money mules** | Police detained 16 mules in two weeks (Oct–Nov 2025; born 1990–2009, including minors) and 11 in October 2026, **recruited via Telegram**, including minors. Laundering in large amounts or in a group carries **3–12 years** in prison | State Police via LV portāls (2025, 2026) |
 
-![Figure 10. Young people's exposure to financial risks in Latvia](../reports/figures/13_youth_risk_landscape.png)
 
-![Figure 11. New online non-bank consumer loans](../reports/figures/14_online_nonbank_loans.png)
 
 **What this means:** the 12-lesson module (section 11) deliberately covers **gambling odds, online credit and buy-now-pay-later, crypto and finfluencers, and money mules**, not only budgeting and interest.
 
@@ -251,7 +246,6 @@ Fraud is not the only financial risk young Latvians meet early. Several separate
 | Kaiser & Menkhoff (2020), *Economics of Education Review* | 37 school studies | **0.33 SD** (RCTs 0.15) | **0.07 SD** | More intensive programmes work better, with diminishing returns |
 | Kaiser, Lusardi, Menkhoff & Urban (2022), *Journal of Financial Economics* | 76 RCTs, 160,000+ people | Positive | Positive | Effects are comparable to other education interventions |
 
-![Figure 12. Effects of school financial education on knowledge, key studies](../reports/figures/10_school_finance_education_effects.png)
 
 **Large school trials**
 
