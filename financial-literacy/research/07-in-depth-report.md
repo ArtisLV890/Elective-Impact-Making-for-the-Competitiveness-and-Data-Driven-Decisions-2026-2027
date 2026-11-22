@@ -152,6 +152,16 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
   - **73%** of pupils say only adults make money decisions at home.
 - **Teaching quality.** LSM (18.02.2026) describes teaching as "superficial", because finance is one of many social studies topics, teachers must cover many fields and finance professionals rarely visit.
 - **Teachers.** Latvijas Banka's 2024 survey of teachers who teach economics and finance found their knowledge of simple and compound interest **insufficient**, which "may affect their ability to teach investment, savings, pensions and borrowing". *[verify: a slide appears to show teachers at 38% on the savings-account question.]*
+- **Where the national effort goes.** Latvijas Banka's 2025 strategy evaluation shows that about **38–39%** of strategy activities target pupils, but only about **9%** target **teachers**. Teachers are the group the research says matters most.
+- **New in 2026.** Latvijas Banka launched a **three-year seminar cycle for teachers, "Finanšu pratība praksē"** (12 topics), plus materials, consultations and the "Naudas skola" website. This is a good base, but it is voluntary and does not count towards a required training topic.
+- **Teacher workforce under strain.**
+  - Average teacher age is about **50**.
+  - **12%** of fully qualified teachers left the profession in 2024.
+  - **53%** of teachers under 30 say they intend to leave within five years (TALIS 2024).
+  - About 3% of posts are vacant, mostly in maths and Latvian.
+
+  Any solution must be **light for teachers**: ready-made materials and training that counts within existing hours.
+
 - **Benchmarking.**
   - Latvia scored 501 in PISA 2018 financial literacy (OECD 505; Estonia 547, the best in the world).
   - Scores did not improve between 2012 and 2018 (Mihno 2022).
@@ -201,6 +211,26 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
 
 ![Figure 9. Fraud victims in the past two years, two OECD surveys](../reports/figures/09_fraud_victims_two_surveys.png)
 
+## 5a. Beyond fraud: the wider risk landscape for young people
+
+Fraud is not the only financial risk young Latvians meet early. Several separate data sources point the same way: young people make real financial decisions early, often online, and without guidance.
+
+| Risk | Latvian data | Source |
+|---|---|---|
+| **Gambling** | **29%** of 15–16-year-olds gambled for money in the past year; **6.4%** gamble excessively. Gambling among students, especially girls, is **rising** | ESPAD 2024 (SPKC; EUDA) |
+| **Gambling advertising** | 17% of analysed gambling ads contained elements attractive to children and young people; the study recommends stricter rules and supervision | Ministry of Finance / PwC study (2026) |
+| **Online credit** | New non-bank lending passed **€1 billion** for the first time in 2025. **Online (distance) loans reached €550m, +31.9%** in a year; 38 licensed non-bank lenders | PTAC market review, H2 2025 |
+| **Debt among young households** | **70%** of households headed by someone aged 16–34 have debt (all households: 36%); 57% of them also have non-mortgage debt | Latvijas Banka data via IR |
+| **Arrears** | Non-credit arrears (utilities, telecom) are most common among people aged 18–29 and 40–49 (**10%** each) | Kredītinformācijas birojs |
+| **Investing** | Only **23%** of 18–30-year-olds invest; **22%** say they lack the knowledge, **19%** don't know how to start; crypto (16%) is almost as common as the 3rd pension pillar (17%) | Swedbank youth survey, Jan 2025 (n = 4,214) |
+| **Money mules** | Police detained 16 mules in two weeks (Oct–Nov 2025; born 1990–2009, including minors) and 11 in October 2026, **recruited via Telegram**, including minors. Laundering in large amounts or in a group carries **3–12 years** in prison | State Police via LV portāls (2025, 2026) |
+
+![Figure 10. Young people's exposure to financial risks in Latvia](../reports/figures/13_youth_risk_landscape.png)
+
+![Figure 11. New online non-bank consumer loans](../reports/figures/14_online_nonbank_loans.png)
+
+**What this means:** the 12-lesson module (section 11) deliberately covers **gambling odds, online credit and buy-now-pay-later, crypto and finfluencers, and money mules**, not only budgeting and interest.
+
 ## 6. Why it matters
 
 - **For households.** Latvia has the EU's thinnest financial buffers, low regular saving (14% of Latvians save more than 10% of income, against 17% in Estonia and 23% in Lithuania; Luminor 2025) and the lowest retirement readiness in the Baltics. Financial literacy is linked to wealth accumulation, stock-market participation and retirement planning (Lusardi & Mitchell 2014, 2023; van Rooij, Lusardi & Alessie 2011; Lusardi, Michaud & Mitchell 2017).
@@ -221,7 +251,7 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
 | Kaiser & Menkhoff (2020), *Economics of Education Review* | 37 school studies | **0.33 SD** (RCTs 0.15) | **0.07 SD** | More intensive programmes work better, with diminishing returns |
 | Kaiser, Lusardi, Menkhoff & Urban (2022), *Journal of Financial Economics* | 76 RCTs, 160,000+ people | Positive | Positive | Effects are comparable to other education interventions |
 
-![Figure 10. Effects of school financial education on knowledge, key studies](../reports/figures/10_school_finance_education_effects.png)
+![Figure 12. Effects of school financial education on knowledge, key studies](../reports/figures/10_school_finance_education_effects.png)
 
 **Large school trials**
 
@@ -240,8 +270,22 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
 | **England** | Statutory in secondary citizenship and maths since **2014**, but academies (~80% of schools) could opt out | Only **38%** of young people recall receiving financial education; over half of teachers were unaware it was in the curriculum. In **November 2025** the government announced it will be **mandatory in primary schools and strengthened at secondary**, and that academies will have to follow the curriculum |
 | **Estonia** | "Money Smart Estonia" 2021–2030 (Ministry of Finance); financial literacy in a **6-month teacher programme** since 2019; materials for every school stage; linked to entrepreneurship education (in 71% of general schools) | PISA 2018: **547**, the best in the world (but Estonia also leads in maths and reading) |
 | **Lithuania** | Public Financial Education Action Plan 2024–2028 (council chaired by the Ministry of Finance); pilot of a dedicated lesson from grade 1 | Early stage |
+| **Czechia** | Financial literacy embedded in the national curriculum (maths and civics) with a national strategy | PISA 2022 financial literacy **507** (OECD 498), **5th of 20**; but 15% below baseline and a strong link to family background |
+| **Slovakia** | **National Standard of Financial Literacy** since 2008 (latest version 1.2, 2017); performance standards built into state curricula, and schools must reflect them | Shows how a national standard can make outcomes explicit across subjects |
+| **Portugal** | National Plan for Financial Education since 2011 (new plan **2026–2030**); a **Financial Education Framework** from pre-school to adults; the **"Todos Contam" school competition**, now in its 14th edition | A model for combining an explicit framework with a recurring school competition |
 
 **Lesson for Latvia:** Latvia today resembles England before 2025: compulsory on paper, weak in delivery. The countries that make progress add **dedicated time, trained teachers and measurement**.
+
+## 8a. Can education protect against scams?
+
+| Study | Design | Result |
+|---|---|---|
+| Burke, Kieffer, Mottola & Perez-Arce (2021/22), RAND / GFLEC | RCT, representative US adults; short online module on investment fraud | **Reduced susceptibility to investment fraud**, but effects **decay** over time |
+| Prebunking video experiment (US, 2021) | Randomised; short "prebunking" videos | Willingness to invest in fraudulent offers fell by **44%**; the effect faded over 6 months, but a **booster** restored it |
+| Behavioural Insights Team Canada with the Ontario Securities Commission | RCT of prebunking against AI-enabled investment scams | Effective immediately, but **no longer significant after 10 days**, so timing is crucial |
+| ShieldUp! (2025) | RCT, 3,000 participants; game-based "inoculation" | Players were **significantly better at spotting scams** than control and passive-awareness groups |
+
+**Lesson:** one awareness campaign is not enough. Scam resilience needs **active practice (games), repetition (boosters) and timing close to risk**. That is why our strategy combines a module with **regular gamified sessions through the year**, and family tasks that bring the lesson home.
 
 ## 9. Latvian evidence on causes
 
@@ -277,9 +321,9 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
 | 4 | Payments, cards and online shopping | Safe online purchases |
 | 5 | **Scams and phishing** | Spot the fake message |
 | 6 | **Money mules and the law** | "Easy money" offers on social media |
-| 7 | Borrowing and credit | Quick loans versus a bank loan |
+| 7 | Borrowing, online credit and buy-now-pay-later | Quick online loans versus a bank loan |
 | 8 | Risk, return and diversification | Shares versus a savings account |
-| 9 | **Crypto-assets and finfluencers** | Is Bitcoin legal tender? Who pays the influencer? |
+| 9 | **Crypto-assets, finfluencers and gambling odds** | Is Bitcoin legal tender? Who pays the influencer? Why the house always wins |
 | 10 | Taxes, VAT and the 2nd pension pillar | What happens to my first salary |
 | 11–12 | Project: family budget or savings plan, plus an assessed test | Done with parents |
 
@@ -288,7 +332,7 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
 - A **36-hour certified course**, matching the Regulation No. 569 cycle, for social-studies teachers.
 - Focus on the weak spots: interest, compounding, risk and digital fraud.
 - Designed on effective-training principles: content focus, active learning, duration, collaboration and ownership (Compen et al. 2019).
-- Delivered by Latvijas Banka experts, universities and VISC.
+- Delivered by Latvijas Banka experts, universities and VISC. **Build on Latvijas Banka's new 3-year seminar cycle "Finanšu pratība praksē" (2026)**: certify it and make it count within the 36-hour requirement, rather than creating something new.
 
 **3. Gamified, repeated practice.**
 
@@ -415,6 +459,8 @@ None of these needs a new law. All are Cabinet regulations or strategy decisions
 **Also within reach:**
 
 - **Government fraud-prevention plan (Interior Ministry).** Add a prevention measure: "financial and digital literacy education in schools, including money-mule awareness". Finance Latvia has already sent 17 proposals on reporting, blocking and victim support, but none on schools.
+- **Recognise existing training.** Have IZM accredit Latvijas Banka's teacher seminar cycle so that it counts towards the Regulation No. 569 hours. This is a quick win before the regulation itself changes.
+- **Gambling advertising.** Support the Ministry of Finance study's recommendation to tighten youth-targeted gambling advertising rules (Gambling and Lotteries Law). This complements the school module.
 - **Exams.** Include financial literacy items in the grade 9 state assessment in social studies, so it is assessed and therefore taught. This is a longer-term option.
 
 ## 19. EU framework that supports these changes
@@ -482,6 +528,15 @@ None of these needs a new law. All are Cabinet regulations or strategy decisions
 | England: 2014 statutory; 38% recall; Nov 2025 strengthening | APPG; Young Enterprise; MaPS | Verified (secondary) |
 | US: 30 standalone / 39 total states | NGPF; CEE 2026 | Verified (secondary) |
 | EP resolution 30.04.2026 | European Parliament, OEIL | Verified (secondary) |
+| ESPAD 2024: 29% gambled, 6.4% excessively | SPKC fact sheet | Verified (secondary) |
+| Non-bank lending > €1bn; online loans €550m (+31.9%) | PTAC via LV portāls | Verified (secondary) |
+| 70% of 16–34 households have debt | Latvijas Banka via IR | Verified (secondary) |
+| Swedbank youth survey (23% invest; 22% lack knowledge) | Investoru klubs, TVNet | Verified (secondary) |
+| Activities: pupils ~38–39%, teachers ~9% | Latvijas Banka strategy evaluation 2025 (snippet) | [verify] |
+| Teacher seminar cycle "Finanšu pratība praksē" | LV portāls 2026 | Verified (secondary) |
+| Teachers: average age 50; 12% left; 53% of under-30s intend to leave | IZM; OECD EAG 2026; TALIS 2024 | Verified (secondary) |
+| Scam-education RCTs (Burke et al.; prebunking; BIT/OSC; ShieldUp!) | GFLEC; OSC; arXiv | Verified (secondary) |
+| Czechia PISA 2022 507; Slovakia standard; Portugal plan 2026–2030 | ČNB/MŠMT; Cedefop; Todos Contam | Verified (secondary) |
 
 # References
 
@@ -531,6 +586,24 @@ None of these needs a new law. All are Cabinet regulations or strategy decisions
 - K-12 Dive. 29 states will require a finance course by 2031. https://www.k12dive.com/news/29-states-will-require-finance-course-in-high-school-by-2031-report-says/875053/
 - APPG on Financial Education for Young People (2025). Annual report 2024–2025. https://www.young-enterprise.org.uk/sites/default/files/2026-04/Annual%20Report%202024-2025%20-%20APPG%20on%20Financial%20Education%20for%20Young%20People%20%281%29.pdf
 - Money and Pensions Service (2024). Hundreds of thousands leaving school without money skills. https://maps.org.uk/en/media-centre/press-releases/2024/hundreds-of-thousands-leaving-school-without-money-skills
+
+**Additional sources (new research)**
+
+- SPKC (2025). ESPAD 2024 Latvia fact sheet. https://www.spkc.gov.lv/lv/media/24107/download ; EUDA key findings. https://www.euda.europa.eu/publications/data-factsheets/espad-2024-key-findings_lv
+- LV portāls (2026). Gambling advertising study (Ministry of Finance / PwC). https://lvportals.lv/dienaskartiba/396414-petijums-azartspelu-reklamas-ierobezojumi-japrecize-un-jastiprina-uzraudziba-2026
+- PTAC (2026). Non-bank consumer lending market review, H2 2025. https://www.ptac.gov.lv/en/article/consumer-non-bank-lending-grows-market-review-second-half-2025 ; LV portāls. https://lvportals.lv/norises/390853-no-jauna-izsniegto-nebanku-kreditu-apjoms-pern-pirmoreiz-parsniedzis-miljardu-2026
+- IR.lv. "Jaunie aizņemas biežāk". https://ir.lv/rubrika/viedoklis/jaunie-aiznemas-biezak-vai-mainijusies-attieksme-pret-dzivi-ar-kreditu.222047
+- Investoru klubs (2026). Swedbank youth survey. https://www.investoruklubs.lv/viedokli/2026/02/19/jauniesus-no-investicijam-attur-zinasanu-un-finansu-trukums
+- LV portāls (2025, 2026). Money mules detained. https://lvportals.lv/dienaskartiba/382751-policija-aizturejusi-16-naudas-mulus-telefonkrapnieku-tikla-verve-jauniesus-2025 ; https://lvportals.lv/dienaskartiba/396322-valsts-policija-oktobri-aizturejusi-11-naudas-mulus-un-kurjerus-2026
+- LV portāls (2026). Latvijas Banka invites teachers to financial literacy seminars. https://lvportals.lv/dienaskartiba/395650-latvijas-banka-aicina-skolotajus-piedalities-izglitojosos-seminaros-par-finansu-pratibu-2026
+- Latvijas Banka (2025). Strategy evaluation 2025. https://www.bank.lv/images/pielikumi/fails/Strategijas_izvertejums_2025.pdf
+- OECD (2026). Education at a Glance 2026: Latvia. https://www.oecd.org/en/publications/education-at-a-glance-2026_c0e523a9-en/latvia_a3d9d136-en.html ; LV portāls. https://lvportals.lv/dienaskartiba/395126-oecd-ikgadejais-izglitibas-parskats-latvija-palielinajusas-pedagogu-algas-uzmaniba-japievers-pedagogu-ataudzei-un-jauniesu-atbalstam-2026
+- Burke, J., Kieffer, C., Mottola, G., & Perez-Arce, F. (2021). Can educational interventions reduce susceptibility to financial fraud? https://gflec.org/wp-content/uploads/2021/04/Burke-Kieffer-Mottola-Perez-Arce-Can-Educational-Interventions-Reduce-Susceptibility-to-Financial-Fraud-CB2021.pdf
+- Ontario Securities Commission (2025). Artificial intelligence and retail investing: scams and effective countermeasures. https://www.osc.ca/en/investors/investor-research-and-reports/artificial-intelligence-and-retail-investing-scams-and-effective-countermeasures
+- ShieldUp! (2025). Inoculating users against online scams using a game-based intervention. https://arxiv.org/pdf/2503.12341
+- Czech National Bank (2024). PISA 2022 financial literacy results. https://www.cnb.cz/cs/cnb-news/tiskove-zpravy/Vysledky-mezinarodniho-setreni-PISA-2022-k-urovni-financni-gramotnosti
+- Cedefop. Slovakia: National standard of financial literacy. https://www.cedefop.europa.eu/en/news/slovakia-helping-young-become-financially-responsible-citizens
+- Todos Contam (2026). National Plan for Financial Education 2026–2030 (Portugal). https://www.todoscontam.pt/sites/default/files/2026-04/national_plan_for_financial_education_2026-2030.pdf
 
 **Media**
 

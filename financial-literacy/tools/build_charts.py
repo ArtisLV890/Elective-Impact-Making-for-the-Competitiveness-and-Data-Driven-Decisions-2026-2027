@@ -256,5 +256,20 @@ simple_bar("12_regular_savers_baltics", "Share who regularly save more than 10% 
            ["Latvia", "Estonia", "Lithuania"], [14, 17, 23],
            "Source: Luminor / Norstat Baltic survey, September 2025 (n = 3,002).", hi=(0,))
 
+# 13. NEW: youth risk landscape (different populations, labelled)
+simple_bar("13_youth_risk_landscape", "Young people's exposure to financial risks in Latvia (%)",
+           ["15–16-year-olds: gambled for money in past year", "9th graders: offered 'easy money' online",
+            "9th graders: asked to be a money mule", "9th graders: bought crypto themselves",
+            "15–16-year-olds: gambling excessively", "Households headed by 16–34: have debt"],
+           [29, 48, 18, 12, 6.4, 70],
+           "Sources: ESPAD 2024 (SPKC); Latvijas Banka 9th-grade assessment 2025; Latvijas Banka household data via IR. Different populations; not additive.",
+           hi=(0, 2), horizontal=True)
+
+# 14. NEW: online (distance) non-bank loans
+simple_bar("14_online_nonbank_loans", "New online (distance) non-bank consumer loans in Latvia (€ million)",
+           ["2024", "2025"], [417, 550],
+           "Source: PTAC non-bank consumer lending market review, H2 2025 (2025: €550.0m, +31.9%; 2024 derived). All new non-bank lending passed €1bn in 2025.",
+           hi=(1,), fmt="€{:.0f}m", nf='"€"0"m"')
+
 wb.save(XLSX)
 print("saved", XLSX)
