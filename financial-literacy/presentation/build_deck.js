@@ -1,3 +1,4 @@
+const fs = require("fs");
 // Build the final presentation: node financial-literacy/presentation/build_deck.js  (run from repo root)
 // Charts are the ORIGINAL figures from the source reports (cropped into presentation/source-figures/).
 const pptxgen = require("pptxgenjs");
@@ -67,10 +68,19 @@ function bullets(s, items, x, y, w, h, size = 15) {
   s.addText(items.map((t, i) => ({ text: t, options: { bullet: true, breakLine: i < items.length - 1, paraSpaceAfter: 8 } })),
     { x, y, w, h, fontSize: size, color: C.text1, valign: "top", margin: 0, isTextBox: true, objectName: "Bullets" });
 }
-function img(s, file, x, y, w, h, alt) {
-  // thin frame so report pages with white backgrounds sit cleanly on the slide
-  s.addShape(pres.shapes.RECTANGLE, { x: x - 0.04, y: y - 0.04, w: w + 0.08, h: h + 0.08, fill: { color: "FFFFFF" }, line: { color: "D5DDD8", width: 0.75 }, objectName: "Chart frame" });
-  s.addImage({ path: FIG + file, x, y, w, h, altText: alt, objectName: "Original chart" });
+function pngSize(file) { const b = fs.readFileSync(FIG + file); return { w: b.readUInt32BE(16), h: b.readUInt32BE(20) }; }
+// white card of the given box; the original chart is fitted inside it without distortion
+function img(s, file, x, y, w, h, alt, label) {
+  s.addShape(pres.shapes.RECTANGLE, { x, y, w, h, fill: { color: "FFFFFF" }, line: { color: "D5DDD8", width: 0.75 }, objectName: "Chart frame" });
+  let top = y + 0.12, avail = h - 0.24;
+  if (label) {
+    s.addText(label, { x: x + 0.15, y: y + 0.08, w: w - 0.3, h: 0.34, fontSize: 12, bold: true, color: C.text1, margin: 0, valign: "middle", isTextBox: true, objectName: "Chart label" });
+    top = y + 0.46; avail = h - 0.58;
+  }
+  const { w: pw, h: ph } = pngSize(file), r = pw / ph;
+  let iw = w - 0.24, ih = iw / r;
+  if (ih > avail) { ih = avail; iw = ih * r; }
+  s.addImage({ path: FIG + file, x: x + (w - iw) / 2, y: top + (avail - ih) / 2, w: iw, h: ih, altText: alt, objectName: "Original chart" });
 }
 // right-hand column of stacked key numbers next to a chart
 function callouts(s, x, y, w, items, gap = 0.18) {
@@ -130,7 +140,7 @@ divider("(i) The issue", "(i)", "What issue are we solving, and why is it import
 // Slide: EU ranking (Eurobarometer F3)
 s = slide("CONTENT", "(i) The issue");
 s.addText("Latvia is joint last in the EU on financial literacy", { placeholder: "title" });
-img(s, "eb_overall_score_by_country.png", 0.6, 1.45, 9.3, 4.68, "Eurobarometer 525 figure F3: overall financial literacy score by country; Latvia and Portugal have the lowest high-score share (11%)");
+img(s, "eb_overall_score_by_country.png", 0.6, 1.45, 9.3, 4.95, "Eurobarometer 525 figure F3: overall financial literacy score by country; Latvia and Portugal have the lowest high-score share (11%)");
 callouts(s, 10.2, 1.45, 2.53, [
   { big: "11%", text: "of Latvians have high financial literacy (far right): joint last" },
   { big: "18%", text: "EU average; Estonia 23%, Lithuania 16%", color: C.accent1 },
@@ -142,7 +152,7 @@ s.addNotes("Point to the far right of the chart: LV, 11% with a high score, join
 // Slide: Emergency savings (Eurobarometer Q8)
 s = slide("CONTENT", "(i) The issue");
 s.addText("Latvians have the thinnest financial buffers in the EU", { placeholder: "title" });
-img(s, "eb_emergency_savings_by_country.png", 0.6, 1.45, 9.3, 4.68, "Eurobarometer 525 Q8: how long people could cover living expenses after losing income; Latvia has the highest share with no emergency savings");
+img(s, "eb_emergency_savings_by_country.png", 0.6, 1.45, 9.3, 4.95, "Eurobarometer 525 Q8: how long people could cover living expenses after losing income; Latvia has the highest share with no emergency savings");
 callouts(s, 10.2, 1.45, 2.53, [
   { big: "26%", text: "have no emergency savings: the highest in the EU (EU 16%)" },
   { big: "19%", text: "could live 6+ months without income: the lowest in the EU" },
@@ -154,7 +164,7 @@ s.addNotes("The gap is behaviour: planning and buffers. Latvia is last on the da
 // Slide: youngest weakest (LB p.8)
 s = slide("CONTENT", "(i) The issue");
 s.addText("The youngest adults are the least financially literate", { placeholder: "title" });
-img(s, "lb2022_index_by_age.png", 0.6, 1.45, 8.6, 4.8, "Latvijas Banka 2022: financial literacy index by gender and age; ages 18-19 score 8.0 of 20, all adults 12.2");
+img(s, "lb2022_index_by_age.png", 0.6, 1.45, 8.6, 4.95, "Latvijas Banka 2022: financial literacy index by gender and age; ages 18-19 score 8.0 of 20, all adults 12.2");
 callouts(s, 9.5, 1.45, 3.23, [
   { big: "8.0 / 20", text: "ages 18–19 (\"18–19 gadu\"); all adults 12.2 (\"Kopā\")" },
   { big: "11.0", text: "ages 20–29: the pattern holds in a larger group", color: C.accent1 },
@@ -166,20 +176,20 @@ s.addNotes("Read the age block: 8.0 for 18-19-year-olds, then it rises to 13.1 a
 // Slide: knowledge falling (LB p.52 + p.9)
 s = slide("CONTENT", "(i) The issue");
 s.addText("Financial knowledge has fallen since 2015", { placeholder: "title" });
-img(s, "lb2022_interest_questions.png", 0.6, 1.45, 4.0, 4.91, "Latvijas Banka 2022: simple interest correct answers 72% (2015) to 58% (2022); compound interest 48% to 26%");
-img(s, "lb2022_knowledge_score.png", 4.95, 1.45, 4.73, 4.91, "Latvijas Banka 2022: knowledge sub-index 5.1 (2015) to 3.9 (2022) out of 7");
+img(s, "lb2022_knowledge_score.png", 0.6, 1.45, 9.1, 1.85, "Latvijas Banka 2022: knowledge sub-index 5.1 (2015) to 3.9 (2022) out of 7", "Financial knowledge score, out of 7");
+img(s, "lb2022_compound_interest.png", 0.6, 3.48, 9.1, 2.92, "Latvijas Banka 2022: compound interest question, correct answers (red) 48% in 2015, 46% in 2019, 26% in 2022", "Compound interest question: red = correct answer");
 callouts(s, 10.0, 1.45, 2.73, [
   { big: "5.1 → 3.9", text: "knowledge score out of 7, 2015 → 2022" },
-  { big: "72 → 58%", text: "simple interest correct (top chart, red bars)" },
-  { big: "48 → 26%", text: "compound interest correct (bottom chart)" },
+  { big: "72 → 58%", text: "simple interest correct (appendix A1)" },
+  { big: "48 → 26%", text: "compound interest correct (bottom chart, red)" },
 ]);
-src(s, "Charts: Latvijas Banka, financial literacy survey 2022, pp. 52 and 9. The headline index stayed flat (63% → 61%) only because attitudes improved.");
-s.addNotes("Red bars = correct answers. They shrink from 2015 to 2022 on both interest questions.");
+src(s, "Charts: Latvijas Banka, financial literacy survey 2022, pp. 9 and 52. The headline index stayed flat (63% → 61%) only because attitudes improved.");
+s.addNotes("Top: the knowledge score fell from 5.1 to 3.9. Bottom: red bars = correct answers on compound interest, almost halved.");
 
 // Slide: 9th-grade index
 s = slide("CONTENT", "(i) The issue");
 s.addText("15-year-olds score no better than adults", { placeholder: "title" });
-img(s, "lb9_index.png", 0.6, 1.45, 8.8, 4.95, "Latvijas Banka 9th-grade assessment 2025: financial literacy index 12.33 of 20 (61.7%)");
+img(s, "lb9_index.png", 0.6, 1.45, 8.8, 4.95, "Latvijas Banka 9th-grade assessment 2025: financial literacy index 12.33 of 20 (61.7%)", "Financial literacy index of 9th graders: distribution and levels");
 callouts(s, 9.7, 1.45, 3.03, [
   { big: "12.33 / 20", text: "9th-grade index (61.7%), the same as adults (61%)", color: C.accent1 },
   { big: "57%", text: "can calculate simple interest; adults 58%" },
@@ -191,7 +201,7 @@ s.addNotes("Nine years of compulsory schooling, and 15-year-olds score at the ad
 // Slide: sources of information (9th grade)
 s = slide("CONTENT", "(i) The issue");
 s.addText("School is where teenagers learn least about money", { placeholder: "title" });
-img(s, "lb9_info_sources.png", 0.6, 1.45, 8.8, 4.95, "Latvijas Banka 9th-grade assessment 2025: sources of information about money; school and clubs lowest");
+img(s, "lb9_info_sources.png", 0.6, 1.45, 8.8, 4.95, "Latvijas Banka 9th-grade assessment 2025: sources of information about money; school and clubs lowest", "How often do you get information about money from... (%)");
 callouts(s, 9.7, 1.45, 3.03, [
   { big: "36%", text: "never learn about money at school (bottom row); 31% rarely" },
   { big: "9%", text: "learn at school always or often; internet 46%, family 63%", color: C.accent1 },
@@ -203,7 +213,7 @@ s.addNotes("Bottom row: school. Not teachers' fault: no guaranteed hours, and th
 // Slide: teens and fraud (9th grade)
 s = slide("CONTENT", "(i) The issue");
 s.addText("Teenagers are already targets of fraud", { placeholder: "title" });
-img(s, "lb9_risky_situations.png", 0.6, 1.45, 8.8, 4.95, "Latvijas Banka 9th-grade assessment 2025: experience with risky or fraudulent situations");
+img(s, "lb9_risky_situations.png", 0.6, 1.45, 8.8, 4.95, "Latvijas Banka 9th-grade assessment 2025: experience with risky or fraudulent situations", "Has this ever happened to you? (%; blue = yes)");
 callouts(s, 9.7, 1.45, 3.03, [
   { big: "48%", text: "offered \"easy money\" online by strangers (top row)" },
   { big: "18%", text: "asked to pass money through their account: the money-mule pattern" },
@@ -483,14 +493,15 @@ s.addNotes("Closing line: We already made financial literacy compulsory. Now let
 divider("Appendix", "Appendix", "Extra data, evidence and regulatory detail", "Use these slides for questions.");
 
 s = slide("CONTENT", "Appendix");
-s.addText("A1. Latvian adults: index vs OECD, and coping with a shock", { placeholder: "title" });
-img(s, "lb2022_index_trend.png", 0.6, 1.6, 5.9, 3.18, "Latvijas Banka 2022: financial literacy index 63% (2015), 61% (2022), OECD average 62%");
-img(s, "lb2022_financial_shocks.png", 6.8, 1.45, 5.93, 4.62, "Latvijas Banka 2022: share able to cover an expense equal to a month's income without borrowing, 2015 to 2022");
-src(s, "Charts: Latvijas Banka, financial literacy survey 2022, pp. 7 and 24. Only 43% could cover an expense equal to a month's income without borrowing (red, \"Jā\").");
+s.addText("A1. Adults: index, simple interest and financial shocks", { placeholder: "title" });
+img(s, "lb2022_index_trend.png", 0.6, 1.45, 5.95, 2.35, "Latvijas Banka 2022: financial literacy index 63% (2015), 61% (2022), OECD average 62%", "Financial literacy index, % of maximum");
+img(s, "lb2022_simple_interest.png", 0.6, 4.0, 5.95, 2.4, "Latvijas Banka 2022: simple interest question, correct answers 72% (2015), 74% (2019), 58% (2022)", "Simple interest question: red = correct");
+img(s, "lb2022_financial_shocks.png", 6.78, 1.45, 5.95, 4.95, "Latvijas Banka 2022: share able to cover an expense equal to a month's income without borrowing, 2015 to 2022", "Could you cover a month's income without borrowing?");
+src(s, "Charts: Latvijas Banka, financial literacy survey 2022, pp. 7, 52 and 24. Only 43% could cover an expense equal to a month's income without borrowing (red, \"Jā\").");
 
 s = slide("CONTENT", "Appendix");
 s.addText("A2. Who decides about money at home? (9th graders)", { placeholder: "title" });
-img(s, "lb9_family_decisions.png", 0.6, 1.45, 8.8, 4.95, "Latvijas Banka 9th-grade assessment 2025: who makes everyday money decisions in the family");
+img(s, "lb9_family_decisions.png", 0.6, 1.45, 8.8, 4.95, "Latvijas Banka 9th-grade assessment 2025: who makes everyday money decisions in the family", "Who makes everyday money decisions in your family? (%)");
 callouts(s, 9.7, 1.45, 3.03, [
   { big: "73%", text: "say only adults make money decisions at home" },
   { big: "21%", text: "decide together with their family", color: C.accent1 },

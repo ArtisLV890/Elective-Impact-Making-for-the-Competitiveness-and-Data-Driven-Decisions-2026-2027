@@ -81,7 +81,9 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
 | Attitudes (0–4) | 2.0 | 2.9 |
 | Self-rated knowledge (1–5) | 3.2 | 2.6 |
 
-![Figure 3. Simple and compound interest questions, 2015–2022 (Latvijas Banka survey 2022, p. 52)](../presentation/source-figures/lb2022_interest_questions.png)
+![Figure 3a. Simple interest question, correct answers in red, 2015–2022 (Latvijas Banka survey 2022, p. 52)](../presentation/source-figures/lb2022_simple_interest.png)
+
+![Figure 3b. Compound interest question, correct answers in red, 2015–2022 (Latvijas Banka survey 2022, p. 52)](../presentation/source-figures/lb2022_compound_interest.png)
 
 **Correct answers, 2015 → 2022**
 
