@@ -271,5 +271,46 @@ simple_bar("14_online_nonbank_loans", "New online (distance) non-bank consumer l
            "Source: PTAC non-bank consumer lending market review, H2 2025 (2025: €550.0m, +31.9%; 2024 derived). All new non-bank lending passed €1bn in 2025.",
            hi=(1,), fmt="€{:.0f}m", nf='"€"0"m"')
 
+# ---------------------------------------------------------------- ORIGINAL charts from the source reports
+from openpyxl.drawing.image import Image as XLImage
+ORIG = "financial-literacy/presentation/source-figures/"
+originals = [
+    ("O1 EU overall score", "eb_overall_score_by_country.png", "Overall financial literacy score by country (EU-27), 2023", "European Commission, Flash Eurobarometer 525 (2023), figure F3, p. 17. Latvia (LV) is second from the right: 11% high score."),
+    ("O2 EU emergency savings", "eb_emergency_savings_by_country.png", "How long people could cover living expenses after losing income, 2023", "European Commission, Flash Eurobarometer 525 (2023), Q8, p. 26. Latvia (LV) is the last column."),
+    ("O3 LV index trend", "lb2022_index_trend.png", "Latvian financial literacy index vs OECD average", "Latvijas Banka, Latvijas iedzīvotāju finanšu pratības aptauja 2022, p. 7."),
+    ("O4 LV index by age", "lb2022_index_by_age.png", "Financial literacy index by gender and age, 2022", "Latvijas Banka, financial literacy survey 2022 (n = 1,007), p. 8."),
+    ("O5 LV index by group", "lb2022_index_by_group.png", "Financial literacy index by population group, 2022", "Latvijas Banka, financial literacy survey 2022, p. 8."),
+    ("O6 LV knowledge score", "lb2022_knowledge_score.png", "Knowledge sub-index 2015 vs 2022 and distribution of correct answers", "Latvijas Banka, financial literacy survey 2022, p. 9."),
+    ("O7 LV interest questions", "lb2022_interest_questions.png", "Simple and compound interest questions, 2015 / 2019 / 2022", "Latvijas Banka, financial literacy survey 2022, p. 52."),
+    ("O8 LV financial shocks", "lb2022_financial_shocks.png", "Could you cover an expense equal to a month's income without borrowing?", "Latvijas Banka, financial literacy survey 2022, p. 24."),
+    ("O9 9th grade index", "lb9_index.png", "9th-grade financial literacy index, 2025", "Latvijas Banka / RAIT, 9th-grade financial literacy assessment 2025 (n = 1,159), slide 7."),
+    ("O10 9th grade info", "lb9_info_sources.png", "Where 9th graders get information about money, 2025", "Latvijas Banka / RAIT, 9th-grade assessment 2025, slide 15."),
+    ("O11 9th grade risks", "lb9_risky_situations.png", "9th graders' experience with risky or fraudulent situations, 2025", "Latvijas Banka / RAIT, 9th-grade assessment 2025, slide 25."),
+    ("O12 9th grade family", "lb9_family_decisions.png", "Who makes everyday money decisions in the family (9th graders), 2025", "Latvijas Banka / RAIT, 9th-grade assessment 2025, slide 13."),
+]
+orig_index = wb.create_sheet("Original charts", 1)
+orig_index["A1"] = "Original charts from the source reports (reproduced with source and page)"
+orig_index["A1"].font = Font(bold=True, size=13, color=hexx(INK))
+orig_index.append([])
+orig_index.append(["Sheet", "Chart", "Source"])
+for c in orig_index[3]:
+    c.font = Font(bold=True, color="FFFFFF")
+    c.fill = PatternFill("solid", fgColor=hexx(INK))
+orig_index.column_dimensions["A"].width = 26
+orig_index.column_dimensions["B"].width = 70
+orig_index.column_dimensions["C"].width = 95
+for pos, (sheet, file, title, source) in enumerate(originals):
+    ws = wb.create_sheet(sheet[:31], 2 + pos)
+    ws["A1"] = title
+    ws["A1"].font = Font(bold=True, size=13, color=hexx(INK))
+    ws["A2"] = "Source: " + source
+    ws["A2"].font = Font(italic=True, size=9, color=hexx(SEC))
+    im = XLImage(ORIG + file)
+    scale = 900 / im.width
+    im.width, im.height = int(im.width * scale), int(im.height * scale)
+    ws.add_image(im, "A4")
+    ws.column_dimensions["A"].width = 12
+    orig_index.append([sheet, title, source])
+
 wb.save(XLSX)
 print("saved", XLSX)
