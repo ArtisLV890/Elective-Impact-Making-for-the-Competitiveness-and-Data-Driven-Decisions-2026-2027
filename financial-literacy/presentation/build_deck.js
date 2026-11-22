@@ -142,8 +142,8 @@ s = slide("CONTENT", "(i) The issue");
 s.addText("Why now: teenagers are already targets of fraud", { placeholder: "title" });
 const t5 = [["48%", "of 9th graders were offered \"easy money\" online by strangers", C.accent2],
   ["18%", "were asked to pass money through their account: the money-mule pattern", C.accent5],
-  ["31%", "believe Bitcoin is legal tender in Latvia; 12% have bought crypto", C.accent1],
-  ["€23.7m", "lost to fraud in 2025; another €7.8m in the first half of 2026", C.accent5]];
+  ["29%", "of 15–16-year-olds gambled for money in the past year; 6.4% excessively", C.accent1],
+  ["€7.8m", "lost to fraud in the first half of 2026; online loans grew 32% in 2025", C.accent5]];
 t5.forEach((t, i) => {
   const x = 0.6 + i * 3.08;
   card(s, x, 1.55, 2.9, 3.0);
@@ -152,10 +152,12 @@ t5.forEach((t, i) => {
 });
 card(s, 0.6, 4.8, 12.13, 1.6, C.text2, "Window card");
 s.addText([
-  { text: "The policy window is open: ", options: { bold: true, color: C.accent2 } },
-  { text: "the National Financial Literacy Strategy ends in 2027, the OECD has just proposed a digital financial literacy action plan for Latvia (Nov 2026), the government is drafting a fraud-prevention plan, and PISA 2025 gave Latvia its weakest results ever.", options: { color: C.background1 } },
+  { text: "Our issue: ", options: { bold: true, color: C.accent2 } },
+  { text: "compulsory financial education that is not delivered, while the risks grow. ", options: { color: C.background1 } },
+  { text: "The window is open: ", options: { bold: true, color: C.accent2 } },
+  { text: "the national strategy ends in 2027, the OECD proposed an action plan for Latvia (Nov 2026), a fraud-prevention plan is being drafted, and PISA 2025 was Latvia's weakest ever.", options: { color: C.background1 } },
 ], { x: 0.9, y: 4.95, w: 11.6, h: 1.3, fontSize: 16, margin: 0, valign: "middle", isTextBox: true, objectName: "Window text" });
-src(s, "Sources: Latvijas Banka 9th-grade assessment 2025; State Police via LSM 11.03.2026; Finance Latvia Association via LSM 21.07.2026; OECD (2026); Cabinet task to Interior Ministry (2026); OECD PISA 2025.");
+src(s, "Sources: Latvijas Banka 9th-grade assessment 2025; ESPAD 2024 (SPKC); Finance Latvia Association via LSM 21.07.2026; PTAC (2026); OECD (2026); OECD PISA 2025.");
 s.addNotes("Fraud makes this urgent: the first financial decisions of today's teenagers are being made on social media, and criminals are recruiting them as money mules.");
 
 // ======================= 6. (ii) research
@@ -184,21 +186,23 @@ s.addChart(pres.charts.BAR, [
   chartBase({ x: 0.6, y: 1.5, w: 6.6, h: 4.9, barDir: "col", title: "Latvian adults answering correctly (%)", showLegend: true, legendPos: "t", legendFontSize: 12, legendFontFace: "+mn-lt", legendColor: HEX.muted,
     chartColors: [HEX.grey, HEX.red], dataLabelFormatCode: '0"%"', valAxisMinVal: 0, valAxisMaxVal: 100, objectName: "Knowledge decline chart" }));
 card(s, 7.55, 1.5, 5.18, 2.3);
-bullets(s, ["230+ activities by strategy partners since 2021", "Money Day reached 78% of schools", "28 organisations signed a new memorandum (March 2026)"], 7.85, 1.7, 4.7, 1.9, 15);
+bullets(s, ["230+ activities by strategy partners since 2021", "Money Day reached 78% of schools", "But only ~9% of activities target teachers"], 7.85, 1.7, 4.7, 1.9, 15);
 card(s, 7.55, 4.05, 5.18, 2.35, C.text2, "Estonia card");
 s.addText([
-  { text: "Benchmark: Estonia", options: { bold: true, color: C.accent2, breakLine: true } },
-  { text: "PISA financial literacy 547 (best in the world) vs Latvia 501. Estonia built finance into a 6-month teacher programme and ready-made school materials.", options: { color: C.background1 } }],
-  { x: 7.85, y: 4.2, w: 4.7, h: 2.1, fontSize: 15, margin: 0, valign: "top", isTextBox: true, objectName: "Estonia text" });
-src(s, "Sources: Latvijas Banka surveys 2015/2022 (2022 inflation item used 21% inflation); Latvijas Banka annual reports; OECD PISA 2018; Estonian Ministry of Finance.");
+  { text: "Estonia: ", options: { bold: true, color: C.accent2 } },
+  { text: "PISA 547, best in the world; finance built into teacher training.", options: { color: C.background1, breakLine: true } },
+  { text: "England: ", options: { bold: true, color: C.accent2 } },
+  { text: "compulsory since 2014, yet only 38% recall it; now being strengthened.", options: { color: C.background1 } }],
+  { x: 7.85, y: 4.2, w: 4.7, h: 2.1, fontSize: 14, paraSpaceAfter: 8, margin: 0, valign: "top", isTextBox: true, objectName: "Estonia text" });
+src(s, "Sources: Latvijas Banka surveys 2015/2022 and strategy evaluation 2025; OECD PISA 2018; Estonian Ministry of Finance; APPG on Financial Education / Young Enterprise (UK).");
 s.addNotes("The strategy counts events, not learning. Latvia doesn't need more one-off events; it needs intensive classroom learning by trained teachers.");
 
 // ======================= 8. (iii) strategy
 s = slide("CONTENT", "(iii) Strategy");
 s.addText("Our strategy: five steps from paper to practice", { placeholder: "title" });
-const steps = [["Module", "10–12 ready-to-teach lessons in grades 9 and 11: interest, inflation, risk, cards, crypto, scams and money mules"],
-  ["Teacher training", "a 36-hour certified course for social-studies teachers on the concepts they find hardest"],
-  ["Gamified practice", "Olympiad, escape-room games and bank volunteers as \"finance coaches\", spread through the year"],
+const steps = [["Module", "10–12 ready-to-teach lessons in grades 9 and 11: interest, scams, money mules, crypto, gambling odds, online loans"],
+  ["Teacher training", "certify Latvijas Banka's new seminar cycle (2026) so it counts in teachers' 36 required hours"],
+  ["Gamified practice", "Olympiad (ours: ~200 students, 30+ schools), escape-room games, bank volunteers, all year"],
   ["Family tasks", "homework that involves parents in a real money decision (73% of pupils are left out today)"],
   ["Measure", "Latvijas Banka 9th-grade survey every 2 years; join PISA 2029 financial literacy"]];
 steps.forEach((st, i) => {
@@ -214,15 +218,15 @@ s.addNotes("Each step maps to a research finding. Steps 1 and 2 are the core; 3 
 // ======================= 9. (iii) stakeholders
 s = slide("CONTENT", "(iii) Strategy");
 s.addText("Who we work with, and how", { placeholder: "title" });
-const quad = [["Policy makers", "IZM and VISC (standards, teacher training); Saeima Education and Budget committees; Interior Ministry fraud-prevention plan", "Policy brief, meetings, draft amendments"],
-  ["Central bank and industry", "Latvijas Banka and its 28-partner working group; Finance Latvia Association and banks; ECB contacts", "Co-design the module; bank volunteers and co-funding"],
-  ["Schools and families", "Social-studies teachers and their associations; 10 pilot schools; parents", "Pilot in spring 2027; teacher feedback; family tasks"],
-  ["Media", "LSM, Delfi, TVNet; Financial Literacy Week (March); Olympiad results; teen-facing social media", "Op-eds with our data; student stories; scam-awareness content"]];
+const quad = [["Policy makers", "IZM and VISC; Saeima Education Committee; Interior Ministry fraud plan", "we send an evidence brief and draft amendments, and request a Saeima hearing"],
+  ["Central bank and industry", "Latvijas Banka's 28-partner working group; Finance Latvia and banks", "we join the working group; we ask banks to co-fund training and send volunteers (EU rules make them liable for weak fraud prevention)"],
+  ["Schools and families", "Social-studies teachers; 10 pilot schools; parents", "we recruit pilot schools, run the Olympiad and design the family tasks"],
+  ["Media", "LSM, Delfi, TVNet; Financial Literacy Week (March); teen social media", "we publish op-eds with our data and make scam-awareness content with student creators"]];
 quad.forEach((q, i) => {
   const x = 0.6 + (i % 2) * 6.13, y = 1.5 + Math.floor(i / 2) * 2.5;
   card(s, x, y, 6.0, 2.35);
   s.addText(q[0], { x: x + 0.3, y: y + 0.18, w: 5.4, h: 0.45, fontFace: "Cambria", fontSize: 18, bold: true, color: C.accent1, margin: 0, isTextBox: true, objectName: "Group" });
-  s.addText([{ text: "Who: ", options: { bold: true } }, { text: q[1], options: { breakLine: true } }, { text: "What we do: ", options: { bold: true } }, { text: q[2] }],
+  s.addText([{ text: "Who: ", options: { bold: true } }, { text: q[1], options: { breakLine: true } }, { text: "What we do: ", options: { bold: true, color: C.accent1 } }, { text: q[2] }],
     { x: x + 0.3, y: y + 0.7, w: 5.4, h: 1.55, fontSize: 14, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "Group text" });
 });
 src(s, "Our role as Jaunie Ekonomisti: bring the evidence, the youth voice and a working gamified format (Olympiad: ~200 students from 30+ schools).");
@@ -249,28 +253,35 @@ s.addNotes("Quick wins first (evidence, media, pilot), then lock them into regul
 
 // ======================= 11. (iv) expected results
 s = slide("CONTENT", "(iv) Expected results");
-s.addText("Expected results by 2030", { placeholder: "title" });
+s.addText("Expected results: new rules by 2028, better skills by 2030", { placeholder: "title" });
 const hdr = { bold: true, color: C.background1, fill: { color: THEME.colors.dk2 } };
-s.addTable([
-  [{ text: "KPI", options: hdr }, { text: "Baseline", options: hdr }, { text: "Target 2030", options: hdr }],
-  ["9th-grade financial literacy index (of 20)", "12.3 (2025)", "14.0"],
-  ["9th graders who can calculate simple interest", "57% (2025)", "75%"],
-  ["9th graders who never learn about money at school", "36% (2025)", "< 10%"],
-  ["Adults aged 20–29: literacy index", "11.0 (2022)", "≥ 12.2"],
-  ["Teachers passing a core-concepts check", "to set (2027)", "80%"],
-  ["Regulation changed (standards, teacher training)", "no", "yes (2028)"],
-], { x: 0.6, y: 1.55, w: 7.6, colW: [4.2, 1.7, 1.7], fontSize: 14, color: C.text1, border: { type: "solid", pt: 0.5, color: "D5DDD8" }, rowH: 0.6, valign: "middle", objectName: "KPI table" });
-card(s, 8.55, 1.55, 4.18, 4.8, C.background2);
+card(s, 0.6, 1.5, 4.1, 4.95, C.text2, "Policy results card");
 s.addText([
-  { text: "Cost (illustrative)", options: { fontFace: "Cambria", bold: true, fontSize: 18, color: C.text2, breakLine: true } },
-  { text: "€0.2–0.35m", options: { fontFace: "Cambria", bold: true, fontSize: 32, color: C.accent1, breakLine: true } },
-  { text: "one-off: module plus training ~1,000 teachers", options: { fontSize: 14, breakLine: true } },
-  { text: "€0.1–0.2m a year", options: { fontFace: "Cambria", bold: true, fontSize: 26, color: C.accent1, breakLine: true } },
-  { text: "delivery for ~20,000 pupils per cohort", options: { fontSize: 14, breakLine: true } },
-  { text: "About 1% of one year's fraud losses. In Brazil a similar programme paid for itself within ~5 years through lower borrowing costs.", options: { fontSize: 14, color: C.accent6 } },
-], { x: 8.85, y: 1.75, w: 3.65, h: 4.45, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "Cost text" });
-src(s, "Sources: Latvijas Banka surveys 2022/2025 (baselines); Kaiser & Menkhoff (2020) for expected size; Frisancho (US$6.6/student) and Bruhn et al. (BRL 206/student) for costs. Cost assumptions to be checked with IZM.");
-s.addNotes("Targets are ambitious but within the effect sizes from the research. Behaviour (saving, avoiding fraud) moves more slowly, so we track knowledge first.");
+  { text: "1. Policy results (by 2028)", options: { fontFace: "Cambria", bold: true, fontSize: 18, color: C.accent2, breakLine: true } },
+  { text: "Regulations No. 747, 416 and 569 amended", options: { bullet: true, breakLine: true } },
+  { text: "School pillar with youth targets in the 2028+ national strategy", options: { bullet: true, breakLine: true } },
+  { text: "Latvijas Banka's teacher seminars accredited", options: { bullet: true, breakLine: true } },
+  { text: "Latvia joins PISA 2029 financial literacy", options: { bullet: true } },
+], { x: 0.9, y: 1.7, w: 3.55, h: 4.6, fontSize: 15, color: C.background1, margin: 0, valign: "top", paraSpaceAfter: 10, isTextBox: true, objectName: "Policy results" });
+s.addText("2. Learning results (by 2030)", { x: 4.95, y: 1.5, w: 4.6, h: 0.45, fontFace: "Cambria", bold: true, fontSize: 18, color: C.accent1, margin: 0, isTextBox: true, objectName: "Learning heading" });
+s.addTable([
+  [{ text: "KPI", options: hdr }, { text: "Now", options: hdr }, { text: "2030", options: hdr }],
+  ["9th-grade index (of 20)", "12.3", "14.0"],
+  ["9th graders who calculate simple interest", "57%", "75%"],
+  ["9th graders who never learn about money at school", "36%", "< 10%"],
+  ["Social-studies teachers trained", "–", "80%"],
+], { x: 4.95, y: 2.05, w: 4.6, colW: [2.6, 1.0, 1.0], fontSize: 14, color: C.text1, border: { type: "solid", pt: 0.5, color: "D5DDD8" }, rowH: [0.45, 0.85, 0.85, 0.95, 0.75], valign: "middle", objectName: "KPI table" });
+card(s, 9.8, 1.5, 2.93, 4.95, C.background2, "Cost card");
+s.addText([
+  { text: "3. Cost", options: { fontFace: "Cambria", bold: true, fontSize: 18, color: C.text2, breakLine: true } },
+  { text: "€0.2–0.35m", options: { fontFace: "Cambria", bold: true, fontSize: 26, color: C.accent1, breakLine: true } },
+  { text: "one-off set-up", options: { fontSize: 14, breakLine: true } },
+  { text: "€0.1–0.2m", options: { fontFace: "Cambria", bold: true, fontSize: 26, color: C.accent1, breakLine: true } },
+  { text: "a year", options: { fontSize: 14, breakLine: true } },
+  { text: "≈1% of one year's fraud losses", options: { fontSize: 14, color: C.accent6 } },
+], { x: 10.05, y: 1.7, w: 2.5, h: 4.6, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "Cost text" });
+src(s, "Baselines: Latvijas Banka 9th-grade assessment 2025. Targets within research effect sizes (Kaiser & Menkhoff 2020). Costs illustrative (Frisancho 2020; Bruhn et al. 2016); to be checked with IZM.");
+s.addNotes("Lead with the institutional result: the rules change, so it does not depend on one minister. Then learning gains within the range research shows is realistic. Behaviour follows more slowly.");
 
 // ======================= 12. (v) regulation
 s = slide("CONTENT", "(v) Regulation");
@@ -281,11 +292,12 @@ s.addTable([
   ["Teacher training rules (Cabinet Regulation No. 569: 36 hours per 3 years)", "Make financial and digital financial literacy a required topic for social-studies teachers. Precedent: a 2024 amendment added sexual and reproductive health", "IZM"],
   ["National Financial Literacy Strategy 2028+", "Outcome targets for young people and a school pillar, linked to the OECD action plan and the government's fraud-prevention plan", "Latvijas Banka, Cabinet"],
   ["International benchmark", "Commit Latvia to the PISA 2029 financial literacy option (missed in 2022)", "IZM"],
-], { x: 0.6, y: 1.5, w: 12.13, colW: [3.6, 6.53, 2.0], fontSize: 13, color: C.text1, border: { type: "solid", pt: 0.5, color: "D5DDD8" }, rowH: [0.45, 1.05, 1.05, 0.95, 0.65], valign: "middle", objectName: "Regulation table" });
+  [{ text: "Quick wins (now)", options: { bold: true, color: C.accent1 } }, "Accredit Latvijas Banka's teacher seminars under No. 569; tighten youth-targeted gambling advertising", "IZM; Ministry of Finance"],
+], { x: 0.6, y: 1.45, w: 12.13, colW: [3.6, 6.53, 2.0], fontSize: 13, color: C.text1, border: { type: "solid", pt: 0.5, color: "D5DDD8" }, rowH: [0.42, 0.95, 0.95, 0.8, 0.55, 0.65], valign: "middle", objectName: "Regulation table" });
 s.addText([{ text: "EU tailwind: ", options: { bold: true, color: C.accent1 } },
-  { text: "the EU Financial Literacy Strategy (Sept 2025) asks member states to start in schools, and the new EU Payment Services Regulation (agreed Nov 2025) makes banks liable for weak fraud prevention, a reason for industry to co-fund education." }],
-  { x: 0.6, y: 5.95, w: 12.13, h: 0.6, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "EU note" });
-src(s, "Sources: likumi.lv (MK No. 747, 416, 569); LV portāls 2024 on MK 569 amendment; COM(2025) 681; European Parliament press release 27.11.2025; OECD PISA 2029 options.");
+  { text: "the European Parliament voted 502–46 (April 2026) for financial education in school curricula; the Commission strategy (2025) asks member states to start in schools; new EU payment rules make banks liable for weak fraud prevention." }],
+  { x: 0.6, y: 5.98, w: 12.13, h: 0.6, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "EU note" });
+src(s, "Sources: likumi.lv (MK No. 747, 416, 569); LV portāls 2024 (MK 569 amendment) and 2026 (gambling ads study); EP resolution TA-10-2026-0156; COM(2025) 681; EP 27.11.2025.");
 s.addNotes("None of these needs a new law; all are Cabinet regulations or strategy decisions, so they are achievable within one policy cycle.");
 
 // ======================= 13. closing
@@ -338,7 +350,33 @@ bullets(s, ["Only 44% agree that a higher return means higher risk", "43% think 
 src(s, "Source: Latvijas Banka, 9th-grade financial literacy assessment, Feb–Apr 2025 (n = 1,159 pupils, 75 schools; RAIT).");
 
 s = slide("CONTENT", "Appendix");
-s.addText("A5. Regulatory and policy timeline", { placeholder: "title" });
+s.addText("A5. International models: what other countries do", { placeholder: "title" });
+s.addTable([
+  [{ text: "Country", options: hdr }, { text: "Approach", options: hdr }, { text: "Lesson for Latvia", options: hdr }],
+  ["United States", "30 states require a standalone personal finance course (39 incl. integrated)", "Dedicated courses improved credit scores; paper mandates did not"],
+  ["England", "Statutory since 2014 in citizenship and maths; strengthened from 2025", "Only 38% recall it: a mandate needs delivery"],
+  ["Estonia", "Money Smart Estonia 2021–2030; finance in a 6-month teacher programme", "PISA 547, best in the world"],
+  ["Czechia", "Embedded in maths and civics; national strategy", "PISA 2022: 507 (OECD 498), 5th of 20"],
+  ["Slovakia", "National Standard of Financial Literacy since 2008", "Explicit outcomes across subjects"],
+  ["Portugal", "National plan 2026–2030; framework from pre-school; 'Todos Contam' school competition", "Framework plus recurring competition"],
+], { x: 0.6, y: 1.45, w: 12.13, colW: [2.0, 5.6, 4.53], fontSize: 13, color: C.text1, border: { type: "solid", pt: 0.5, color: "D5DDD8" }, rowH: 0.65, valign: "middle", objectName: "Models table" });
+src(s, "Sources: NGPF 2026; CEE 2026; APPG/Young Enterprise; Estonian Ministry of Finance; OECD PISA; Czech National Bank; Cedefop; Todos Contam.");
+
+s = slide("CONTENT", "Appendix");
+s.addText("A6. Can education protect against scams?", { placeholder: "title" });
+s.addTable([
+  [{ text: "Study", options: hdr }, { text: "Design", options: hdr }, { text: "Result", options: hdr }],
+  ["Burke et al. (2021)", "RCT, US adults; short online module on investment fraud", "Lower susceptibility to fraud; effect decays over time"],
+  ["Prebunking videos (US, 2021)", "Randomised experiment", "Willingness to invest in scams −44%; fades over 6 months, a booster restores it"],
+  ["BIT Canada and OSC (2025)", "RCT, AI-enabled investment scams", "Works immediately; not significant after 10 days"],
+  ["ShieldUp! (2025)", "RCT, 3,000 participants; scam-spotting game", "Significantly better scam detection than awareness-only"],
+], { x: 0.6, y: 1.45, w: 12.13, colW: [3.0, 4.6, 4.53], fontSize: 14, color: C.text1, border: { type: "solid", pt: 0.5, color: "D5DDD8" }, rowH: [0.45, 0.9, 0.9, 0.9, 0.9], valign: "middle", objectName: "Scam evidence table" });
+s.addText([{ text: "Lesson: ", options: { bold: true, color: C.accent1 } }, { text: "one campaign is not enough. Scam resilience needs active practice, repetition and timing close to the risk." }],
+  { x: 0.6, y: 5.75, w: 12.13, h: 0.6, fontSize: 16, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Lesson" });
+src(s, "Sources: Burke, Kieffer, Mottola & Perez-Arce (2021), GFLEC; Ontario Securities Commission (2025); ShieldUp! (arXiv 2503.12341).");
+
+s = slide("CONTENT", "Appendix");
+s.addText("A7. Regulatory and policy timeline", { placeholder: "title" });
 s.addTable([
   [{ text: "Date", options: hdr }, { text: "Event", options: hdr }, { text: "Relevance", options: hdr }],
   ["2020–2023", "Skola2030: financial literacy becomes part of compulsory social studies", "Compulsory, but no minimum lessons"],
@@ -355,7 +393,7 @@ s.addTable([
 src(s, "Sources: Skola2030; Latvijas Banka; likumi.lv; European Commission; European Parliament; Cabinet of Ministers; OECD.");
 
 s = slide("CONTENT", "Appendix");
-s.addText("A6. Methodology and key sources", { placeholder: "title" });
+s.addText("A8. Methodology and key sources", { placeholder: "title" });
 card(s, 0.6, 1.45, 5.95, 4.95);
 s.addText([{ text: "Data", options: { fontFace: "Cambria", bold: true, fontSize: 18, color: C.accent1, breakLine: true } },
   { text: "Flash Eurobarometer 525 (2023, 27 countries, ~1,000 per country, online)", options: { bullet: true, breakLine: true } },
