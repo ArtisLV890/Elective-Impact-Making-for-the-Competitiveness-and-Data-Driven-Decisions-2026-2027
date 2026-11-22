@@ -1,13 +1,18 @@
-# Financial literacy of young people in Latvia: compulsory on paper, missing in practice
+---
+title: "Compulsory on paper, missing in practice"
+subtitle: "Financial literacy of young people in Latvia: research report"
+author: "Jaunie Ekonomisti team | SSE Riga elective: Impact Making for the Competitiveness and Data-Driven Decisions"
+date: "November 2026"
+---
 
-*Final research report. Impact case for "Impact Making for the Competitiveness and Data-Driven Decisions". November 2026.*
 
 *All Latvia figures in this version are verified against primary documents:*
+
 - *Flash Eurobarometer 525, data annex*
 - *Latvijas Banka adult survey 2022*
 - *Latvijas Banka 9th-grade assessment 2025*
 
-*The few figures still from secondary sources are marked ⚠.*
+*The few figures still from secondary sources are marked [verify]. See the evidence register in Appendix B.*
 
 ---
 
@@ -42,7 +47,7 @@
    - **48%** of 9th graders have been offered "easy money" online by strangers.
    - **18%** have been asked to pass money through their account, the money-mule pattern.
    - **16%** have already been scammed buying online, and **6%** have given away a password or PIN.
-   - Nationally, fraud losses rose from **€16m (2024) to €23.7m (2025)** ⚠ (State Police). One dismantled network involved **213 money mules from Latvia, mostly young** ⚠.
+   - Nationally, fraud losses rose from **€16m (2024) to €23.7m (2025)** *[verify]* (State Police). One dismantled network involved **213 money mules from Latvia, mostly young**. *[verify]*
 8. **Teachers are part of the problem.** Latvijas Banka found teachers' knowledge of simple and compound interest **insufficient** (Brikše 2025).
 9. **Latvia has no international benchmark for students.**
    - Latvia scored 501 in PISA 2018, against an OECD average of 505 and Estonia's world-best 547.
@@ -53,6 +58,13 @@
     - Large randomised trials: Brazil (+0.25 SD, 892 schools), Peru (credit records improved 3 years later), and an online game (+0.31 SD, 4 countries).
     - **Intensity, teacher training and timing** ("teachable moments") decide success.
     - A **mandate without real teaching has no effect** (Cole et al. 2016). That is Latvia's risk today.
+
+11. **New (OECD, 20 November 2026): fraud is a mass experience.**
+    - **74%** of Latvian adults faced a fraud attempt in the past two years, and **27%** became victims (purchase fraud 15%, phishing 8%, investment fraud 6.5%, unauthorised transactions 5.6%).
+    - **55% of victims lost money**, and **37% told no one**, mostly because "it would change nothing" (57% of non-reporters).
+    - The OECD and Latvijas Banka are now preparing a **digital financial literacy action plan**, and our school proposal can plug into it.
+
+> **Key message.** Latvians are among the least financially literate in the EU, knowledge has fallen since 2015, and the weakest group is the youngest. School is the only place that reaches every young person, but today financial literacy is taught there "superficially". Meanwhile three in four adults face scams and one in four falls victim.
 
 ---
 
@@ -98,19 +110,21 @@
 | Self-rated knowledge "very high" | 2% | 5% | 4% | 5% | Joint last |
 
 **Reading:**
+
 - Latvia's problem is concentrated in **behaviour** (planning, goals, buffers) and **investment participation**.
 - On knowledge, Latvia is below average but not last. It even beats the EU average on inflation.
 - Estonia is the clear regional benchmark: 23% high overall, 39% high knowledge and 24% with investment products.
 
 **Youth (EU-level breakdown):**
+
 - 18–24-year-olds have the lowest share with a high overall score (**13%** against 18%) and the highest share with a low score (**25%**).
 - They also have the highest share with a low behaviour score (**16%**).
 - The country tables are not broken down by age, so these are EU figures.
 
 
-![Figure 1. Share of adults with a high overall financial literacy score, EU-27, 2023](reports/figures/eu_high_financial_literacy_ranking.png)
+![Figure 1. Share of adults with a high overall financial literacy score, EU-27, 2023](reports/figures/01_eu_high_financial_literacy_ranking.png)
 
-![Figure 2. Financial resilience and investing, Baltics vs EU, 2023](reports/figures/baltic_resilience_investing.png)
+![Figure 2. Financial resilience and investing, Baltics vs EU, 2023](reports/figures/02_baltic_resilience_investing.png)
 
 ### 1.2 Latvian adults: Latvijas Banka survey 2022
 
@@ -142,7 +156,7 @@
 
 | Group | Index |
 |---|---|
-| **Age 18–19** | **8.0** (knowledge 3.0, behaviour 2.9, attitudes 2.1) ⚠ *small subgroup: about 3% of the sample, roughly 30 people, so indicative* |
+| **Age 18–19** | **8.0** (knowledge 3.0, behaviour 2.9, attitudes 2.1) *[verify]* *small subgroup: about 3% of the sample, roughly 30 people, so indicative* |
 | Age 20–29 | 11.0 (knowledge 3.7, behaviour 4.9) |
 | Age 30–39 / 40–49 | 12.6 / 13.1 (peak) |
 | Age 50–59 / 60–69 / 70–79 | 11.9 / 12.7 / 11.9 |
@@ -167,25 +181,28 @@
 **Budgeting** (all adults): only about **36–37%** make an income and expense plan, write down spending, or set aside money for bills.
 
 **Investing** (all adults, products currently used):
+
 - shares **1%**, investment account **1%**, bonds **0.3%**, crypto **2%**;
 - only about 50–57% have even heard of shares, bonds or investment accounts.
 
 **Choosing products:**
+
 - **24–25%** of those who chose a current account, a 2nd-pillar fund or a quick loan **considered no alternatives**;
 - 34% relied on friends or family, and 9% on unknown people or influencers.
 
 **Digital financial literacy:** 4.6/10 (knowledge only **1.0/3**). Among 18–19-year-olds, only 18% pay bills online.
 
 
-![Figure 3. Latvian adults answering knowledge questions correctly, 2015 vs 2022](reports/figures/knowledge_decline_2015_2022.png)
+![Figure 3. Latvian adults answering knowledge questions correctly, 2015 vs 2022](reports/figures/03_knowledge_decline_2015_2022.png)
 
-![Figure 4. Financial literacy index by age, 2022](reports/figures/finlit_index_by_age_2022.png)
+![Figure 4. Financial literacy index by age, 2022](reports/figures/04_finlit_index_by_age_2022.png)
 
 ### 1.3 9th graders: Latvijas Banka assessment 2025
 
 *Online (CAWI), 10 Feb – 30 Apr 2025, n = 1,159 pupils in 75 schools, carried out by RAIT.*
 
 **Index**
+
 - **12.33 / 20 (61.7%)**, the same level as adults.
 - Distribution: low 2%, medium 61%, high 37%.
 - Sub-indices: knowledge 5.46/8 (51% high), behaviour and skills **4.62/8 (only 29% high)**, attitudes 2.26/4.
@@ -203,6 +220,7 @@
 | Agree "higher return → higher risk" | **44%** | — |
 
 **Misconceptions**
+
 - **31%** think Bitcoin is legal tender in Latvia.
 - **43%** think car insurance is voluntary.
 - **25%** think a budget is balanced when spending exceeds income.
@@ -210,6 +228,7 @@
 - **40%** don't know how much VAT they pay.
 
 **Products and behaviour**
+
 - 87% have money they control; 85% have their own bank card; 80% have a bank account; 87% have shopped online.
 - **12% have bought crypto themselves**; 28% have invested together with an adult.
 - 80% save from pocket money (29% regularly); 62% have a savings goal.
@@ -217,6 +236,7 @@
 - 24% follow influencers' recommendations at least sometimes.
 
 **Online risk and fraud**
+
 - **48%** offered money-making schemes by strangers on social media.
 - **18%** asked to pass money through their bank account or handle cash for a fee, the **money-mule** pattern.
 - **16%** scammed when buying online.
@@ -233,14 +253,15 @@
 | **School and clubs** | **9%** | **36%** (plus 31% rarely) |
 
 **Family**
+
 - **73%** say only adults make money decisions at home (21% together; 5% don't know).
 - 65% say money is discussed freely at home, but only **49%** plan a family budget.
 - (LSM reports, from the full report, that girls score lower than boys and that Vidzeme and Kurzeme pupils score lower.)
 
 
-![Figure 5. Where 9th graders learn about money, 2025](reports/figures/ninth_grade_sources_of_money_info.png)
+![Figure 5. Where 9th graders learn about money, 2025](reports/figures/05_ninth_grade_sources_of_money_info.png)
 
-![Figure 6. 9th graders' exposure to risk and fraud, 2025](reports/figures/ninth_grade_risk_exposure_2025.png)
+![Figure 6. 9th graders' exposure to risk and fraud, 2025](reports/figures/06_ninth_grade_risk_exposure_2025.png)
 
 ### 1.4 The school system
 
@@ -267,12 +288,45 @@
   - Low literacy is linked to lower wealth, less stock market participation and worse retirement planning (Lusardi & Mitchell 2014, 2023; van Rooij, Lusardi & Alessie 2011; Lusardi, Michaud & Mitchell 2017).
 - **Fraud.**
   - Teenagers are recruited as money mules; an 18% exposure rate among 15-year-olds.
-  - National fraud losses are rising (€23.7m in 2025 ⚠).
+  - National fraud losses are rising (€23.7m in 2025).
 - **Capital markets.** The EU's Savings and Investments Union and its Financial Literacy Strategy (COM(2025) 681, 30 Sept 2025) aim to turn savers into investors. Latvia starts from joint-last investment participation.
 - **Timing.**
   - Latvia's national strategy ends in **2027**.
   - The EU mid-term review of the Savings and Investments Union is in **2027**.
   - The budget for learning materials is being decided now.
+
+### 1.6 New evidence: OECD fraud study, November 2026
+
+On **20 November 2026**, the OECD and Latvijas Banka presented the results of an EU-funded project (Technical Support Instrument, 2024–2026, run together with Lietuvos bankas). It includes a **Kantar survey of 1,400 adults aged 18–79** and an OECD report, *Improving Adults' Resilience Against Financial Scams and Frauds in Latvia: Proposal for a Digital Financial Literacy Action Plan*.
+
+| Indicator (past two years) | Latvia |
+|---|---|
+| Faced at least one fraud attempt | **74%** |
+| Became a victim of at least one type of fraud | **27%** (about 1 in 4) |
+| Victims who lost money | **55%** of victims (≈ 15% of all adults). The rest handed over data or access details |
+| Victims of 1 / 2 / 3+ fraud types | 61% / 25% / 14% |
+| Most common types | Purchase fraud **15%**, phishing **8%**, investment fraud **6.5%**, unauthorised transactions **5.6%** |
+| Victims who told no one | **37%**. Most common reason: "it would change nothing" (57%) |
+
+![Figure 7. Financial fraud among Latvian adults, past two years](reports/figures/07_fraud_funnel_latvia_2026.png)
+
+![Figure 8. Most common types of financial fraud in Latvia](reports/figures/08_fraud_types_latvia_2026.png)
+
+**How this fits the case**
+
+- **The earlier OECD/INFE 2023 survey found 18% of Latvian adults were fraud victims (Lithuania 14%).** The 2026 project survey finds 27%. The surveys and wording differ, so this is not a strict trend, but both place Latvia above its neighbours.
+- **The OECD's international report** (*Protecting Consumers from Financial Scams and Frauds*, June 2026) finds that:
+  - on average **15%** of adults across surveyed countries were scam victims;
+  - scam incidence **rose in 69% of jurisdictions** in 2025 compared with 2024;
+  - most authorities name **inadequate digital financial literacy** as a key driver;
+  - many victims **do not reach the minimum financial literacy score**;
+  - **older adults are not always the main victims**, and young people are targeted through social media, "finfluencers" and money-mule recruitment.
+- **The authors stress there is no single "gullible" victim type**: different schemes target different groups. For young people, the Latvian 9th-grade data shows the entry points: **48%** offered "easy money" online, **18%** asked to act as money mules, **16%** already scammed buying online.
+- **Policy implication.** Latvijas Banka will coordinate the OECD's recommendations (awareness, education for risk groups, practical training, inter-agency cooperation) through the national financial literacy working group of 28 partners. **A school component (teacher training plus a module on digital fraud) is the natural youth pillar of that action plan.**
+
+![Figure 9. Fraud victims in the past two years, two OECD surveys](reports/figures/09_fraud_victims_two_surveys.png)
+
+*[verify] Age breakdowns of the 2026 survey are in the full OECD report (oecd.org), which this session could not open. Add them before submission.*
 
 ---
 
@@ -313,6 +367,7 @@
 | Batty, Collins & Odders-White (2015), *Journal of Consumer Affairs* | US elementary schools | Knowledge and attitudes improved |
 
 **Design principles from the evidence**
+
 1. A dedicated, **intensive** block of lessons rather than scattered mentions.
 2. **Trained teachers.**
 3. Content tied to the **real decisions teenagers face now**: cards, online shopping, crypto, fraud, first salary and the 2nd pension pillar.
@@ -321,7 +376,7 @@
 6. **Measure** results, and expect knowledge to move before behaviour.
 
 
-![Figure 7. Effects of school financial education on knowledge, key studies](reports/figures/school_finance_education_effects.png)
+![Figure 10. Effects of school financial education on knowledge, key studies](reports/figures/10_school_finance_education_effects.png)
 
 ### 2.3 Expected impact (illustrative)
 
@@ -353,7 +408,7 @@
 5. **Measurement.**
    - Repeat Latvijas Banka's 9th-grade assessment every 2 years.
    - Report the adult survey's 18–29 age group with a larger youth sample.
-   - **Rejoin the PISA financial literacy module** in the next cycle that offers it ⚠.
+   - **Rejoin the PISA financial literacy module** in the next cycle that offers it. *[verify]*
    - Put clear indicators into the **post-2027 national strategy**.
 
 **KPIs (baseline → target, 2030)**
@@ -390,16 +445,19 @@
 | Victim of financial fraud in the past 2 years | **18%** | — (described as above average) |
 
 **What this means for the case**
+
 - The 2023 international result (59%) is **lower** than Latvijas Banka's own 2022 figure (61%). So the low level is confirmed by a second, independent survey.
 - **Fewer than half of Latvian adults (46%) reach the OECD's minimum target**, against 58% across the OECD. This is a strong and simple headline.
 - **18% of adults have been victims of financial fraud in two years**, which links directly to the fraud findings among teenagers.
 
 **What was not found**
+
 - No newer Latvijas Banka adult index than 2022.
 - Latvijas Banka's 2025 slides mention a 2024 *teacher* survey and the 2025 9th-grade survey, not a new adult survey.
 - Latvijas Banka's own page confirms that "financial knowledge has declined over seven years, weakest among 18–19-year-olds and people with lower education", while attitudes improved.
 
 **Why did knowledge fall?** No official explanation was found. Plausible factors:
+
 1. The 2022 inflation question used 21% inflation, so that item isn't fully comparable.
 2. Fieldwork took place during the 2022 energy and inflation shock.
 3. A genuine decline. Every item fell, including simple division (93% → 85%), which suggests part of the drop could be a survey effect.
@@ -412,12 +470,13 @@
   - "Teachers' knowledge of simple and compound interest is **insufficient**. This may affect their ability to teach investment, savings, pensions and borrowing."
   - Teachers of finance and economics topics also lack **sufficient knowledge of basic economic and financial concepts**.
   - The school system plays a **limited role** in improving financial literacy, and teachers' lack of preparation is listed as a challenge.
-- ⚠ The slide appears to compare correct answers on the €100 savings-account question: **adults 58%, 9th graders 57%, teachers 38%**. The extracted text is jumbled, so this needs the original slide before use. If confirmed, **teachers scoring below their own pupils** would be one of the case's most striking facts.
+- The slide appears to compare correct answers on the €100 savings-account question: **adults 58%, 9th graders 57%, teachers 38%** *[verify]*. The extracted text is jumbled, so this needs the original slide before use. If confirmed, **teachers scoring below their own pupils** would be one of the case's most striking facts.
 - **Action:** upload the Saeima slide deck (m.saeima.lv, document e0d28b52…) or Latvijas Banka's 2024 teacher report, and I will verify it.
 
 ## B3. What the curriculum actually requires
 
 **What we know**
+
 - Financial literacy is **compulsory, but not a separate subject**. It is part of **social studies (sociālās zinības) from grade 1**, and of the upper-secondary social and civic courses (general, optional and advanced levels).
 - **Before Skola2030**, "economics and financial literacy" was an **elective** taken by some pupils only.
 - Grade 7–9 learning outcomes include explaining how resources are allocated and how the market works, and **making responsible decisions by evaluating services offered by financial institutions**.
@@ -447,6 +506,7 @@
 | **New cooperation memorandum, 16 March 2026** | **28 organisations**. Priorities to 2027: **pupils and teachers**, investment culture, responsible borrowing, research |
 
 **Key insight: Latvia is rich in activity but poor in results.**
+
 - Hundreds of events, and 78% of schools reached on Money Day.
 - Yet knowledge fell from 2015 to 2022, and 36% of 9th graders say they never learn about money at school.
 - The strategy counts **activities** (partners, events, participants), not **learning outcomes**.
@@ -458,6 +518,7 @@
 ## B5. How Estonia does it (and what to be careful about)
 
 **The model**
+
 - A **national strategy "Money Smart Estonia" 2021–2030**, led by the **Ministry of Finance**, with the Ministry of Education and partners including the NGO Rahatarkus.
 - **Teachers.** An Estonian 2020 study found **many teachers lacked formal training** in financial education. In response:
   - **financial literacy has been part of a six-month training programme for entrepreneurship teachers since 2019**;
@@ -470,30 +531,35 @@
 - **Results:** PISA 2018 financial literacy **547, the best in the world**. Among 18–29-year-olds, **91% save** in some form (Estonian Ministry of Finance, 2024).
 
 **Caution**
+
 - Estonia also leads Europe in PISA maths and reading.
 - Financial literacy scores depend heavily on maths and reading (OECD; Mihno 2021).
 - Its lead is therefore **not only** the result of financial education.
 
 **What to borrow from Estonia (in our recommendations)**
+
 - **Systematic teacher training**, integrated into an existing teacher programme.
 - **Ready-made materials for every school stage.**
 - **Linking finance to entrepreneurship education.**
 - **A ministry-level owner.**
 
 **Lithuania, for completeness**
+
 - A **Public Financial Education Action Plan 2024–2028**, coordinated by a council chaired by the Ministry of Finance (with the central bank and Junior Achievement).
-- A pilot of a **dedicated financial literacy lesson from grade 1** (about 2,400 children), aiming to embed a lesson in the national curriculum and train teachers. ⚠ Status unclear.
+- A pilot of a **dedicated financial literacy lesson from grade 1** (about 2,400 children), aiming to embed a lesson in the national curriculum and train teachers. *[verify]* Status unclear.
 
 ## B6. Rough cost of the proposal (illustrative)
 
 **Benchmarks from the research**
+
 - **Peru** (Frisancho): **US$6.6 per student**, including workbooks, distribution, **teacher training** and monitoring.
 - **Brazil** (Bruhn et al.): **BRL 206 per student**. Students' lower use of expensive credit saves about BRL 46 a year, so the programme **pays for itself in about 5 years**.
 
 **Latvia: assumptions** (to be checked with IZM and VISC)
+
 - **About 640 general schools** (643 in 2023, CSP).
-- **About 20,000 pupils per grade cohort**, based on ~19,000 births a year in 2010–2011 ⚠.
-- **About 1,000 social studies teachers** teaching grades 7–12, roughly 1.5 per school ⚠.
+- **About 20,000 pupils per grade cohort**, based on ~19,000 births a year in 2010–2011. *[verify]*
+- **About 1,000 social studies teachers** teaching grades 7–12, roughly 1.5 per school. *[verify]*
 
 | Item | Assumption | Cost |
 |---|---|---|
@@ -504,7 +570,8 @@
 | **Total** | | **About €0.2–0.35m set-up + €0.1–0.2m a year** |
 
 **Perspective**
-- National fraud losses were **€23.7m in 2025** ⚠ (State Police), and 18% of adults were fraud victims in two years (OECD/INFE).
+
+- National fraud losses were **€23.7m in 2025** (State Police), and 18% of adults were fraud victims in two years (OECD/INFE).
 - The programme costs about **1% of one year's fraud losses** a year.
 - The Brazilian evidence suggests it can **pay for itself through lower borrowing costs within about 5 years**.
 - Partners (Latvijas Banka, commercial banks via Finance Latvia, and EU funds such as ESF+) could cover part of it.
@@ -513,7 +580,7 @@
 
 ## B7. The policy window: why now
 
-1. **The national strategy 2021–2027 ends next year.** A 2025 strategy evaluation exists (⚠ "Stratēģijas izvērtējums 2025", bank.lv, not yet read). The successor strategy must be prepared in 2026–2027, and no public draft was found, so it is still open to influence.
+1. **The national strategy 2021–2027 ends next year.** A 2025 strategy evaluation exists (*[verify]* "Stratēģijas izvērtējums 2025", bank.lv, not yet read). The successor strategy must be prepared in 2026–2027, and no public draft was found, so it is still open to influence.
 2. **The 28-organisation memorandum (March 2026)** names **pupils and teachers** as a priority up to 2027. Our proposal fits an agreed priority, with partners already signed up.
 3. **EU Financial Literacy Strategy** (COM(2025) 681, 30 Sept 2025) and the Savings and Investments Union mid-term review in 2027. EU-level backing and possible funding.
 4. **Budget pressure on learning materials (2026).** A low-cost, high-evidence proposal is easier to fund than a new subject.
@@ -563,8 +630,9 @@
 | 9th grade 12.33; school 9% / 36%; scams 48% / 18% / 16%; crypto 12%; Bitcoin 31% | Latvijas Banka 9th grade 2025 | ✅ |
 | Teachers' interest knowledge insufficient | Brikše (Latvijas Banka) 2025 presentation | ✅ (presentation) |
 | Latvia not in PISA 2022 financial literacy | OECD PISA 2022 Volume IV participant list | ✅ |
-| Fraud losses €23.7m (2025); 213 money mules | State Police via BB.lv | ⚠ media |
-| Girls and Vidzeme/Kurzeme lower (9th grade) | LSM summary of the full report | ⚠ media |
+| OECD 2026: 74% attempts, 27% victims, 55% lost money, 37% told no one, scam types | Latvijas Banka press release; LSM 20.11.2026 | ✅ press (full OECD report not opened) |
+| Fraud losses €23.7m (2025); 213 money mules | State Police via BB.lv | [verify] media |
+| Girls and Vidzeme/Kurzeme lower (9th grade) | LSM summary of the full report | [verify] media |
 
 ## References
 
@@ -594,6 +662,16 @@
 - van Rooij, M., Lusardi, A., & Alessie, R. (2011). *Journal of Financial Economics*, 101(2), 449–472.
 - BB.lv (2025, 2026). State Police reports on fraud losses and money-mule networks. https://en.bb.lv/article/emergencies-and-crime/2025/12/29/criminal-network-uncovered-involving-over-200-money-mules-from-latvia-82560
 
+
+## Additional sources (OECD 2026 fraud evidence)
+
+- OECD (2026). *Improving Adults' Resilience Against Financial Scams and Frauds in Latvia: Proposal for a Digital Financial Literacy Action Plan*. OECD Publishing, 20 November 2026. https://www.oecd.org/en/publications/improving-adults-resilience-against-financial-scams-and-frauds-in-latvia_5c0aaf74-en.html
+- OECD (2026). *Protecting Consumers from Financial Scams and Frauds*. OECD Publishing, June 2026. https://www.oecd.org/en/publications/protecting-consumers-from-financial-scams-and-frauds_d41817bb-en.html
+- OECD (2026). *Consumer Finance Risk Monitor 2026*. https://www.oecd.org/en/publications/2026/03/consumer-finance-risk-monitor-2026_04395fbd.html
+- LSM (20.11.2026). "Pētījums: Katrs ceturtais Latvijas iedzīvotājs kļuvis par finanšu krāpšanas upuri; 37 % par notikušo neziņoja". https://www.lsm.lv/raksts/zinas/ekonomika/20.11.2026-petijums-katrs-ceturtais-latvijas-iedzivotajs-kluvis-par-finansu-krapsanas-upuri-37-par-notikuso-nezinoja.a672787/
+- Latvijas Banka. "Population's digital financial literacy and resilience against financial fraud to be strengthened". https://www.bank.lv/en/news-and-events/news-and-articles/news/17655-populations-digital-financial-literacy-and-resilience-against-financial-fraud-to-be-strengthened
+- LSM (29.04.2026). "Latvijas Banka izstrādā plānu iedzīvotāju digitālās finanšu pratības stiprināšanai". https://www.lsm.lv/raksts/zinas/ekonomika/29.04.2026-latvijas-banka-izstrada-planu-iedzivotaju-digitalas-finansu-pratibas-stiprinasanai.a645031/
+- Dzentlmenis.lv (2026). OECD data on fraud in Latvia. https://dzentlmenis.lv/krapnieku-tiklos-krit-arvien-vairak-iedzivotaju-oecd-publice-satraucosus-datus-par-situaciju-latvija/326105/
 
 ## Additional sources (Part B)
 
