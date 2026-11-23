@@ -178,9 +178,9 @@ The provider issues the certificate of completion (*apliecība*, Annex 1). The p
 
 ## Draft wording (illustrative, to be refined with lawyers)
 
-> **20.2** Vispārējās izglītības pedagogs, kas māca sociālās zinības pamatizglītības 7.–9. klasē vai sociālo zinātņu, ekonomikas vai uzņēmējdarbības mācību kursu vidējās izglītības pakāpē, triju gadu laikā pilnveido profesionālo kompetenci finanšu pratībā, tai skaitā finanšu drošībā digitālajā vidē, vismaz 12 stundu apjomā šo noteikumu 21. punktā norādītajās programmās.
+> **20.2** Vispārējās izglītības pedagogs, kas māca mācību priekšmetu "Sociālās zinības" pamatizglītības 7.–9. klasē vai mācību kursu "Sociālās zinātnes I", "Sociālās zinātnes II" vai "Sociālās zinības un vēsture" vispārējās vidējās izglītības pakāpē, triju gadu laikā pilnveido profesionālo kompetenci finanšu pratībā, tai skaitā finanšu drošībā digitālajā vidē, vismaz 12 stundu apjomā šo noteikumu 21. punktā norādītajās programmās.
 
-*In English:* a general-education teacher who teaches social studies in grades 7–9, or social sciences, economics or business at secondary level, completes at least 12 hours of financial literacy training, including financial safety online, every 3 years, in approved programmes.
+*In English:* a general-education teacher who teaches "Social studies" in grades 7–9, or "Social sciences I", "Social sciences II" or "Social studies and history" at secondary level, completes at least 12 hours of financial literacy training, including financial safety online, every 3 years, in approved programmes.
 
 **Transitional provision (draft):**
 
@@ -376,8 +376,9 @@ If IZM's social-studies redesign does reopen Annex 3, we submit three short addi
    - Our own survey is never used as a headline.
 4. **Optional media strand: LSM's 2027 public-service order.**
    - **The finding:** in February 2026 the public-media regulator (SEPLP) found audiences rate LSM's economics coverage worse (useful knowledge about business: **48% → 43%**). It recommended dedicated thematic teams with regular content.
-   - **The timing:** the **2027 public-service order is being drafted now.**
-   - **The ask:** a regular personal-finance and fraud strand, with a youth-facing version.
+   - **The timing:** by law (Art. 11(1)) SEPLP approves each year's plan by 31 December, so the 2027 plan is almost final. The realistic target is the **2028 plan**.
+   - **The legal limit:** specific programmes cannot be ordered (Art. 9(5)). Ask SEPLP for a task and indicator, not a show. See the legal review.
+   - **The ask:** a task and indicator on economic and financial literacy content, for example reach among 15–24-year-olds.
    - This costs us one proposal letter, using SEPLP's own numbers.
 
 ## Why it works
