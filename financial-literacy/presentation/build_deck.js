@@ -340,6 +340,34 @@ lessons.forEach((l, i) => {
 src(s, "Also: Urban et al. (2020) Economics of Education Review; Cole et al. (2016) Journal of Human Resources. Behaviour effects are smaller (about +0.07 SD).");
 s.addNotes("Knowledge effects are solid; behaviour effects are smaller and slower, so we stay realistic.");
 
+// Slide: Peru case
+s = slide("CONTENT", "(ii) Research and data");
+s.addText("Peru already did what we propose, and it worked", { placeholder: "title" });
+card(s, 0.6, 1.45, 4.15, 3.55);
+s.addText([
+  { text: "What Peru did (2016)", options: { fontFace: "Cambria", bold: true, fontSize: 17, color: C.accent1, breakLine: true } },
+  { text: "Finance lessons inside the existing History, Geography and Economics course", options: { bullet: true, breakLine: true } },
+  { text: "Ready-made workbooks and teacher guides", options: { bullet: true, breakLine: true } },
+  { text: "20 hours of teacher training", options: { bullet: true, breakLine: true } },
+  { text: "Ministry + regulator + banks + insurers", options: { bullet: true, breakLine: true } },
+  { text: "Randomised trial: 300 public schools", options: { bullet: true } },
+], { x: 0.85, y: 1.6, w: 3.7, h: 3.3, fontSize: 13, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "Peru design" });
+chartCard(s, 4.95, 1.45, 4.0, 3.55, "Gain in financial literacy (SD)", pres.charts.BAR,
+  [{ name: "Gain", labels: ["Students (all offered)", "Teachers", "Classes taught ~half"], values: [0.14, 0.32, 0.5] }],
+  { barDir: "col", chartColors: [K.accent3, K.accent1, K.accent2], dataLabelFormatCode: '"+"0.00', catAxisLabelFontSize: 10.5 });
+callouts(s, 9.15, 1.45, 3.58, [
+  { big: "−20%", text: "delinquent debt among students with loans, still visible years later" },
+  { big: "+14 pp", text: "teachers saving formally; better credit histories", color: C.accent1 },
+  { big: "$6.6", text: "cost per student (IDB estimate), including materials and training", color: C.accent1 },
+], 0.15);
+card(s, 0.6, 5.15, 8.35, 1.3, C.text2, "Lesson band");
+s.addText([
+  { text: "The warning: ", options: { bold: true, color: C.accent2 } },
+  { text: "a third of trained teachers taught none of the lessons, because nothing required it. The effect still showed, so full delivery could do far more. That is why we ask for minimum lessons, not just materials.", options: { color: C.background1 } },
+], { x: 0.85, y: 5.2, w: 7.9, h: 1.2, fontSize: 13.5, margin: 0, valign: "middle", isTextBox: true, objectName: "Lesson text" });
+src(s, "Sources: Frisancho (2023), Economic Journal 133(651); Frisancho et al. (2025), CAF WP 2025/09; IDB, Evaluación experimental del piloto Finanzas en mi Colegio. Half-delivery effect from the author's dose-response analysis.");
+s.addNotes("Peru is the closest real-world version of our proposal: same idea, inside an existing social-science course. Students gained, teachers gained twice as much, and borrowers had a fifth less bad debt years later. The catch: a third of teachers never taught it. Latvia today has the same risk, which is why we ask for minimum lessons.");
+
 // Slide: Latvia activity vs results
 s = slide("CONTENT", "(ii) Research and data");
 s.addText("Latvia has lots of activity, but not results", { placeholder: "title" });
