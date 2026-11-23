@@ -256,7 +256,7 @@ Fraud is not the only financial risk young Latvians meet early. Several separate
 
 | Study | Design | Result |
 |---|---|---|
-| Bruhn et al. (2016), *AEJ: Applied* | Brazil, 892 schools, ~25,000 pupils | Proficiency **+0.25 SD**; more saving and budgeting; parents benefited. Cost BRL 206 per pupil, repaid in ~5 years through lower borrowing costs |
+| Bruhn et al. (2016), *AEJ: Applied* | Brazil, 892 schools, ~25,000 pupils | Proficiency **+0.25 SD**; more saving and budgeting; parents benefited. Nine years later, treated students borrowed less and had fewer overdue loans (Bruhn et al., long-term follow-up) |
 | Frisancho (2023), *Economic Journal* | Peru, 300 schools | **+0.14 SD**; teachers +0.32 SD; about 20% fewer arrears among borrowers, still visible 7 years later; poorer parents' default probability −26%; cost **US$4.8 per pupil** (plus US$56k one-off for workbooks) |
 | Cannistrà et al. (2024), *Journal of Comparative Economics* | 2,220 pupils in 4 countries; online escape-room game | **+0.31 SD** |
 | Lührmann, Serra-Garcia & Winter (2015), *Journal of Banking & Finance* | Germany; 90-minute sessions by volunteer finance professionals | More interest and knowledge; fewer impulse purchases |
@@ -438,7 +438,6 @@ Fraud is not the only financial risk young Latvians meet early. Several separate
 **Value:**
 
 - **About 1%** of one year's fraud losses (€23.7m in 2025; €7.8m in the first half of 2026 alone).
-- In Brazil, a comparable programme paid for itself through lower borrowing costs within ~5 years.
 - **Who could pay:** IZM (teacher training), Latvijas Banka (content), banks and Finance Latvia (co-funding, volunteers), EU funds.
 
 # Part V. What regulatory changes should be applied?

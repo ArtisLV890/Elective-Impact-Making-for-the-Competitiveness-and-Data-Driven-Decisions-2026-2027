@@ -553,7 +553,7 @@ On **20 November 2026**, the OECD and Latvijas Banka presented the results of an
 **Benchmarks from the research**
 
 - **Peru** (Frisancho): **US$6.6 per student**, including workbooks, distribution, **teacher training** and monitoring.
-- **Brazil** (Bruhn et al.): **BRL 206 per student**. Students' lower use of expensive credit saves about BRL 46 a year, so the programme **pays for itself in about 5 years**.
+- **Brazil** (Bruhn et al.): **BRL 206 per student**. Students' lower use of expensive credit saves about BRL 46 a year, so the programme **pays for itself in about 5 years**. ⚠ Unverified: not found in the Brazil papers; do not use.
 
 **Latvia: assumptions** (to be checked with IZM and VISC)
 
@@ -573,7 +573,7 @@ On **20 November 2026**, the OECD and Latvijas Banka presented the results of an
 
 - National fraud losses were **€23.7m in 2025** (State Police), and 18% of adults were fraud victims in two years (OECD/INFE).
 - The programme costs about **1% of one year's fraud losses** a year.
-- The Brazilian evidence suggests it can **pay for itself through lower borrowing costs within about 5 years**.
+- ⚠ Unverified (do not use): "pays for itself through lower borrowing costs within about 5 years".
 - Partners (Latvijas Banka, commercial banks via Finance Latvia, and EU funds such as ESF+) could cover part of it.
 
 *These are back-of-envelope figures to show the order of magnitude, not a budget.*

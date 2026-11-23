@@ -169,7 +169,7 @@ date: "November 2026"
 - **Average loss per successful fraud:** €7.83m across 2,829 cases in H1 2026, about **€2,770** per case.
 - **Successful frauds a year:** about **5,700** (2 × 2,829).
 - **Break-even:** the programme pays for itself in avoided losses if it prevents about **55–100 successful frauds a year**, around **1–2%** of all cases, before counting:
-  - savings and debt benefits (Brazil's programme paid for itself through lower borrowing costs within ~5 years);
+  - savings and debt benefits (in Brazil, treated students borrowed less and had fewer overdue loans nine years later);
   - the human cost of money-mule criminal records.
 - *This is an illustration, not a forecast. It shows the programme is cheap relative to the problem.*
 
