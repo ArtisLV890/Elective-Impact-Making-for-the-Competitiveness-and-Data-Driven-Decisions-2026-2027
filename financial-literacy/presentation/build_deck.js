@@ -323,9 +323,9 @@ s.addText("School financial education works when it is intensive", { placeholder
 s.addTable([
   [{ text: "Study", options: hdr }, { text: "Design", options: hdr }, { text: "Effect on knowledge", options: hdr }],
   ["Kaiser & Menkhoff (2020)", "Meta-analysis, 37 school studies", "+0.33 SD (RCTs +0.15)"],
-  ["Kaiser et al. (2022), JFE", "Meta-analysis, 76 RCTs, 160,000+ people", "Positive, robust"],
+  ["Kaiser et al. (2022), JFE", "Meta-analysis, 76 RCTs, 160,000+ people", "≈ +0.2 SD (behaviour ≈ +0.1)"],
   ["Bruhn et al. (2016), AEJ", "RCT, Brazil, 892 schools", "+0.25 SD"],
-  ["Frisancho (2020), IDB", "RCT, Peru, 300 schools", "+0.15 SD; better credit 3 years later"],
+  ["Frisancho (2023), Econ. Journal", "RCT, Peru, 300 schools", "+0.14 SD; teachers +0.32; ~20% fewer arrears"],
   ["Cannistrà et al. (2024), JCE", "RCT, 4 countries, online game", "+0.31 SD"],
 ], tbl({ x: 0.6, y: 1.5, w: 6.8, colW: [2.3, 2.6, 1.9], rowH: [0.45, 0.85, 0.85, 0.85, 0.85, 0.85] }));
 const lessons = [["Intensity matters", "dedicated lessons beat scattered mentions (Kaiser & Menkhoff 2017, 2020)"],

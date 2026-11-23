@@ -254,7 +254,7 @@ Fraud is not the only financial risk young Latvians meet early. Several separate
 | Study | Design | Result |
 |---|---|---|
 | Bruhn et al. (2016), *AEJ: Applied* | Brazil, 892 schools, ~25,000 pupils | Proficiency **+0.25 SD**; more saving and budgeting; parents benefited. Cost BRL 206 per pupil, repaid in ~5 years through lower borrowing costs |
-| Frisancho (2020), IDB | Peru, 300 schools | **+0.15 SD**; better credit records after 3 years; poorer parents' default probability −26%; cost **US$6.6 per pupil** |
+| Frisancho (2023), *Economic Journal* | Peru, 300 schools | **+0.14 SD**; teachers +0.32 SD; about 20% fewer arrears among borrowers, still visible 7 years later; poorer parents' default probability −26%; cost about **US$5–7 per pupil** |
 | Cannistrà et al. (2024), *Journal of Comparative Economics* | 2,220 pupils in 4 countries; online escape-room game | **+0.31 SD** |
 | Lührmann, Serra-Garcia & Winter (2015), *Journal of Banking & Finance* | Germany; 90-minute sessions by volunteer finance professionals | More interest and knowledge; fewer impulse purchases |
 
