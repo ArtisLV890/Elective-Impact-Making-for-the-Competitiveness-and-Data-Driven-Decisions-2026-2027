@@ -174,7 +174,7 @@ date: "November 2026"
 
 **Governance and timeline**
 
-- **Latvijas Banka coordinates the education parts** through the Financial Literacy Working Group. The group meets at least quarterly and includes IZM and VISC.
+- **Latvijas Banka coordinates the education parts** through the Financial Literacy Working Group. The group meets at least quarterly and includes IZM and VIAA.
 - Latvijas Banka would also coordinate an **annual implementation plan**.
 - The wider anti-fraud measures go to the national fraud-prevention framework, which is under review.
 - **Timeline:**

@@ -29,11 +29,11 @@ date: "November 2026"
 
 **Strategy, results and regulation (iii–v)**
 
-8. **Strategy:** five steps (module, teacher training, gamified practice, family tasks, measurement), delivered with IZM/VISC, Latvijas Banka's 28-partner coalition, banks and the media.
+8. **Strategy:** five steps (module, teacher training, gamified practice, family tasks, measurement), delivered with IZM/VIAA, Latvijas Banka's 28-partner coalition, banks and the media.
 9. **Expected results by 2030:** 9th-grade index from **12.3 to 14.0**; simple-interest skill from **57% to 75%**; "never learn about money at school" from **36% to under 10%**.
 10. **Regulation:** four Cabinet-level changes:
     - education standards (Regulations No. 747 and No. 416);
-    - teacher training (No. 569, with a 2024 precedent);
+    - teacher training (No. 569, with the 2025 swimming-course precedent);
     - a 2028+ national strategy with youth targets;
     - PISA 2029 financial literacy participation.
 
@@ -307,7 +307,7 @@ Fraud is not the only financial risk young Latvians meet early. Several separate
 
 ## 11. Five actions
 
-**1. A ready-to-teach module.** Ten to twelve lessons in grade 9, repeated at a higher level in grade 11, aligned with the EU/OECD financial competence framework for children and youth. Owners: IZM and VISC, with Latvijas Banka.
+**1. A ready-to-teach module.** Ten to twelve lessons in grade 9, repeated at a higher level in grade 11, aligned with the EU/OECD financial competence framework for children and youth. Owners: IZM and VIAA, with Latvijas Banka.
 
 | # | Lesson | Hook (a real decision) |
 |---|---|---|
@@ -328,7 +328,7 @@ Fraud is not the only financial risk young Latvians meet early. Several separate
 - A **36-hour certified course**, matching the Regulation No. 569 cycle, for social-studies teachers.
 - Focus on the weak spots: interest, compounding, risk and digital fraud.
 - Designed on effective-training principles: content focus, active learning, duration, collaboration and ownership (Compen et al. 2019).
-- Delivered by Latvijas Banka experts, universities and VISC. **Build on Latvijas Banka's new 3-year seminar cycle "Finanšu pratība praksē" (2026)**: certify it and make it count within the 36-hour requirement, rather than creating something new.
+- Delivered by Latvijas Banka experts, universities and VIAA. **Build on Latvijas Banka's new 3-year seminar cycle "Finanšu pratība praksē" (2026)**: certify it and make it count within the 36-hour requirement, rather than creating something new.
 
 **3. Gamified, repeated practice.**
 
@@ -351,7 +351,7 @@ Fraud is not the only financial risk young Latvians meet early. Several separate
 | Stakeholder | Interest and power | Our ask | Channel |
 |----|-----|-----|-----|
 | **IZM** (Ministry of Education and Science) | High power; under pressure after PISA 2025 | Amend standards and teacher-training rules; join PISA 2029 | Policy brief; meeting with the state secretary's office; consultation on draft regulations |
-| **VISC** (National Centre for Education) | Owns content and materials | Co-develop and approve the module and the 36-hour course | Working meetings; pilot data |
+| **VIAA** (State Education Development Agency; took over VIAA's functions on 1 January 2025) | Owns content and materials | Co-develop and approve the module and the 36-hour course | Working meetings; pilot data |
 | **Latvijas Banka** | National coordinator; 28-partner coalition; OECD action plan | School pillar and youth targets in the 2028+ strategy; content experts | Working group; Financial Literacy Week |
 | **Saeima Education, Culture and Science Committee; Budget Committee** | Political attention; budget | Hearing; support for funding | Briefing; testimony with our data |
 | **Interior Ministry** (fraud-prevention plan) | Leads the plan; Saeima noted there is no single coordinator | Include school education as a prevention measure | Written proposal |
@@ -384,7 +384,7 @@ Fraud is not the only financial risk young Latvians meet early. Several separate
 
 | Period | Milestone |
 |---|---|
-| Dec 2026 – Feb 2027 | Evidence brief; meetings with Latvijas Banka, IZM, VISC and Finance Latvia; agree the pilot |
+| Dec 2026 – Feb 2027 | Evidence brief; meetings with Latvijas Banka, IZM, VIAA and Finance Latvia; agree the pilot |
 | March 2027 | Public launch at Financial Literacy Week |
 | April – June 2027 | Pilot in 10 schools (module plus teacher course); before and after test |
 | Sept – Dec 2027 | Proposals into the 2028+ strategy and draft amendments to Regulations No. 747, 416 and 569 |
@@ -399,7 +399,7 @@ Fraud is not the only financial risk young Latvians meet early. Several separate
 | "Another topic in an overloaded curriculum" | Reuse existing social studies hours: a minimum block, not a new subject |
 | Teachers resist extra training | Count it within the existing 36 hours; certified; materials ready to use |
 | Budget pressure on learning materials (2026) | Low cost; co-funding by banks; EU funds (ESF+, Technical Support Instrument) |
-| Industry branding in classrooms | Content approved by VISC; volunteers follow a code of conduct (as the EU strategy foresees) |
+| Industry branding in classrooms | Content approved by VIAA; volunteers follow a code of conduct (as the EU strategy foresees) |
 | Behaviour changes slowly | KPIs focus first on knowledge and misconceptions, with behaviour tracked over time |
 | Data gaps (small youth samples) | Oversample young people; PISA 2029 |
 
@@ -416,7 +416,7 @@ Fraud is not the only financial risk young Latvians meet early. Several separate
 | 9th graders asked to be money mules who refused or reported it | Baseline 2027 | Rising | New question |
 | Adults aged 20–29: index | 11.0 (2022) | ≥ 12.2 | Latvijas Banka adult survey |
 | Adult knowledge sub-index | 3.9 (2022) | 5.1 (2015 level) | Same |
-| Social-studies teachers trained | 0 | ≥ 80% | VISC |
+| Social-studies teachers trained | 0 | ≥ 80% | VIAA |
 | PISA financial literacy | Not participating | Participating (2029) | OECD |
 | Regulations amended (No. 747, 416, 569) | No | Yes (2028) | likumi.lv |
 
@@ -446,9 +446,9 @@ None of these needs a new law. All are Cabinet regulations or strategy decisions
 
 | # | Instrument | Current situation | Proposed change | Owner | When |
 |-|------|-----|----------|--|---|
-| 1 | **Basic education standard: Cabinet Regulation No. 747** (27.11.2018; in force 01.09.2020) | Financial literacy within the social and civic learning area; no explicit minimum | Add explicit, assessed outcomes for grades 7–9 (compound interest, inflation, risk, digital fraud, money mules) and a **minimum block of ~10 lessons** within social studies | IZM, VISC | Draft autumn 2027; in force Sept 2028 |
-| 2 | **General secondary standard: Cabinet Regulation No. 416** (03.09.2019; last amended 2026) | Financial topics in social and civic courses | The same outcomes at a higher level (investing, credit, pensions) in grades 10–12 | IZM, VISC | Same |
-| 3 | **Teacher training rules: Cabinet Regulation No. 569** (36 hours every 3 years) | 2024 amendment added sexual and reproductive health as a topic (a **precedent**) | Make **financial and digital financial literacy a required topic** for teachers of social studies (and economics) | IZM | 2027–2028 |
+| 1 | **Basic education standard: Cabinet Regulation No. 747** (27.11.2018; in force 01.09.2020) | Financial literacy within the social and civic learning area; no explicit minimum | Add explicit, assessed outcomes for grades 7–9 (compound interest, inflation, risk, digital fraud, money mules) and a **minimum block of ~10 lessons** within social studies | IZM, VIAA | Draft autumn 2027; in force Sept 2028 |
+| 2 | **General secondary standard: Cabinet Regulation No. 416** (03.09.2019; last amended 2026) | Financial topics in social and civic courses | The same outcomes at a higher level (investing, credit, pensions) in grades 10–12 | IZM, VIAA | Same |
+| 3 | **Teacher training rules: Cabinet Regulation No. 569** (36 hours every 3 years) | Teachers choose their own courses; the only topic required of all teachers is child-rights protection (6 hours). Since 2025, PE teachers who teach swimming must take a 24-hour course (point 20.1): a **precedent** for a subject-specific requirement | Make **financial and digital financial literacy a required topic** for teachers of social studies (and economics) | IZM | 2027–2028 |
 | 4 | **National Financial Literacy Strategy 2028+** (Cabinet-approved; Latvijas Banka coordinates) | 2021–2027 strategy ends; it measures activities, not learning | A **school pillar** with **youth outcome targets** (9th-grade index, 18–29 index); link to the OECD action plan and the government's fraud-prevention plan | Latvijas Banka, Cabinet | Drafted 2027 |
 | + | **PISA participation** (IZM decision) | Latvia skipped financial literacy in 2022 | Join the **PISA 2029** financial literacy option | IZM | Decision 2027 |
 

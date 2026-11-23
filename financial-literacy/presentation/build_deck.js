@@ -284,7 +284,7 @@ const DEV = "dev";
 const lanes = [
   { name: "National Financial Literacy Strategy", owner: "Latvijas Banka + 28 partners", bars: [[2025, 2028, "2021–2027: ends", K.accent4], [2028, 2031, "2028+ strategy: drafted in 2027", K.accent1]] },
   { name: "Education Development Guidelines", owner: "IZM; steer budget and EU funds", bars: [[2025, 2028, "2021–2027: ends", K.accent4], [2028, 2031, "2028+: budget 2028–31, EU funds 2028–34", K.accent1]] },
-  { name: "Social-studies course", owner: "IZM / VISC · in progress", dev: true, bars: [[2025.7, 2026.9, "LB: restructure topics", K.accent3], [2026.9, 2028.6, "Course being rebuilt", DEV]] },
+  { name: "Social-studies course", owner: "IZM / VIAA · in progress", dev: true, bars: [[2025.7, 2026.9, "LB: restructure topics", K.accent3], [2026.9, 2028.6, "Course being rebuilt", DEV]] },
   { name: "Saeima financial literacy subcommittee", owner: "Saeima · in progress", dev: true, bars: [[2025.7, 2026.5, "Saeima conference (2025)", K.accent3], [2026.5, 2028, "Working on new regulation", DEV]] },
   { name: "OECD action plan for Latvia", owner: "Latvijas Banka coordinates", bars: [[2026.88, 2028, "Published 20.11.2026", K.accent6], [2028, 2031, "Folded into the 2028+ strategy", K.accent1]] },
   { name: "Fraud-prevention plan", owner: "Interior Ministry", bars: [[2026, 2027.6, "Drafting: no school measure yet", K.accent5]] },
@@ -424,22 +424,24 @@ src(s, "Sources: Burke, Kieffer, Mottola & Perez-Arce (2021), GFLEC; Ontario Sec
 // ======================= (iii) divider
 divider("(iii) Strategy", "(iii)", "What is our strategy?", "Five steps from paper to practice, delivered with policymakers, the central bank, banks, schools and the media.");
 
-// Slide: five steps
+// Slide: the package (six elements)
 s = slide("CONTENT", "(iii) Strategy");
-s.addText("Our strategy: five steps from paper to practice", { placeholder: "title" });
-const steps = [["Module", "10–12 ready-to-teach lessons in grades 9 and 11, each tied to a real decision"],
-  ["Teacher training", "certify Latvijas Banka's new seminar cycle (2026) so it counts in teachers' 36 required hours"],
-  ["Gamified practice", "Olympiad (ours: ~200 students, 30+ schools), escape-room games, bank volunteers, all year"],
-  ["Family tasks", "homework that involves parents in a real money decision (73% of pupils are left out today)"],
-  ["Measure", "Latvijas Banka 9th-grade survey every 2 years; join PISA 2029 financial literacy"]];
+s.addText("Our strategy: a six-part package from paper to practice", { placeholder: "title" });
+const steps = [["Module", "about 10–12 ready-to-teach lessons across grades 7–9, more in secondary; each tied to a real decision"],
+  ["Training that counts", "Latvijas Banka seminars run via VIAA or a university, so they count in teachers' 36 hours"],
+  ["Required training", "12 hours every 3 years for social-studies teachers, within the 36 hours (swimming precedent, 2025)"],
+  ["Outcomes and time", "add fraud, money mules and compound interest to the standard; minimum lessons in the sample programme"],
+  ["Maths link", "interest, percentages and loans in maths lessons: the skills behind financial decisions"],
+  ["Measure and fund", "9th-grade survey every 2 years; PISA 2029; a budget line in the 2028+ strategy"]];
 steps.forEach((st, i) => {
-  const x = 0.6 + i * 2.45;
-  card(s, x, 1.5, 2.28, 4.9);
-  num(s, x + 0.25, 1.75, i + 1, i === 4 ? C.accent2 : C.accent1);
-  s.addText(st[0], { x: x + 0.25, y: 2.5, w: 1.85, h: 0.75, fontFace: "Cambria", fontSize: 18, bold: true, color: C.text2, margin: 0, valign: "top", isTextBox: true, objectName: "Step title" });
-  s.addText(st[1], { x: x + 0.25, y: 3.3, w: 1.85, h: 2.95, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Step text" });
+  const x = 0.6 + i * 2.04;
+  card(s, x, 1.5, 1.9, 4.9, i === 2 ? C.text2 : C.background2);
+  num(s, x + 0.2, 1.72, i + 1, i === 2 ? C.accent2 : (i === 5 ? C.accent2 : C.accent1));
+  s.addText(st[0], { x: x + 0.2, y: 2.45, w: 1.55, h: 0.85, fontFace: "Cambria", fontSize: 16, bold: true, color: i === 2 ? C.accent2 : C.text2, margin: 0, valign: "top", isTextBox: true, objectName: "Step title" });
+  s.addText(st[1], { x: x + 0.2, y: 3.35, w: 1.55, h: 2.9, fontSize: 12.5, color: i === 2 ? C.background1 : C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Step text" });
 });
-src(s, "Each step answers a research finding: intensity (1, 3), teachers (2), real decisions (1, 4), repetition (3) and measurement (5).");
+src(s, "What is taught (1, 4, 5), who can teach it (2, 3) and proof it works (6). Legal basis: Cabinet Regulations No. 569 (point 20.1 precedent), 747 and 416.");
+s.addNotes("Today teachers choose their own training freely; the only topic required of every teacher is child-rights protection (6 hours). Since 2025, PE teachers who teach swimming must take a 24-hour course. We ask for the same for social-studies teachers and money: 12 hours every 3 years, inside the 36 hours they already owe. Social studies in grades 7-9 has only about one lesson a week, so the module is spread across grades 7-9 and backed by maths.");
 
 // Slide: module content
 s = slide("CONTENT", "(iii) Strategy");
@@ -459,7 +461,7 @@ src(s, "Aligned with the EU/OECD financial competence framework for children and
 // Slide: stakeholders
 s = slide("CONTENT", "(iii) Strategy");
 s.addText("Who we work with, and what we do", { placeholder: "title" });
-const quad = [["Policymakers", "IZM and VISC; Saeima Education Committee; Interior Ministry fraud plan", "we send an evidence brief and draft amendments, and request a Saeima hearing"],
+const quad = [["Policymakers", "IZM and VIAA; Saeima Education Committee; Interior Ministry fraud plan", "we send an evidence brief and draft amendments, and request a Saeima hearing"],
   ["Central bank and industry", "Latvijas Banka's 28-partner working group; Finance Latvia and banks", "we join the working group; we ask banks to co-fund training and send volunteers (EU rules make them liable for weak fraud prevention)"],
   ["Schools and families", "Social-studies teachers; 10 pilot schools; parents", "we recruit pilot schools, run the Olympiad and design the family tasks"],
   ["Media", "LSM, Delfi, TVNet; Financial Literacy Week (March); teen social media", "we publish op-eds with our data and make scam-awareness content with student creators"]];
@@ -470,12 +472,12 @@ quad.forEach((q, i) => {
   s.addText([{ text: "Who: ", options: { bold: true } }, { text: q[1], options: { breakLine: true } }, { text: "What we do: ", options: { bold: true, color: C.accent1 } }, { text: q[2] }],
     { x: x + 0.3, y: y + 0.7, w: 5.4, h: 1.55, fontSize: 14, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "Group text" });
 });
-src(s, "Two tracks: inside (working group, VISC, comments on draft rules) and outside (media, pilot results). Never blame teachers: it is a system design gap.");
+src(s, "Two tracks: inside (working group, VIAA, comments on draft rules) and outside (media, pilot results). Never blame teachers: it is a system design gap.");
 
 // Slide: roadmap
 s = slide("CONTENT", "(iii) Strategy");
 s.addText("Roadmap 2026–2030", { placeholder: "title" });
-const road = [["Dec 2026 – Feb 2027", "Evidence brief; meetings with Latvijas Banka, IZM, VISC and Finance Latvia"],
+const road = [["Dec 2026 – Feb 2027", "Evidence brief; meetings with Latvijas Banka, IZM, VIAA and Finance Latvia"],
   ["March 2027", "Launch at Financial Literacy Week: media campaign, Olympiad, op-eds"],
   ["Spring 2027", "Pilot in 10 schools plus 10 comparison schools; test before and after"],
   ["Autumn 2027", "Proposals into the 2028+ strategy, the Education Development Guidelines and the regulations"],
@@ -542,11 +544,11 @@ s = slide("CONTENT", "(v) Regulation");
 s.addText("Four regulatory changes that make it stick", { placeholder: "title" });
 s.addTable([
   [{ text: "Instrument", options: hdr }, { text: "Proposed change", options: hdr }, { text: "Owner", options: hdr }],
-  ["Education standards (Cabinet Regulations No. 747 and 416) and their sample programmes", "Explicit, assessed outcomes (compound interest, inflation, risk, digital fraud, money mules); a minimum block of about 10 lessons in grades 7–9 and 10–12", "IZM, VISC"],
-  ["Teacher training rules (Cabinet Regulation No. 569: 36 hours every 3 years)", "Financial and digital literacy as a required topic for social-studies teachers. Precedent: a topic was added on 22.10.2024", "IZM"],
+  ["Education standards (Cabinet Regulations No. 747 and 416) and their sample programmes", "Explicit, assessed outcomes (compound interest, inflation, risk, digital fraud, money mules); a minimum block of about 10 lessons in grades 7–9 and 10–12", "IZM, VIAA"],
+  ["Teacher training rules (Cabinet Regulation No. 569: 36 hours every 3 years)", "A required financial and digital literacy course for social-studies teachers, within the 36 hours. Precedent: the 2025 swimming rule (point 20.1)", "IZM"],
   ["Education Development Guidelines 2028+ (Cabinet-approved)", "Financial literacy among target skills, with an indicator and a teacher-training budget line", "IZM, Cabinet"],
   ["National Financial Literacy Strategy 2028+ (partnership)", "School pillar with youth outcome targets; absorb the OECD action plan as its digital component (as the OECD proposes)", "Latvijas Banka"],
-  [{ text: "Quick wins (now)", options: { bold: true, color: C.accent1 } }, "Accredit Latvijas Banka's teacher seminars; join PISA 2029; tighter youth-targeted gambling ads", "IZM; Ministry of Finance"],
+  [{ text: "Quick wins (now)", options: { bold: true, color: C.accent1 } }, "Latvijas Banka seminars delivered as an approved course (via VIAA or a university); join PISA 2029; tighter youth-targeted gambling ads", "IZM; Ministry of Finance"],
 ], tbl({ x: 0.6, y: 1.45, w: 12.13, colW: [3.9, 6.23, 2.0], rowH: [0.42, 0.95, 0.85, 0.75, 0.75, 0.75] }));
 s.addText([{ text: "EU tailwind: ", options: { bold: true, color: C.accent1 } },
   { text: "the European Parliament voted 502–46 (April 2026) for financial education in school curricula; the Commission strategy (2025) asks member states to start in schools." }],
@@ -573,7 +575,7 @@ s.addText([
   { text: "The OECD calls school-level digital financial literacy \"essential\", but Action 4 has no owner, timeline or KPI.", options: { bullet: true, breakLine: true } },
   { text: "Pillar III asks for practice; our module and games deliver it in class.", options: { bullet: true, breakLine: true } },
   { text: "The OECD proposes folding the plan into the 2028+ national strategy, where we ask for a school pillar.", options: { bullet: true, breakLine: true } },
-  { text: "Owner: Latvijas Banka's Financial Literacy Working Group, which includes IZM and VISC.", options: { bullet: true } },
+  { text: "Owner: Latvijas Banka's Financial Literacy Working Group, which includes IZM and VIAA.", options: { bullet: true } },
 ], { x: 8.05, y: 1.65, w: 4.45, h: 4.6, fontSize: 14, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 8, isTextBox: true, objectName: "Gap text" });
 src(s, "Source: OECD (2026), Improving Adults' Resilience Against Financial Scams and Frauds in Latvia, ch. 4 (sections 4.5.4, 4.6) and Annex B.");
 s.addNotes("This is not a new idea from students: the OECD recommended it to Latvia on 20 November 2026. We offer to make Action 4 concrete. Be honest if asked: the OECD found 35-64-year-olds more likely to be victims than 18-24-year-olds; schools are about prevention before habits form.");
@@ -581,7 +583,7 @@ s.addNotes("This is not a new idea from students: the OECD recommended it to Lat
 // Slide: how the change happens
 s = slide("CONTENT", "(v) Regulation");
 s.addText("How the change happens, and when", { placeholder: "title" });
-const proc = [["Draft", "IZM and VISC draft the amendments with our evidence and pilot data"], ["Consult", "Public consultation on the TAP portal: we and partners comment"], ["Coordinate", "Announced at the State Secretaries' meeting; ministries agree"], ["Adopt", "Cabinet adopts; applies from 1 September 2028"]];
+const proc = [["Draft", "IZM and VIAA draft the amendments with our evidence and pilot data"], ["Consult", "Public consultation on the TAP portal: we and partners comment"], ["Coordinate", "Announced at the State Secretaries' meeting; ministries agree"], ["Adopt", "Cabinet adopts; applies from 1 September 2028"]];
 proc.forEach((p, i) => {
   const x = 0.6 + i * 3.08;
   card(s, x, 1.5, 2.9, 2.35);
@@ -591,7 +593,7 @@ proc.forEach((p, i) => {
 });
 card(s, 0.6, 4.1, 5.95, 2.3, C.text2, "Precedent card");
 s.addText([{ text: "Precedent", options: { fontFace: "Cambria", bold: true, fontSize: 18, color: C.accent2, breakLine: true } },
-  { text: "On 22 October 2024 the Cabinet amended Regulation No. 569 to add sexual and reproductive health to teachers' required competences. We ask for the same for financial and digital literacy.", options: { color: C.background1 } }],
+  { text: "Since 1 September 2025, PE teachers who teach swimming must complete 24 hours of training in swimming instruction and water safety (Regulation No. 569, point 20.1). We ask for the same for social-studies teachers in financial literacy.", options: { color: C.background1 } }],
   { x: 0.9, y: 4.25, w: 5.4, h: 2.0, fontSize: 15, margin: 0, valign: "top", isTextBox: true, objectName: "Precedent text" });
 card(s, 6.78, 4.1, 5.95, 2.3);
 s.addText([{ text: "Budget timing", options: { fontFace: "Cambria", bold: true, fontSize: 18, color: C.accent1, breakLine: true } },
@@ -605,7 +607,7 @@ s = slide("SECTION_DARK", "Closing");
 s.addText("Our asks", { placeholder: "kicker" });
 s.addText("Make compulsory financial education real", { placeholder: "title" });
 s.addText([
-  { text: "IZM and VISC: ", options: { bold: true, color: C.accent2 } }, { text: "outcomes, minimum lessons and teacher training in regulation", options: { breakLine: true } },
+  { text: "IZM and VIAA: ", options: { bold: true, color: C.accent2 } }, { text: "outcomes, minimum lessons and teacher training in regulation", options: { breakLine: true } },
   { text: "Latvijas Banka: ", options: { bold: true, color: C.accent2 } }, { text: "a school pillar with youth targets in the next strategy", options: { breakLine: true } },
   { text: "Banks and Finance Latvia: ", options: { bold: true, color: C.accent2 } }, { text: "co-fund teacher training and send volunteer finance coaches" },
 ], { placeholder: "body" });
@@ -649,7 +651,7 @@ s.addTable([
   ["2020–2023", "Skola2030: financial literacy becomes part of compulsory social studies", "Compulsory, but no minimum lessons"],
   ["June 2021", "Education Development Guidelines 2021–2027 (Cabinet Order No. 436)", "Successor 2028+ to be drafted"],
   ["2021", "National Financial Literacy Strategy 2021–2027 (FKTK; Latvijas Banka from 2022)", "Ends 2027; partnership, not Cabinet"],
-  ["22.10.2024", "Regulation No. 569 amended: new required topic in teacher training", "Precedent for our proposal"],
+  ["01.09.2025", "Regulation No. 569: 24-hour required course for PE teachers who teach swimming", "Precedent for a subject-specific requirement"],
   ["30.09.2025", "EU Financial Literacy Strategy, COM(2025) 681", "Asks member states to start in schools"],
   ["27.11.2025", "EU Payment Services Regulation agreed", "Banks liable for weak fraud prevention"],
   ["16.03.2026", "28-partner memorandum: pupils and teachers a priority to 2027", "Ready-made coalition"],

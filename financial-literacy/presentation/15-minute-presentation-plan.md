@@ -87,7 +87,7 @@ date: "November 2026"
 
 **Slide 8: Five steps (1:30)**
 
-1. **Module:** 10–12 ready-to-teach lessons in grades 9 and 11, each tied to a real decision (scams, money mules, crypto and finfluencers, online loans, the first salary and the pension pillar).
+1. **Module:** about 10–12 ready-to-teach lessons across grades 7–9, plus secondary, each tied to a real decision (scams, money mules, crypto and finfluencers, online loans, the first salary and the pension pillar).
 2. **Teacher training:** build on Latvijas Banka's new seminar cycle (2026); certify it so it counts within teachers' required 36 hours.
 3. **Gamified practice** through the year: Olympiad, escape-room games, bank volunteers as "finance coaches". *(This is where our NGO already has a working format.)*
 4. **Family tasks:** 73% of pupils are left out of money decisions at home.
@@ -95,7 +95,7 @@ date: "November 2026"
 
 **Slide 9: Who we work with (1:00)** (one line each)
 
-- **Policymakers:** IZM and VISC (standards and training), Saeima committees, the Interior Ministry fraud plan.
+- **Policymakers:** IZM and VIAA (standards and training), Saeima committees, the Interior Ministry fraud plan.
 - **Central bank and industry:** Latvijas Banka's 28-partner coalition; banks and Finance Latvia, which now have a financial interest in fraud prevention (EU payment rules).
 - **Schools and parents:** a pilot in 10 schools.
 - **Media:** LSM, Delfi and TVNet; Financial Literacy Week in March; teen-facing social media.
@@ -125,7 +125,7 @@ date: "November 2026"
 **Four changes, and none needs a new law:**
 
 1. **Education standards** (Cabinet Regulations No. 747 and 416): explicit, assessed financial literacy outcomes and a **minimum block of lessons**.
-2. **Teacher training rules** (No. 569, 36 hours every 3 years): make financial and digital literacy a required topic. **Precedent:** a new required topic was added in 2024.
+2. **Teacher training rules** (No. 569, 36 hours every 3 years): a required financial and digital literacy course for social-studies teachers, within the existing 36 hours. **Precedent:** since 2025, PE teachers who teach swimming must take a 24-hour course.
 3. **National strategy 2028+:** a school pillar with youth targets, linked to the OECD action plan and the fraud-prevention plan.
 4. **Join PISA 2029** financial literacy.
 
@@ -134,7 +134,7 @@ date: "November 2026"
 # Part 7. Close (1:00), slide 13
 
 **Three asks:**
-- **IZM and VISC:** put outcomes, minimum lessons and teacher training into regulation.
+- **IZM and VIAA:** put outcomes, minimum lessons and teacher training into regulation.
 - **Latvijas Banka:** a school pillar with youth targets in the next strategy.
 - **Banks and Finance Latvia:** co-fund teacher training and send volunteer coaches.
 

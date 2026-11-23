@@ -56,7 +56,7 @@ Most of the evidence on school financial education comes from short programmes, 
    - That is precisely what we propose for Latvian social studies.
 3. **The same kind of partnership.**
    - In Peru: the Ministry of Education, the financial regulator (SBS) and the banking association's education centre.
-   - In Latvia: IZM and VISC, Latvijas Banka (central bank and supervisor) and Finance Latvia.
+   - In Latvia: IZM and VIAA, Latvijas Banka (central bank and supervisor) and Finance Latvia.
 4. **Unusually strong evidence:**
    - a large randomised trial;
    - real behaviour from **credit-bureau records**, not just surveys;

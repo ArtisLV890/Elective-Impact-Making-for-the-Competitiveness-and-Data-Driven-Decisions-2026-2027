@@ -140,7 +140,7 @@ Each slide has one **headline** (the message, said in the first sentence), the *
 - **Answers:** (iii).
 - **Headline:** "Five steps from paper to practice".
 - **Content:**
-  1. **Module:** 10–12 lessons in grades 9 and 11, each tied to a real decision (scams, money mules, crypto, finfluencers and gambling odds, online loans, the first salary and the pension).
+  1. **Module:** about 10–12 lessons across grades 7–9, plus secondary, each tied to a real decision (scams, money mules, crypto, finfluencers and gambling odds, online loans, the first salary and the pension).
   2. **Teacher training:** certify Latvijas Banka's new seminar cycle and count it in the required 36 hours.
   3. **Gamified practice:** the Olympiad, escape-room games, bank volunteers, spread through the year.
   4. **Family tasks.**
@@ -157,7 +157,7 @@ Each slide has one **headline** (the message, said in the first sentence), the *
 - **Answers:** (iii), interaction with media, policymakers and industry (**required by the brief**).
 - **Headline:** "Who we work with, and how".
 - **Content:** four boxes, **written in first person**:
-  - **Policymakers:** *we* send an evidence brief and draft amendments to IZM and VISC, and request a Saeima Education Committee hearing.
+  - **Policymakers:** *we* send an evidence brief and draft amendments to IZM and VIAA, and request a Saeima Education Committee hearing.
   - **Central bank and industry:** *we* join Latvijas Banka's working group and ask Finance Latvia and banks to co-fund teacher training and send volunteers. Argument: EU payment rules make banks liable for weak fraud prevention.
   - **Schools and parents:** *we* recruit 10 pilot schools and design the family tasks.
   - **Media:** *we* publish op-eds with our data, pitch LSM and Delfi, and create scam-awareness content with student creators during Financial Literacy Week.
@@ -208,7 +208,7 @@ Each slide has one **headline** (the message, said in the first sentence), the *
 - **Headline:** "Four regulatory changes that make it stick".
 - **Content:** table with instrument, change and owner:
   1. **Education standards** (Cabinet Regulations No. 747 and 416): explicit, assessed outcomes (compound interest, inflation, risk, digital fraud, money mules) plus a minimum block of about 10 lessons.
-  2. **Teacher training rules** (No. 569, 36 hours every 3 years): financial and digital literacy as a required topic. Precedent: a required topic was added in 2024.
+  2. **Teacher training rules** (No. 569, 36 hours every 3 years): a required financial and digital literacy course for social-studies teachers, within the 36 hours. Precedent: since 2025, PE teachers who teach swimming must take a 24-hour course.
   3. **National strategy 2028+:** a school pillar with youth outcome targets, linked to the OECD action plan and the fraud-prevention plan.
   4. **PISA 2029:** the financial literacy option.
 
@@ -217,7 +217,7 @@ Each slide has one **headline** (the message, said in the first sentence), the *
   **EU tailwind:** Commission strategy (2025); European Parliament resolution (April 2026, 502 votes for); EU payment rules.
 - **Talking points:**
   - "None of this needs a new law. They are Cabinet regulations and strategy decisions, achievable in one policy cycle."
-  - "There is a precedent: in 2024 the government added a required topic to teacher training. We ask for the same."
+  - "There is a precedent: since 2025, PE teachers who teach swimming must take a 24-hour course. We ask for the same for social-studies teachers and money."
   - "And Europe is pushing in the same direction: the Parliament voted 502 to 46 for financial education in school curricula."
 - **Visual:** table (detail in appendix A5).
 - **Transition:** "So, our three asks."
@@ -227,7 +227,7 @@ Each slide has one **headline** (the message, said in the first sentence), the *
 - **Answers:** summarises (iii)–(v).
 - **Headline:** "Make compulsory financial education real".
 - **Content:**
-  - **IZM and VISC:** outcomes, minimum lessons, teacher training in regulation.
+  - **IZM and VIAA:** outcomes, minimum lessons, teacher training in regulation.
   - **Latvijas Banka:** a school pillar with youth targets.
   - **Banks and Finance Latvia:** co-fund training, volunteer coaches.
 - **Closing line:** "We already made financial literacy compulsory. Now let's make it real, before the scammers teach our teenagers first."

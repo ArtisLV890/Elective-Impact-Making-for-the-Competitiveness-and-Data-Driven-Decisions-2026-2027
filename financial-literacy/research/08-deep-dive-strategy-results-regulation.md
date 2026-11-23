@@ -8,7 +8,7 @@ date: "November 2026"
 # Summary
 
 > **Key message.** Our strategy works on two tracks at once:
-> - **an insider track:** we work inside Latvijas Banka's coalition and with IZM/VISC;
+> - **an insider track:** we work inside Latvijas Banka's coalition and with IZM/VIAA;
 > - **an outsider track:** media and public pressure, backed by a measured pilot.
 >
 > Expected results come in three layers:
@@ -21,7 +21,7 @@ date: "November 2026"
 **Three corrections and refinements compared with earlier versions**
 
 1. **The National Financial Literacy Strategy 2021–2027 is a partnership document.** FKTK developed it and Latvijas Banka coordinates it, with 20 partners in 2021 and 28 in 2026. We found no evidence that the Cabinet approved it. The **Cabinet-level anchor** for schools is the **Education Development Guidelines** (2021–2027 approved by Cabinet Order No. 436, June 2021, after support from the Saeima Education Committee). We therefore target **both**.
-2. **Minimum lessons belong in the sample programmes** (the annexes to Regulations No. 747 and No. 416, maintained with VISC). The standards themselves set **learning outcomes**. We propose outcomes in the standard and a minimum block in the sample programme.
+2. **Minimum lessons belong in the sample programmes** (the annexes to Regulations No. 747 and No. 416, maintained with VIAA). The standards themselves set **learning outcomes**. We propose outcomes in the standard and a minimum block in the sample programme.
 3. **The KPI targets are recalibrated.** Using research effect sizes, the realistic *base case* is a 9th-grade index of about **13.2** and about **68%** solving simple interest. The earlier **14.0** and **75%** become *stretch* targets.
 
 # Part A. Strategy deep dive
@@ -41,7 +41,7 @@ date: "November 2026"
 
 | Level | What | Indicator | Assumption |
 |---|---|---|---|
-| **Inputs** | Module, teacher course, games, volunteers, family tasks, funding | Materials approved by VISC; budget committed | Partners agree to co-design and co-fund |
+| **Inputs** | Module, teacher course, games, volunteers, family tasks, funding | Materials approved by VIAA; budget committed | Partners agree to co-design and co-fund |
 | **Activities** | Pilot (2027), then national delivery (2028+) | Number of schools delivering; teachers trained | Schools have time within social studies |
 | **Outputs** | Every grade 9 and 11 pupil gets ≥ 10 dedicated lessons; ≥ 80% of social-studies teachers trained | "Never learn about money at school" < 10%; training completion | Regulation makes it expected, not optional |
 | **Short-term outcomes** (1–2 years) | Knowledge, fewer misconceptions, scam recognition | 9th-grade index; item scores (interest, risk, Bitcoin) | Teachers deliver with fidelity |
@@ -52,7 +52,7 @@ date: "November 2026"
 
 - **Insider track (cooperation).**
   - Join Latvijas Banka's working group (28 partners).
-  - Co-design the module with VISC.
+  - Co-design the module with VIAA.
   - Submit written proposals to IZM and the Interior Ministry's fraud plan.
   - Comment on draft regulations during public consultation on the TAP portal.
 - **Outsider track (public pressure).**
@@ -67,7 +67,7 @@ date: "November 2026"
 | Stakeholder | Power | Interest today | Message that works for them | Specific ask |
 |---|--|--|------|-----|
 | **IZM** | High | Medium (PISA 2025 pressure) | "A low-cost way to improve real-life maths and reading skills after PISA 2025, aligned with EU recommendations" | Amend standards and sample programmes; include in Education Development Guidelines 2028+; join PISA 2029 |
-| **VISC** | High (content) | Medium | "Ready-made, tested materials that reduce teacher workload" | Approve the module and certify the teacher course |
+| **VIAA** | High (content) | Medium | "Ready-made, tested materials that reduce teacher workload" | Approve the module and certify the teacher course |
 | **Latvijas Banka** | High (coordination) | High | "Turns your activities into measurable learning; gives a youth pillar to the OECD action plan" | Youth targets and a school pillar in the 2028+ strategy; seminar accreditation |
 | **Saeima Education Committee** | High | Low to medium | "Latvia is joint last in the EU; schools are the only place that reaches every teenager" | A hearing; support in the budget and guidelines |
 | **Interior Ministry** | Medium | High (fraud plan) | "Prevention starts at 15: 18% of 9th graders are approached as money mules" | Add school education as a measure in the fraud plan |
@@ -98,13 +98,13 @@ date: "November 2026"
 | When | What | Owner | Deliverable |
 |---|---|---|---|
 | Dec 2026 | Evidence brief (this research) | Jaunie Ekonomisti | 8-page brief, Latvian and English |
-| Jan–Feb 2027 | Meetings: Latvijas Banka, VISC, IZM, Finance Latvia | Jaunie Ekonomisti | Agreement on pilot; co-funding letter |
-| Feb 2027 | Module v1 and teacher course aligned with the Latvijas Banka seminar cycle | VISC, Latvijas Banka, Jaunie Ekonomisti | Lesson plans, slides, games |
+| Jan–Feb 2027 | Meetings: Latvijas Banka, VIAA, IZM, Finance Latvia | Jaunie Ekonomisti | Agreement on pilot; co-funding letter |
+| Feb 2027 | Module v1 and teacher course aligned with the Latvijas Banka seminar cycle | VIAA, Latvijas Banka, Jaunie Ekonomisti | Lesson plans, slides, games |
 | March 2027 | Launch at Financial Literacy Week; Olympiad | Jaunie Ekonomisti, Latvijas Banka | Media coverage; pilot schools announced |
 | April–June 2027 | Pilot in 10 + 10 schools | Schools, Jaunie Ekonomisti | Before and after data |
 | Sept 2027 | Pilot results; Saeima hearing | Jaunie Ekonomisti | Results report; testimony |
 | Autumn 2027 | Proposals into the 2028+ strategy, the Education Development Guidelines and the draft amendments | IZM, Latvijas Banka | Drafts on TAP |
-| 2028 | Regulations adopted; wave 1 rollout | IZM, VISC | Amended regulations |
+| 2028 | Regulations adopted; wave 1 rollout | IZM, VIAA | Amended regulations |
 | 2029 | Wave 2; PISA financial literacy | IZM | PISA data |
 | 2030 | Evaluation against KPIs | Latvijas Banka, IZM | Evaluation report |
 
@@ -125,7 +125,7 @@ date: "November 2026"
 | IZM sees it as curriculum overload | Medium | High | Minimum block inside existing social studies hours; frame as real-life maths and reading |
 | Teacher resistance or turnover (53% of under-30s intend to leave) | Medium | High | Count within the 36 required hours; ready-made materials; short modules |
 | Budget cuts (learning materials, 2026) | High | Medium | Low cost; co-funding from banks and the EU; digital materials |
-| Bank branding in classrooms | Medium | Medium | VISC approves content; volunteer code of conduct (as in the EU strategy) |
+| Bank branding in classrooms | Medium | Medium | VIAA approves content; volunteer code of conduct (as in the EU strategy) |
 | Pilot shows a small effect | Medium | Medium | Present honestly; improve the design; knowledge effects are well established internationally |
 | Political change (elections 2026/2030) | Medium | Medium | Anchor in regulation and guidelines, not projects; cross-party framing (fraud, youth) |
 | Data gaps (small youth samples) | High | Low | Oversample young people; PISA 2029 |
@@ -141,7 +141,7 @@ date: "November 2026"
 | | Financial literacy in Education Development Guidelines 2028+ with an indicator | No | Included | Included plus funded | Cabinet | One-off |
 | | Youth pillar and targets in the 2028+ financial literacy strategy | No | Included | — | Latvijas Banka | One-off |
 | | Latvia in PISA 2029 financial literacy | No | Yes | — | OECD | 2029 |
-| **Outputs (2028–29)** | Social-studies teachers trained | ~0 | 60% | 80% | VISC | Yearly |
+| **Outputs (2028–29)** | Social-studies teachers trained | ~0 | 60% | 80% | VIAA | Yearly |
 | | 9th graders who never learn about money at school | 36% | 15% | < 10% | Latvijas Banka | Every 2 years |
 | **Learning (2030)** | 9th-grade index (of 20) | 12.33 | **≈ 13.2** | 14.0 | Latvijas Banka | Every 2 years |
 | | Simple interest solved | 57% | **≈ 68%** | 75% | Latvijas Banka | Every 2 years |
@@ -186,7 +186,7 @@ date: "November 2026"
 | Policy | **Education Development Guidelines 2021–2027** (Cabinet Order No. 436, June 2021) → **successor 2028+** | IZM drafts; Saeima Education Committee support; Cabinet approves | Sets priorities, indicators and funding direction (budget frame 2028–2031; EU funds 2028–2034) |
 | Regulation | **No. 747** (basic education standard and sample programmes, 2018; in force 2020) | Cabinet | Learning outcomes for grades 1–9; sample programmes |
 | Regulation | **No. 416** (general secondary standard and sample programmes, 2019; last amended 2026) | Cabinet | Outcomes for grades 10–12 |
-| Regulation | **No. 569** (teacher education and professional development, 2018; amended 22.10.2024 adding sexual and reproductive health) | Cabinet | 36 hours every 3 years; required topics |
+| Regulation | **No. 569** (teacher education and professional development, 2018; amended 2020, 2024 and 2025; the 2025 amendment added a required 24-hour swimming course for PE teachers) | Cabinet | 36 hours every 3 years; required topics |
 | Partnership | **National Financial Literacy Strategy 2021–2027** (developed by FKTK; coordinated by Latvijas Banka; 28-partner memorandum, 2026) | Partners (no Cabinet approval found) | Coordination, activities, surveys |
 | Plan | Interior Ministry **fraud-prevention and combating plan** (in preparation, 2026) | Cabinet | Prevention measures |
 | Law | **Gambling and Lotteries Law** (advertising rules) | Saeima | Youth-targeted advertising |
@@ -194,7 +194,7 @@ date: "November 2026"
 
 ## C2. The proposals, with draft wording
 
-*The draft wording is our proposal, for illustration, and would be refined with VISC and lawyers.*
+*The draft wording is our proposal, for illustration, and would be refined with VIAA and lawyers.*
 
 **1. Learning outcomes in the standards (Regulations No. 747 and No. 416)**
 
@@ -206,14 +206,14 @@ date: "November 2026"
 
 - Grades 10–12 (No. 416): add credit, investing, pensions and digital financial safety.
 - **And in the sample programmes (annexes):** "no less than 10 lessons in grades 7–9 devoted to financial literacy within social studies".
-- **Process:** IZM/VISC draft → public consultation on TAP → announced at the State Secretaries' meeting → coordination → Cabinet. The annotation includes the impact assessment (cost: materials and training).
+- **Process:** IZM/VIAA draft → public consultation on TAP → announced at the State Secretaries' meeting → coordination → Cabinet. The annotation includes the impact assessment (cost: materials and training).
 - **Timing:** draft in autumn 2027; adopted in 2028; applies from 1 September 2028 (new school year).
 
 **2. Teacher training topic (Regulation No. 569)**
 
 - **Change:** add "financial and digital financial literacy" to the professional competence topics for teachers of social studies and economics, within the existing **36 hours every 3 years**.
-- **Precedent:** the **22.10.2024 amendment** added sexual and reproductive health topics to teachers' general professional competences.
-- **Quick win (no regulation needed):** IZM/VISC approve Latvijas Banka's seminar cycle "Finanšu pratība praksē" as a professional competence programme that counts towards the 36 hours.
+- **Precedent:** since **1 September 2025**, PE teachers who teach swimming must complete **24 hours** of swimming and water-safety training (point 20.1, Regulation No. 354 of 10.06.2025). The 2024 amendment only added sexual and reproductive health to the optional topic list.
+- **Quick win (no regulation needed):** IZM/VIAA approve Latvijas Banka's seminar cycle "Finanšu pratība praksē" as a professional competence programme that counts towards the 36 hours.
 
 **3. Education Development Guidelines 2028+ (Cabinet-approved)**
 
@@ -253,7 +253,7 @@ date: "November 2026"
 | "It's already in the curriculum" | Outcomes are general, there are no minimum lessons, and 36% of pupils say it never happens. England had the same issue and changed course in 2025 |
 | "Teachers are overloaded" | No new subject; existing hours and the existing 36-hour training; ready-made materials |
 | "Why regulate instead of running projects?" | 230+ activities since 2021, yet knowledge fell. Only rules make it reach every pupil |
-| "Banks will push products" | VISC approves the content; volunteers follow a code of conduct; no product promotion |
+| "Banks will push products" | VIAA approves the content; volunteers follow a code of conduct; no product promotion |
 | "What does it cost?" | About €0.15–0.27m a year, about 1% of a year's fraud losses; it breaks even if it prevents ~55–100 frauds a year |
 | "Will it change behaviour?" | Knowledge effects are proven. Behaviour effects are smaller and slower, so we measure them over years and add repetition and family tasks |
 
