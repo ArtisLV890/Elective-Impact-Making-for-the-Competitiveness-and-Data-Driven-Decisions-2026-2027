@@ -424,24 +424,24 @@ src(s, "Sources: Burke, Kieffer, Mottola & Perez-Arce (2021), GFLEC; Ontario Sec
 // ======================= (iii) divider
 divider("(iii) Strategy", "(iii)", "What is our strategy?", "Five steps from paper to practice, delivered with policymakers, the central bank, banks, schools and the media.");
 
-// Slide: the package (six elements)
+// Slide: the strategy (four ideas)
 s = slide("CONTENT", "(iii) Strategy");
-s.addText("Our strategy: a six-part package from paper to practice", { placeholder: "title" });
-const steps = [["Module", "about 10–12 ready-to-teach lessons across grades 7–9, more in secondary; each tied to a real decision"],
-  ["Training that counts", "Latvijas Banka seminars run via VIAA or a university, so they count in teachers' 36 hours"],
-  ["Required training", "12 hours every 3 years for social-studies teachers, within the 36 hours (swimming precedent, 2025)"],
-  ["Outcomes and time", "add fraud, money mules and compound interest to the standard; minimum lessons in the sample programme"],
-  ["Maths link", "interest, percentages and loans in maths lessons: the skills behind financial decisions"],
-  ["Measure and fund", "9th-grade survey every 2 years; PISA 2029; a budget line in the 2028+ strategy"]];
+s.addText("Our strategy: four ideas from paper to practice", { placeholder: "title" });
+const steps = [["Training that counts", "Latvijas Banka's seminars run via VIAA or a university: 4 modules of about 12 hours that count in full toward teachers' 36 hours", "No rule change"],
+  ["Required training", "12 hours every 3 years for social-studies and economics teachers, inside the 36 hours. Precedent: the 2025 swimming rule", "Reg. 569, new point 20.2"],
+  ["Curriculum fix", "add fraud, money mules and compound interest to the standard; about 12 lessons across grades 7–9, plus finance in maths", "Reg. 747; sample programmes"],
+  ["Measure and show", "9th-grade survey every 2 years; join PISA 2029 financial literacy; a yearly scorecard every March", "Latvijas Banka, IZM"]];
 steps.forEach((st, i) => {
-  const x = 0.6 + i * 2.04;
-  card(s, x, 1.5, 1.9, 4.9, i === 2 ? C.text2 : C.background2);
-  num(s, x + 0.2, 1.72, i + 1, i === 2 ? C.accent2 : (i === 5 ? C.accent2 : C.accent1));
-  s.addText(st[0], { x: x + 0.2, y: 2.45, w: 1.55, h: 0.85, fontFace: "Cambria", fontSize: 16, bold: true, color: i === 2 ? C.accent2 : C.text2, margin: 0, valign: "top", isTextBox: true, objectName: "Step title" });
-  s.addText(st[1], { x: x + 0.2, y: 3.35, w: 1.55, h: 2.9, fontSize: 12.5, color: i === 2 ? C.background1 : C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Step text" });
+  const x = 0.6 + i * 3.07;
+  const dark = i === 1;
+  card(s, x, 1.5, 2.9, 4.9, dark ? C.text2 : C.background2);
+  num(s, x + 0.25, 1.72, i + 1, dark ? C.accent2 : C.accent1);
+  s.addText(st[0], { x: x + 0.25, y: 2.45, w: 2.45, h: 0.8, fontFace: "Cambria", fontSize: 19, bold: true, color: dark ? C.accent2 : C.text2, margin: 0, valign: "top", isTextBox: true, objectName: "Step title" });
+  s.addText(st[1], { x: x + 0.25, y: 3.3, w: 2.45, h: 2.3, fontSize: 14, color: dark ? C.background1 : C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Step text" });
+  s.addText(st[2], { x: x + 0.25, y: 5.75, w: 2.45, h: 0.45, fontSize: 11.5, bold: true, color: dark ? C.accent3 : C.accent1, margin: 0, valign: "middle", isTextBox: true, objectName: "Step instrument" });
 });
-src(s, "What is taught (1, 4, 5), who can teach it (2, 3) and proof it works (6). Legal basis: Cabinet Regulations No. 569 (point 20.1 precedent), 747 and 416.");
-s.addNotes("Today teachers choose their own training freely; the only topic required of every teacher is child-rights protection (6 hours). Since 2025, PE teachers who teach swimming must take a 24-hour course. We ask for the same for social-studies teachers and money: 12 hours every 3 years, inside the 36 hours they already owe. Social studies in grades 7-9 has only about one lesson a week, so the module is spread across grades 7-9 and backed by maths.");
+src(s, "Idea 3 decides what is taught, Ideas 1 and 2 make sure teachers can and do teach it, Idea 4 proves it worked. No new law and no company money needed.");
+s.addNotes("Teachers today choose their own training; Latvijas Banka's seminars count only partly (seminars are capped at 12 hours in 3 years unless they are an approved course). Idea 1 fixes that without any rule change. Idea 2 makes it stick for the teachers who teach the topic, on the model of the 2025 swimming rule. Idea 3 uses the ongoing social-studies redesign to add what is missing: fraud, money mules, compound interest. Idea 4 makes sure we can prove it worked.");
 
 // Slide: module content
 s = slide("CONTENT", "(iii) Strategy");
@@ -463,8 +463,8 @@ s = slide("CONTENT", "(iii) Strategy");
 s.addText("Who we work with, and what we do", { placeholder: "title" });
 const quad = [["Policymakers", "IZM and VIAA; Saeima financial literacy subcommittee; Interior Ministry fraud plan", "evidence brief; draft wording for a required 12-hour course (Reg. 569); Saeima hearing"],
   ["Latvijas Banka and teacher training", "Latvijas Banka's 28-partner working group; VIAA or a university as course provider", "turn the bank's seminar cycle into an approved course, so it counts in full toward the 36 hours"],
-  ["Business", "Finance Latvia, banks, insurers, payment firms, mobile operators", "\"a day at the fraud desk\" placements for teachers (count under Reg. 569, point 19); an unbranded pooled fund with tax relief"],
-  ["Media", "LSM (2027 public-service order); regional and national outlets; finfluencers", "a finance and fraud strand at LSM; series pitched for the Media Support Fund; a responsible-creator pledge"]];
+  ["Schools and teachers", "Social-studies and maths teachers; school heads; municipal education boards", "ready-made lessons; promote the approved course; school heads plan it into teachers' 36 hours"],
+  ["Media", "LSM (2027 public-service order); national and regional outlets", "a yearly scorecard every March; a proposal for a finance and fraud strand at LSM; op-eds with credible data"]];
 quad.forEach((q, i) => {
   const x = 0.6 + (i % 2) * 6.13, y = 1.5 + Math.floor(i / 2) * 2.5;
   card(s, x, y, 6.0, 2.35);
@@ -472,7 +472,7 @@ quad.forEach((q, i) => {
   s.addText([{ text: "Who: ", options: { bold: true } }, { text: q[1], options: { breakLine: true } }, { text: "What we do: ", options: { bold: true, color: C.accent1 } }, { text: q[2] }],
     { x: x + 0.3, y: y + 0.7, w: 5.4, h: 1.55, fontSize: 14, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "Group text" });
 });
-src(s, "Business follows OECD/INFE guidelines: no branding or products in lessons. SEPLP (2026): LSM's economics coverage rated weaker (48% → 43%). Never blame teachers: it is a system design gap.");
+src(s, "SEPLP (2026): LSM's economics coverage rated weaker (48% → 43%); the 2027 public-service order is being drafted now. Never blame teachers: it is a system design gap.");
 
 // Slide: roadmap
 s = slide("CONTENT", "(iii) Strategy");
@@ -609,7 +609,7 @@ s.addText("Make compulsory financial education real", { placeholder: "title" });
 s.addText([
   { text: "IZM and VIAA: ", options: { bold: true, color: C.accent2 } }, { text: "outcomes, minimum lessons and teacher training in regulation", options: { breakLine: true } },
   { text: "Latvijas Banka: ", options: { bold: true, color: C.accent2 } }, { text: "a school pillar with youth targets in the next strategy", options: { breakLine: true } },
-  { text: "Banks and Finance Latvia: ", options: { bold: true, color: C.accent2 } }, { text: "host teacher placements at fraud desks and co-fund an unbranded training fund" },
+  { text: "Banks and Finance Latvia: ", options: { bold: true, color: C.accent2 } }, { text: "link the existing anti-fraud campaigns to the school lessons and share fraud data for the yearly scorecard" },
 ], { placeholder: "body" });
 s.addNotes("Closing line: We already made financial literacy compulsory. Now let's make it real, before the scammers teach our teenagers first.");
 
