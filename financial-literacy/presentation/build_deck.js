@@ -527,48 +527,44 @@ road.forEach((r, i) => {
 src(s, "Timing matches the end of the 2021–2027 strategy, the 2028 budget cycle and PISA 2029.");
 
 // ======================= (iv) divider
-divider("(iv) Expected results", "(iv)", "What results do we expect?", "First the rules change (by 2028), then measurable learning gains (by 2030), then behaviour over the following years.");
+divider("(iv) Expected results", "(iv)", "What results do we expect?", "Rules and courses in place by 2028; first new data in 2029; every social-studies teacher trained and measurable gains by 2031.");
 
 // Slide: expected results
 s = slide("CONTENT", "(iv) Expected results");
-s.addText("New rules by 2028, better skills by 2030", { placeholder: "title" });
-card(s, 0.6, 1.5, 4.1, 4.9, C.text2, "Policy results card");
-s.addText([
-  { text: "1. Policy results (by 2028)", options: { fontFace: "Cambria", bold: true, fontSize: 18, color: C.accent2, breakLine: true } },
-  { text: "Reg. 569: new point 20.2 adopted", options: { bullet: true, breakLine: true } },
-  { text: "Latvijas Banka seminars run as an approved course", options: { bullet: true, breakLine: true } },
-  { text: "Finance thread in VIAA programmes, lessons and tests", options: { bullet: true, breakLine: true } },
-  { text: "Survey every 2 years in the 2028+ strategy; PISA 2029 finance module", options: { bullet: true } },
-], { x: 0.9, y: 1.7, w: 3.55, h: 4.55, fontSize: 15, color: C.background1, margin: 0, valign: "top", paraSpaceAfter: 10, isTextBox: true, objectName: "Policy results" });
-s.addText("2. Learning results (by 2030)", { x: 4.95, y: 1.5, w: 7.78, h: 0.45, fontFace: "Cambria", bold: true, fontSize: 18, color: C.accent1, margin: 0, isTextBox: true, objectName: "Learning heading" });
-s.addTable([
-  [{ text: "KPI", options: hdr }, { text: "Now", options: hdr }, { text: "Base", options: hdr }, { text: "Stretch", options: hdr }],
-  ["9th-grade financial literacy index (of 20)", "12.3", "13.2", "14.0"],
-  ["9th graders who calculate simple interest", "57%", "68%", "75%"],
-  ["9th graders who never learn about money at school", "36%", "20%", "< 10%"],
-  ["Know Bitcoin is not legal tender", "69%", "80%", "90%"],
-  ["Social-studies teachers trained", "–", "60%", "80%"],
-], tbl({ x: 4.95, y: 2.05, w: 7.78, colW: [4.48, 1.1, 1.1, 1.1], rowH: [0.45, 0.78, 0.78, 0.78, 0.78, 0.78], fontSize: 14 }));
-src(s, "Baselines: Latvijas Banka 9th-grade assessment 2025. Base = +0.3 SD (research effect sizes); stretch ≈ +0.5 SD. Behaviour follows more slowly (≈ +0.07 SD).");
-s.addNotes("Lead with the institutional result: the rules change, so it does not depend on one minister. Then realistic learning gains.");
-
-// Slide: value for money
-s = slide("CONTENT", "(iv) Expected results");
-s.addText("Cheap compared with the problem it addresses", { placeholder: "title" });
-const vm = [["€0.2–0.35m", "one-off set-up: module plus training about 1,000 teachers", C.accent1],
-  ["€0.1–0.2m", "a year to deliver to about 20,000 pupils per cohort", C.accent1],
-  ["€2,770", "average loss per successful fraud (H1 2026: €7.83m / 2,829 cases)", C.accent5],
-  ["55–100", "prevented frauds a year would cover the full cost (about 1–2% of cases)", C.accent2]];
-vm.forEach((v, i) => {
-  const x = 0.6 + (i % 2) * 6.13, y = 1.5 + Math.floor(i / 2) * 2.0;
-  card(s, x, y, 6.0, 1.8);
-  s.addText(v[0], { x: x + 0.3, y: y + 0.15, w: 5.4, h: 0.8, fontFace: "Cambria", fontSize: 36, bold: true, color: v[2], margin: 0, valign: "middle", isTextBox: true, objectName: "Value" });
-  s.addText(v[1], { x: x + 0.3, y: y + 1.0, w: 5.4, h: 0.7, fontSize: 15, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Value text" });
+s.addText("What we expect, and how we will know", { placeholder: "title" });
+const res = [
+  ["2028", "Rules and courses exist", ["Point 20.2 adopted", "Latvijas Banka course runs through VIAA", "Finance lessons and test questions published"], "Cabinet decision; VIAA course list"],
+  ["2029", "First new data", ["Latvijas Banka 9th-grade survey (also in 2027)", "PISA 2029 finance module: first comparison since 2018"], "Published results"],
+  ["2031", "Pupils learn more", ["All social-studies teachers have the 12 hours (deadline 31 Aug)", "\"Never learn about money at school\": 36% → under 20%", "9th-grade index: 12.3 → about 13 out of 20"], "Latvijas Banka survey 2031; VIAA certificates"]];
+res.forEach((r, i) => {
+  const x = 0.6 + i * 4.1;
+  card(s, x, 1.45, 3.93, 4.1);
+  s.addText(r[0], { x: x + 0.3, y: 1.6, w: 3.3, h: 0.7, fontFace: "Cambria", fontSize: 30, bold: true, color: i === 2 ? C.accent2 : C.accent1, margin: 0, valign: "middle", isTextBox: true, objectName: "Year" });
+  s.addText(r[1], { x: x + 0.3, y: 2.3, w: 3.3, h: 0.45, fontSize: 16, bold: true, color: C.text2, margin: 0, valign: "middle", isTextBox: true, objectName: "Result heading" });
+  s.addText(r[2].map((t, j) => ({ text: t, options: { bullet: true, breakLine: j < r[2].length - 1 } })),
+    { x: x + 0.3, y: 2.85, w: 3.35, h: 1.85, fontSize: 14, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "Result text" });
+  s.addText([{ text: "How we will know: ", options: { bold: true, color: C.accent1 } }, { text: r[3] }],
+    { x: x + 0.3, y: 4.75, w: 3.35, h: 0.7, fontSize: 12.5, color: C.text1, margin: 0, valign: "middle", isTextBox: true, objectName: "Measure" });
 });
-card(s, 0.6, 5.55, 12.13, 0.85, C.text2, "Benchmark card");
-s.addText([{ text: "Benchmarks: ", options: { bold: true, color: C.accent2 } }, { text: "Peru delivered school financial education for US$4.8 per pupil (plus US$56k once for workbooks); Brazil's programme paid for itself through lower borrowing costs within about 5 years.", options: { color: C.background1 } }],
-  { x: 0.9, y: 5.55, w: 11.6, h: 0.85, fontSize: 15, margin: 0, valign: "middle", isTextBox: true, objectName: "Benchmark text" });
-src(s, "Illustrative estimates; cost assumptions (teacher and pupil numbers) to be checked with IZM. Sources: Finance Latvia via LSM 21.07.2026; Frisancho (2023); Bruhn et al. (2016).");
+src(s, "The index target assumes a gain similar to Peru's (about +0.2 SD). Behaviour, such as debt and late payments, changes more slowly and later.");
+s.addNotes("Keep it to three dates. 2028: the rules and courses exist. 2029: the first new data. 2031: every social-studies teacher trained and pupils learning more. The targets are modest on purpose: they assume an effect the size Peru achieved.");
+
+// Slide: costs
+s = slide("CONTENT", "(iv) Expected results");
+s.addText("What it costs", { placeholder: "title" });
+s.addTable([
+  [{ text: "Idea", options: hdr }, { text: "Main cost", options: hdr }, { text: "New money?", options: hdr }],
+  ["1. Training that counts", "Latvijas Banka's content already exists; VIAA delivers it within its teacher-support role", "Little"],
+  ["2. Required training", "Uses hours teachers already owe; no extra days", "None"],
+  ["3. Within the standard", "Adapting Naudas skola lessons; VIAA writes test questions anyway", "Little"],
+  ["4. Measure and show", "Latvijas Banka survey every 2 years (done once in 2025); PISA finance module fee, set by the OECD once participants are known", "Small (PISA)"],
+], tbl({ x: 0.6, y: 1.45, w: 12.13, colW: [3.0, 7.13, 2.0], rowH: [0.45, 0.8, 0.7, 0.7, 0.95], fontSize: 15 }));
+s.addText([
+  { text: "For scale: ", options: { bold: true, color: C.accent1 } },
+  { text: "fraud cost people in Latvia €23.7m in 2025. Peru ran its school programme for US$4.8 per pupil." }],
+  { x: 0.6, y: 5.35, w: 12.13, h: 0.7, fontSize: 17, color: C.text1, margin: 0, valign: "middle", isTextBox: true, objectName: "Scale" });
+src(s, "No reliable total yet: teacher and pupil numbers need checking with IZM. Sources: State Police via OECD (2026); Frisancho (2023).");
+s.addNotes("Be honest: most of the cost sits inside existing budgets and duties. The only clearly new spending is the PISA module fee, which the OECD sets once enough countries join.");
 
 // ======================= (v) divider
 divider("(v) Regulation", "(v)", "What regulatory changes should be applied?", "One new rule, three commitments and two quick wins. None needs a new law.");

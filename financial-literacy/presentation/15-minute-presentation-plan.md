@@ -111,22 +111,21 @@ The deck has 40 slides: 33 main slides plus 7 appendix slides (A1–A6 and the a
 
 # Part 5. (iv) Expected results (1:30), slides 25–27
 
-**Policy results by 2028:**
+**Say it as three dates:**
 
-- point 20.2 adopted;
-- Latvijas Banka's seminars running as an approved course;
-- a finance thread in VIAA's programmes and tests;
-- the survey written into the 2028+ strategy.
+| Year | What exists | How we will know |
+|---|---|---|
+| 2028 | Point 20.2 adopted; Latvijas Banka course runs through VIAA; finance lessons and test questions published | Cabinet decision; VIAA course list |
+| 2029 | First new data: Latvijas Banka survey (also 2027); PISA 2029 finance module | Published results |
+| 2031 | All social-studies teachers have the 12 hours; "never learn about money at school" 36% → under 20%; 9th-grade index 12.3 → about 13 | Latvijas Banka survey 2031; VIAA certificates |
 
-**Three KPIs to say out loud:**
+The targets are modest on purpose: they assume a gain the size of Peru's (about +0.2 SD).
 
-| KPI | Now | Base 2030 | Stretch |
-|---|---|---|---|
-| 9th-grade index (of 20) | 12.3 | 13.2 | 14.0 |
-| "Never learn about money at school" | 36% | 20% | under 10% |
-| Social-studies teachers trained | – | 60% | 80% |
+**Cost (slide 27):**
 
-**Cost (slide 27):** small next to €23.7m a year in fraud losses. Peru spent US$4.8 per pupil.
+- Most of it sits inside existing budgets and duties.
+- The only clearly new spending is the PISA module fee.
+- For scale: €23.7m was lost to fraud in 2025, and Peru spent US$4.8 per pupil.
 
 # Part 6. (v) Regulation (2:00), slides 28–32
 

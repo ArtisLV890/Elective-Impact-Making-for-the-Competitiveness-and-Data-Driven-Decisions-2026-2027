@@ -12,7 +12,7 @@ date: "November 2026"
 | (i) The issue and why it matters | 3–12 | Latvia is joint last in the EU; the young are weakest; school teaches least; teenagers are fraud targets; the policy window closes in 2027 |
 | (ii) How research and data support it | 13–18 | School financial education works when taught by trained teachers inside real courses (meta-analyses, Peru); a mandate on paper fails |
 | (iii) Strategy, with policymakers, industry and media | 19–24 | Four ideas; who we work with (IZM, VIAA, Latvijas Banka, schools, media); roadmap to 2031 |
-| (iv) Expected results | 25–27 | One rule changed by 2028; 9th-grade index 12.3 → 13.2–14.0 by 2030; "never learn at school" 36% → 20% or less; low cost |
+| (iv) Expected results | 25–27 | Rules and courses by 2028; new data 2029; by 2031 all social-studies teachers trained, "never learn at school" 36% → under 20%, index about 13; mostly within existing budgets |
 | (v) Which regulation changes | 28–32 | Regulation No. 569, new point 20.2 (12 of the 36 hours); standards unchanged; commitments in the 2028+ strategy and guidelines |
 
 # Part B. Main slides
@@ -89,12 +89,16 @@ date: "November 2026"
   - PISA 2029;
   - compliance by 2031.
 
-## Slide 26. Expected results
-- **Policy by 2028:** four results, listed on the slide.
-- **Learning by 2030:** the index 12.3 → 13.2 (base) / 14.0 (stretch); "never learn at school" 36% → 20% / under 10%.
+## Slide 26. What we expect, and how we will know
+- **Three dates:**
+  - 2028: the rules and courses exist;
+  - 2029: the first new data (survey, PISA);
+  - 2031: every social-studies teacher trained; "never learn at school" 36% → under 20%; index 12.3 → about 13.
+- **Say:** "Modest targets on purpose: a gain the size of Peru's."
 
-## Slide 27. Value for money
-- **Say:** a set-up cost in the low hundreds of thousands of euros, against €23.7m a year in fraud losses. Peru spent US$4.8 per pupil.
+## Slide 27. What it costs
+- **Point at:** the "New money?" column: little, none, little, and small for PISA.
+- **Say:** "Most of it sits inside existing budgets. For scale, fraud cost €23.7m in 2025."
 
 ## Slide 29. What changes in the rules
 - **Say:**
