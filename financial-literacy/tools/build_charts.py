@@ -299,6 +299,34 @@ simple_bar("18_warning_signs_recognised", "Warning signs recognised by adults wh
            "Source: OECD (2026), section 3.7.4. Only 8% of targeted adults reported the attempt to the police.",
            hi=(5,), horizontal=True)
 
+# 19. NEW: Peru knowledge gains (Frisancho 2021/2023)
+grouped("19_peru_knowledge_gains", "Peru: gain in financial knowledge (SD), offered vs took part",
+        ["All students", "Grade 9", "Grade 10", "Grade 11", "Teachers"],
+        [("Offered (ITT)", [0.16, 0.17, 0.11, 0.20, 0.32]), ("Teacher trained / taught (ATT)", [0.20, 0.21, 0.14, 0.25, 0.46])],
+        "Source: Frisancho (2021 manuscript; Economic Journal 2023), Tables 1, 10, A.11, A.18.",
+        fmt="+{:.2f}", nf='"+"0.00')
+
+# 20. NEW: Peru teacher take-up
+simple_bar("20_peru_teacher_takeup", "Peru: teacher take-up in programme schools (% of teachers)",
+           ["Attended at least 1 training session", "Attended all 5 training sessions", "Taught all lessons", "Taught some lessons", "Taught none of the lessons"],
+           [73, 43, 48, 21, 31],
+           "Source: Frisancho (2021 manuscript), section 2.6. 'None' is about one third.", hi=(4,), horizontal=True)
+
+# 21. NEW: Peru behaviour effects
+simple_bar("21_peru_behaviour_effects", "Peru: effects on behaviour (percentage points vs comparison group)",
+           ["Teachers: saves in a bank", "Teachers: saves", "Students grade 9: saves", "Students grade 11: saves",
+            "Grade 9: in credit bureau (2019)", "Grade 9 taught twice (Piura): in credit bureau (2019)", "Teachers: late loan payments (2018)"],
+           [14, 8.7, 3.5, 2.3, -6.5, -15, -7.7],
+           "Source: Frisancho (2021 manuscript), Tables 5, 8, 9, 11, 13. Negative = less debt / fewer late payments.",
+           hi=(0,), fmt="{:+.1f}", nf='+0.0;-0.0')
+
+# 22. NEW: hours in tested school programmes
+simple_bar("22_school_programme_hours", "Hours of financial education in experimentally tested school programmes",
+           ["Bruhn et al. 2016 (Brazil, 72–144)", "Peru 2016 (16–32, average)", "Batty et al. 2020 (USA)", "Becchetti et al. 2013 (Italy)",
+            "Alan & Ertac 2018 (Turkey)", "Hinojosa et al. 2009 (USA)", "Bover et al. 2018 (Spain)", "Lührmann et al. 2018 (Germany)", "Batty et al. 2015 (USA)"],
+           [108, 24, 20, 16, 16, 15, 10, 4.5, 4],
+           "Source: Frisancho (2021 manuscript), Table A.3 (midpoints for ranges).", hi=(1,), fmt="{:g}", nf="0.#", horizontal=True)
+
 # ---------------------------------------------------------------- ORIGINAL charts from the source reports
 from openpyxl.drawing.image import Image as XLImage
 ORIG = "financial-literacy/presentation/source-figures/"
@@ -315,6 +343,9 @@ originals = [
     ("O10 9th grade info", "lb9_info_sources.png", "Where 9th graders get information about money, 2025", "Latvijas Banka / RAIT, 9th-grade assessment 2025, slide 15."),
     ("O11 9th grade risks", "lb9_risky_situations.png", "9th graders' experience with risky or fraudulent situations, 2025", "Latvijas Banka / RAIT, 9th-grade assessment 2025, slide 25."),
     ("O12 9th grade family", "lb9_family_decisions.png", "Who makes everyday money decisions in the family (9th graders), 2025", "Latvijas Banka / RAIT, 9th-grade assessment 2025, slide 13."),
+    ("O13 Peru timeline", "peru_fig1_timeline.png", "Peru school financial education pilot: study timeline", "Frisancho (2021 manuscript), Figure 1."),
+    ("O14 Peru literacy-behaviour", "peru_fig4_literacy_behaviour.png", "Peru: financial literacy vs saving and budgeting at baseline", "Frisancho (2021 manuscript), Figure 4."),
+    ("O15 Peru meta-analysis", "peru_fig5_meta_analysis.png", "Experimental evidence on youth financial education: effects on knowledge", "Frisancho (2021 manuscript), Figure 5."),
 ]
 orig_index = wb.create_sheet("Original charts", 1)
 orig_index["A1"] = "Original charts from the source reports (reproduced with source and page)"

@@ -4,6 +4,6 @@
 set -euo pipefail
 IN="$1"; OUT="$2"
 cd "$(dirname "$0")/.."
-pandoc "${IN#financial-literacy/}" --resource-path=.:research --toc --toc-depth=2 \
+pandoc "${IN#financial-literacy/}" --resource-path=.:research:reports --toc --toc-depth=2 \
   --reference-doc=templates/report-template.docx -o "${OUT#financial-literacy/}"
 echo "built $OUT"
