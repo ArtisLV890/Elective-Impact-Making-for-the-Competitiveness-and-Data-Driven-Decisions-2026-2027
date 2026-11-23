@@ -258,42 +258,61 @@ s.addNotes("Losses almost tripled in two years. The most common fraud is the sim
 
 // Slide: why now (2) the policy window
 s = slide("CONTENT", "(i) The issue");
-s.addText("Why now: every plan that matters is being written in 2027", { placeholder: "title" });
+s.addText("Why now: the policy window is open, and it closes in 2027", { placeholder: "title" });
+// why the window is open: four drivers
+const drivers = [["Cycles end", "Strategy and education guidelines both expire in 2027"],
+  ["New evidence", "OECD plan for Latvia (Nov 2026); PISA 2025 worst ever"],
+  ["Political will", "Saeima subcommittee and IZM course redesign in progress"],
+  ["Money is set", "2028–31 budget and 2028–34 EU funds decided in 2027"]];
+drivers.forEach((d, i) => {
+  const x = 0.6 + i * 3.06;
+  card(s, x, 1.36, 2.95, 0.66, i === 2 ? C.text2 : C.background2, "Driver card");
+  num(s, x + 0.1, 1.46, i + 1, i === 2 ? K.accent2 : K.accent1, 0.46);
+  s.addText([{ text: d[0], options: { bold: true, breakLine: true, color: i === 2 ? K.accent2 : K.dk1 } }, { text: d[1], options: { fontSize: 9.5 } }],
+    { x: x + 0.66, y: 1.38, w: 2.22, h: 0.62, fontSize: 11.5, color: i === 2 ? "FFFFFF" : K.dk1, margin: 0, valign: "middle", isTextBox: true, objectName: "Driver text" });
+});
 const X0 = 4.05, YR = 1.43, xOf = (yr) => X0 + (yr - 2025) * YR; // axis 2025.0 to 2031.0
-// 2027 window band
-s.addShape(pres.shapes.RECTANGLE, { x: xOf(2027), y: 1.42, w: YR, h: 4.47, fill: { color: K.accent2, transparency: 78 }, line: { type: "none" }, objectName: "Window band" });
-s.addText("THE WINDOW", { x: xOf(2027), y: 1.42, w: YR, h: 0.3, fontSize: 10, bold: true, color: "8A5A12", align: "center", margin: 0, isTextBox: true, objectName: "Window label" });
+const TOP = 2.1, LH = 0.42, NL = 8, BOT = TOP + 0.3 + NL * LH;
+s.addShape(pres.shapes.RECTANGLE, { x: xOf(2027), y: TOP, w: YR, h: BOT - TOP, fill: { color: K.accent2, transparency: 78 }, line: { type: "none" }, objectName: "Window band" });
 for (let yr = 2025; yr <= 2030; yr++) {
-  s.addText(String(yr), { x: xOf(yr), y: 1.72, w: YR, h: 0.3, fontSize: 12, bold: true, color: C.text1, align: "center", margin: 0, isTextBox: true, objectName: "Year" });
-  s.addShape(pres.shapes.LINE, { x: xOf(yr), y: 2.02, w: 0, h: 3.87, line: { color: "D5DDD8", width: 0.75, dashType: "dash" }, objectName: "Year line" });
+  s.addText(yr === 2027 ? "2027: THE WINDOW" : String(yr), { x: xOf(yr), y: TOP, w: YR, h: 0.28, fontSize: yr === 2027 ? 10.5 : 11.5, bold: true, color: yr === 2027 ? "8A5A12" : K.dk1, align: "center", margin: 0, isTextBox: true, objectName: "Year" });
+  s.addShape(pres.shapes.LINE, { x: xOf(yr), y: TOP + 0.3, w: 0, h: BOT - TOP - 0.3, line: { color: "D5DDD8", width: 0.75, dashType: "dash" }, objectName: "Year line" });
 }
-// now marker (drawn before the bars so bars sit on top)
-s.addShape(pres.shapes.LINE, { x: xOf(2026.9), y: 2.02, w: 0, h: 3.87, line: { color: K.accent5, width: 2 }, objectName: "Now line" });
-s.addText("NOW", { x: xOf(2026.9) - 0.5, y: 1.42, w: 0.48, h: 0.3, fontSize: 10, bold: true, color: K.accent5, align: "right", margin: 0, isTextBox: true, objectName: "Now label" });
+s.addShape(pres.shapes.LINE, { x: xOf(2026.9), y: TOP + 0.3, w: 0, h: BOT - TOP - 0.3, line: { color: K.accent5, width: 2 }, objectName: "Now line" });
+s.addText("NOW", { x: xOf(2026.9) - 0.55, y: TOP, w: 0.5, h: 0.28, fontSize: 10, bold: true, color: K.accent5, align: "right", margin: 0, isTextBox: true, objectName: "Now label" });
+const DEV = "dev";
 const lanes = [
   { name: "National Financial Literacy Strategy", owner: "Latvijas Banka + 28 partners", bars: [[2025, 2028, "2021–2027: ends", K.accent4], [2028, 2031, "2028+ strategy: drafted in 2027", K.accent1]] },
   { name: "Education Development Guidelines", owner: "IZM; steer budget and EU funds", bars: [[2025, 2028, "2021–2027: ends", K.accent4], [2028, 2031, "2028+: budget 2028–31, EU funds 2028–34", K.accent1]] },
+  { name: "Social-studies course", owner: "IZM / VISC · in progress", dev: true, bars: [[2025.7, 2026.9, "LB: restructure topics", K.accent3], [2026.9, 2028.6, "Course being rebuilt", DEV]] },
+  { name: "Saeima financial literacy subcommittee", owner: "Saeima · in progress", dev: true, bars: [[2025.7, 2026.5, "Saeima conference (2025)", K.accent3], [2026.5, 2028, "Working on new regulation", DEV]] },
   { name: "OECD action plan for Latvia", owner: "Latvijas Banka coordinates", bars: [[2026.88, 2028, "Published 20.11.2026", K.accent6], [2028, 2031, "Folded into the 2028+ strategy", K.accent1]] },
   { name: "Fraud-prevention plan", owner: "Interior Ministry", bars: [[2026, 2027.6, "Drafting: no school measure yet", K.accent5]] },
   { name: "EU push", owner: "Commission, Parliament", bars: [[2025.3, 2026.85, "EU strategy; EP vote 502–46", K.accent6], [2027, 2028, "EU review", K.accent3]] },
   { name: "Test and measure", owner: "IZM, Latvijas Banka", bars: [[2026.0, 2027, "PISA 2025: worst ever", K.accent5], [2027, 2029.3, "Decide on PISA 2029 financial literacy", K.accent3]] },
 ];
 lanes.forEach((l, i) => {
-  const y = 2.1 + i * 0.63;
-  s.addText([{ text: l.name, options: { bold: true, breakLine: true } }, { text: l.owner, options: { fontSize: 10, color: K.accent6 } }],
-    { x: 0.6, y, w: 3.35, h: 0.55, fontSize: 12, color: C.text1, margin: 0, valign: "middle", isTextBox: true, objectName: "Lane label" });
+  const y = TOP + 0.32 + i * LH;
+  if (l.dev) s.addShape(pres.shapes.RECTANGLE, { x: 0.6, y: y - 0.01, w: 12.13, h: LH - 0.02, fill: { color: K.accent2, transparency: 88 }, line: { type: "none" }, objectName: "Dev lane" });
+  s.addText([{ text: l.name, options: { bold: true, breakLine: true } }, { text: l.owner, options: { fontSize: 9, color: l.dev ? "8A5A12" : K.accent6, bold: !!l.dev } }],
+    { x: 0.68, y, w: 3.3, h: LH - 0.04, fontSize: 10.5, color: C.text1, margin: 0, valign: "middle", isTextBox: true, objectName: "Lane label" });
   l.bars.forEach((b) => {
-    const dark = [K.accent1, K.accent5, K.accent6].includes(b[3]);
-    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: xOf(b[0]) + 0.03, y: y + 0.06, w: xOf(b[1]) - xOf(b[0]) - 0.06, h: 0.43, fill: { color: b[3] }, line: { type: "none" }, rectRadius: 0.08, objectName: "Plan bar" });
-    s.addText(b[2], { x: xOf(b[0]) + 0.1, y: y + 0.06, w: xOf(b[1]) - xOf(b[0]) - 0.2, h: 0.43, fontSize: 10, bold: true, color: dark ? "FFFFFF" : K.dk1, margin: 0, valign: "middle", fit: "shrink", isTextBox: true, objectName: "Bar text" });
+    const isDev = b[3] === DEV, dark = [K.accent1, K.accent5, K.accent6].includes(b[3]);
+    const bx = xOf(b[0]) + 0.03, bw = xOf(b[1]) - xOf(b[0]) - 0.06;
+    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: bx, y: y + 0.04, w: bw, h: LH - 0.12, fill: { color: isDev ? "FFFFFF" : b[3] },
+      line: isDev ? { color: K.accent2, width: 1.75, dashType: "dash" } : { type: "none" }, rectRadius: 0.07, objectName: isDev ? "Dev bar" : "Plan bar" });
+    s.addText(b[2], { x: bx + 0.07, y: y + 0.04, w: bw - 0.14, h: LH - 0.12, fontSize: 9.5, bold: true, color: isDev ? "8A5A12" : (dark ? "FFFFFF" : K.dk1), margin: 0, valign: "middle", fit: "shrink", isTextBox: true, objectName: "Bar text" });
   });
 });
-card(s, 0.6, 6.0, 12.13, 0.55, C.text2, "Message band");
-s.addText([{ text: "If schools are not written into these plans in 2027, ", options: { color: C.background1 } },
-  { text: "the next chance is the following cycle, around 2034.", options: { bold: true, color: C.accent2 } }],
-  { x: 0.85, y: 6.0, w: 11.7, h: 0.55, fontSize: 15, margin: 0, valign: "middle", isTextBox: true, objectName: "Message" });
-src(s, "Sources: Latvijas Banka; Cabinet Order No. 436 (2021); OECD (2026), ch. 4.6; Interior Ministry (TAP portal, 2026); COM(2025) 681; EP resolution 30.04.2026; OECD PISA 2025. \"2034\" assumes a seven-year cycle.");
-s.addNotes("Three plans are being written at the same time: the OECD plan is being folded into the new national strategy, the Interior Ministry is drafting a fraud-prevention plan without a school measure, and the education guidelines that steer the budget are redrafted in 2027. That is why now.");
+// legend
+s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 10.55, y: BOT + 0.06, w: 0.3, h: 0.16, fill: { color: "FFFFFF" }, line: { color: K.accent2, width: 1.25, dashType: "dash" }, rectRadius: 0.03, objectName: "Legend swatch" });
+s.addText("= in progress now", { x: 10.9, y: BOT + 0.02, w: 1.85, h: 0.24, fontSize: 9, color: K.dk1, margin: 0, valign: "middle", isTextBox: true, objectName: "Legend" });
+card(s, 0.6, BOT + 0.33, 12.13, 0.44, C.text2, "Message band");
+s.addText([{ text: "Everything that decides school financial education is open at once. ", options: { color: C.background1 } },
+  { text: "Miss 2027, and the next chance is around 2034.", options: { bold: true, color: C.accent2 } }],
+  { x: 0.8, y: BOT + 0.33, w: 11.8, h: 0.44, fontSize: 14, margin: 0, valign: "middle", isTextBox: true, objectName: "Message" });
+src(s, "Sources: Latvijas Banka (2025); Cabinet Order No. 436; OECD (2026), ch. 4.6; Interior Ministry; Saeima; IZM; COM(2025) 681; EP 30.04.2026; PISA 2025. \"2034\": seven-year cycle.");
+s.addNotes("Start with the four reasons along the top. Then the timeline: the strategy and the education guidelines both end in 2027 and their successors are written next year. Two things are not official yet but are moving: the Ministry of Education is considering rebuilding the social-studies course, and a Saeima subcommittee on financial literacy is working on new regulation. If financial literacy is built into the new course and the new regulation now, it is there for the next seven years.");
 
 // ======================= (ii) divider
 divider("(ii) Research and data", "(ii)", "How do research and data support our intention?", "School financial education works when it is intensive, taught by trained teachers and linked to real decisions. A mandate on paper is not enough.");
