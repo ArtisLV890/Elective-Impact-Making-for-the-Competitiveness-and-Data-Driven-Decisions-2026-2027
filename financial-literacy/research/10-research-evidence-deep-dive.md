@@ -15,7 +15,7 @@ date: "November 2026"
   - they sit inside existing courses;
   - they come with ready-made materials and trained teachers;
   - they reach parents as a side effect.
-- **Peru is the closest model to Latvia.** Financial education *replaced the economics hours* in the existing history, geography and economics course. Students gained knowledge, teachers gained even more, and years later the students who borrowed were behind on fewer loans. All this for about **US$5–7 per student**.
+- **Peru is the closest model to Latvia.** Financial education *replaced the economics hours* in the existing history, geography and economics course. Students gained knowledge, teachers gained even more, and years later the students who borrowed were behind on fewer loans. All this for **US$4.8 per student** (plus US$56k once for the workbooks).
 - **Two warnings from the evidence:**
   - Teaching about credit can briefly *increase* risky borrowing (Brazil). So the module must cover the costs of credit, not just access to it.
   - A mandate on paper does nothing (US, Cole et al.). That is Latvia's situation today.
@@ -87,7 +87,7 @@ date: "November 2026"
   - **Credit (credit-bureau data):** no change in *whether* students borrowed. But among students who had loans, **arrears fell by about 20%**.
   - **Long-term follow-up (Frisancho et al. 2025):** about 60,000 people, **seven years later**, public credit bureau. Treated students with loans had **about 20% less delinquent debt**.
   - **Parents** (Journal of Financial Literacy and Wellbeing, 2023): about 26% lower default probability and about 5% higher credit scores, strongest in poorer households.
-  - **Cost:** about **US$5–7 per student** (GFLEC overview: about $5; our earlier notes: $6.6).
+  - **Cost:** **US$4.8 per student** plus US$56,100 one-off for workbooks (paper, section 4.3); an IDB summary gives US$6.6.
 - **What it means for us:**
   - It shows our model works: replace part of the existing course's economics content, give ready-made materials, train the teachers.
   - The benefits reach students, teachers and parents, at low cost.
@@ -156,7 +156,7 @@ date: "November 2026"
 |---|---|---|
 | Kaiser & Menkhoff 2020 | Intensity matters, with decreasing returns | About 10–12 lessons in grades 9 and 11, not a new subject |
 | Kaiser et al. 2022 | Effects are real but fade | Repetition, practice during the year, a grade 11 refresher |
-| Frisancho 2023 (Peru) | Replacing economics hours in an existing course works; teachers benefit most; about US$5–7 per pupil | A module inside social studies; ready-made workbooks; teacher training |
+| Frisancho 2023 (Peru) | Replacing economics hours in an existing course works; teachers benefit most; US$4.8 per pupil | A module inside social studies; ready-made workbooks; teacher training |
 | Bruhn et al. 2016 (Brazil) | It works at national scale; parents benefit; credit lessons can backfire short term | Family tasks; stress the cost of credit, online loans and BNPL |
 | Cannistrà et al. 2024 | Games work in Europe (+0.31 SD) | Escape rooms and the Olympiad as reinforcement |
 | Compen et al. 2019 | Teacher training must be substantial and practical | 14+ hours, accredited under Regulation No. 569 |

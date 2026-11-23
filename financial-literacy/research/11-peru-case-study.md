@@ -1,138 +1,219 @@
 ---
 title: "Peru: the closest model to our proposal"
-subtitle: "Finanzas en mi Colegio and its randomised evaluation (Frisancho et al.)"
+subtitle: "Finanzas en mi Colegio and its randomised evaluation (Frisancho), read from the full paper"
 author: "Jaunie Ekonomisti"
 date: "November 2026"
 ---
 
+*Main source: Frisancho, V. (August 2021 manuscript). "Is school-based financial education effective? Immediate and long-lasting impacts on students and teachers", published in the* Economic Journal *133(651), 2023. Page and table numbers refer to the manuscript. Some numbers in the published version differ slightly (for example, 0.14 vs 0.16 SD).*
+
 # Bottom line
 
-- **Peru did almost exactly what we propose for Latvia:**
-  - financial education put into an **existing social-science course** (History, Geography and Economics), replacing its economics hours;
-  - **ready-made workbooks and teacher guides**;
-  - **20 hours of teacher training**;
-  - run by a **public-private alliance** of the education ministry, the financial regulator, banks and insurers.
-- **It worked, cheaply, and it lasted:**
-  - students **+0.14 SD** in financial literacy and teachers **+0.32 SD**;
-  - better self-control and saving habits;
-  - students with loans had about **20% less delinquent debt**, and the effects were still visible seven years later;
-  - cost about **US$6.6 per student**.
-- **The most important lesson for Latvia:** even with free materials and training, about **a third of trained teachers taught none of the lessons**, and only 43% attended all the training. The measured effects are therefore a **lower bound**. Classes that covered about half the sessions gained close to **0.5 SD**.
-  - Making the topic "available" is not enough. It needs minimum lessons and accountability. That is our regulation ask.
+- **Peru put financial education inside an existing social-science course.** Lessons ran within History, Geography and Economics (HGE), with workbooks, a teacher guide and 20 hours of teacher training. **Latvia's social studies is the same situation.**
+- **It worked:**
+  - students **+0.16 SD** (+0.20 SD where their teacher attended training);
+  - teachers **+0.32 SD** (+0.46 SD for teachers who actually taught the lessons);
+  - **no harm to other subjects**;
+  - three years later, students who got more lessons were **less likely to be in debt**, and poorer students and girls had **fewer late payments**.
+- **It was cheap:** **US$4.8 per student**, plus US$56,100 once to write the workbooks. Each extra standard deviation of knowledge cost **US$30.7 per student**, cheaper than almost all of 21 cost-effective school interventions in a comparison study.
+- **Teachers were both the engine and the weak point.**
+  - Only **43%** attended all the training.
+  - Only **48%** taught all the lessons; about **a third taught none**.
+  - When the money ran out in 2017, training and instructions stopped.
+  - Where the programme was repeated (Piura, 2018), the effects were much bigger.
+  - The author's own conclusion: making it **"a mandatory course or course portion, subject to regular evaluation"** would raise the effects above these lower-bound estimates.
 
-# 1. The programme
+# 1. Why Peru did it
 
-| Item | Detail |
-|---|---|
-| Name | *Finanzas en mi Colegio* ("Finance in my school"), launched 2016 |
-| Partners | Ministry of Education (Minedu); Superintendency of Banking, Insurance and Pensions (SBS, the regulator); banks' association education centre (CEFI–ASBANC); insurers' association (APESEG); Sparkassen Foundation for International Cooperation (Germany) |
-| Curriculum link | Delivers the national curriculum competence 19, "manages economic resources responsibly". Taught inside **History, Geography and Economics** (or Social Sciences) |
-| Grades | Secondary grades 3–5 (about ages 14–17, our grades 9–11) |
-| Materials | Student workbooks, teacher guides, teacher training |
-| Teacher training | **20 hours in 5 sessions** |
-| Timing of the trial | Lessons during school hours, August–December 2016 (one semester) |
-| Scale since | 2016 pilot in 6 regions, then about 135,000 students and 1,350 teachers in 10 regions (figures vary by source). Now part of the national curriculum, but rollout is limited by the number of trained teachers |
+- **2009:** Peru became the first Latin American country to put financial education in the national curriculum, as one of 29 school competences: "responsibly manages economic resources".
+- **2015:** the National Financial Inclusion Strategy set the goal of school financial education for **all primary and secondary students by 2021**.
+- **The national financial education plan (PLANEF)** had five areas: payments, savings, borrowing, insurance and consumer protection.
+- **Compulsory on paper, but not delivered.** So the education ministry (MINEDU), the financial regulator (SBS) and the banks' association education centre (CEFI–ASBANC) built a pilot to make it real.
 
-**Parallels with Latvia**
+**The parallel with Latvia:** compulsory on paper (Skola2030), a national strategy, a central bank or regulator leading it, and a bank association as partner.
 
-| Peru | Latvia |
-|---|---|
-| Ministry of Education | IZM and VISC |
-| SBS (financial regulator) | Latvijas Banka (central bank and supervisor) |
-| ASBANC and APESEG (banks and insurers) | Finance Latvia Association |
-| History, Geography and Economics course | Social studies (sociālās zinības / sociālās zinātnes) |
-| Curriculum competence 19 | Financial literacy outcomes in Cabinet Regulations No. 747 and 416 |
+# 2. What they did
 
-# 2. The evaluation
+**Materials**
 
-- **Design:**
-  - a randomised trial in **300 public secondary schools** (150 matched pairs), with one school in each pair randomly assigned to the programme;
-  - run by the Inter-American Development Bank (IDB) with Verónica Frisancho.
+- Student workbooks for each of the last three secondary grades, plus one teacher guide.
+- Aligned with the national curriculum and the national financial education plan.
+- **Teaching methods:** case analysis, exercises, group activities and homework. The concepts were kept simple, with active learning built in.
+
+**What each grade learned** (Table A.1)
+
+| Grade 9 | Grade 10 | Grade 11 |
+|---|---|---|
+| **Needs and resources:** wants vs needs, opportunity cost, saving vs credit, spending vs investment, economic agents | **Financial products and services:** the financial system, saving vs investment, assets and liabilities, your financial future and capacity to pay, using products well | **Responsible financial consumer:** capacity to pay, **over-indebtedness**, consumer rights and their protection, the state and financial stability |
+| **Budgeting:** a financial plan, income and expenses, making and using a budget | | **Information:** transparency in financial contracts, consumers' responsibilities |
+
+**How much teaching** (Table A.2, the ministry's suggested schedule)
+
+| Grade | Sessions | Weeks | Hours |
+|---|---|---|---|
+| 9 | 8 | 16 | **32** |
+| 10 | 5 | 12 | **24** |
+| 11 | 7 | 8 | **16** |
+
+- That is **high intensity** compared with other school programmes (Table A.3):
+  - Spain, 10 hours;
+  - Germany, 4.5 hours;
+  - only Brazil was higher, at 72–144 hours.
+- Lessons ran **August–December 2016**, during the regular HGE classes.
+- Teachers were told to use the "economics" part of the course, but were given no guidance on what to drop. **In practice they cut history, politics and world news, and kept the economics time.**
+
+**Teacher training**
+
+- **20 hours in 5 sessions:** 4 on financial content and 1 on teaching methods.
+- Held before the school year (February–March 2016), run by the regulator and the ministry.
+- Trained teachers then ran **"replica" sessions** for colleagues in the first month of classes.
+- **Professional facilitators** led the sessions, which were interactive and clear.
+- **Teachers learned all three grades' content together**, so their own knowledge built up step by step.
+- **Incentives:**
+  - a **completion certificate that counted toward teachers' merit-based performance evaluation** (Peru promotes teachers partly on professional development);
+  - a transport subsidy and a full meal at each session;
+  - school principals were asked to free teachers to attend.
+
+**Monitoring**
+
+- Monitoring phone calls September–November 2016.
+- Once a teacher taught the lessons, the content counted in course grades, so it was high-stakes for students.
+- But because finance was **not a stand-alone course**, the ministry **could not force** teachers to teach it.
+
+**Partners and funding**
+
+- The ministry, the regulator and the banks' association centre paid for all delivery.
+- The ministry and the Inter-American Development Bank (IDB) paid for the evaluation.
+- The insurers' association (APESEG) and a German savings-bank foundation joined later scale-up phases.
+
+# 3. How it was tested
+
+- **Sample:**
+  - **300 public, full-day, urban secondary schools** in six regions (Lima/Callao, Arequipa, Piura, Junín, Puno, San Martín);
+  - schools were matched into **150 similar pairs** on 10 characteristics, and a coin-flip in each pair picked the programme school.
+- **Size:**
+  - designed to detect a 0.1 SD effect;
+  - about **20,000 students** (900 classrooms) and **453 teachers** surveyed, out of about 60,000 students in the schools;
+  - 17% of students dropped out of the sample, equally in both groups.
 - **Data:**
-  - tests of students and teachers;
-  - surveys on behaviour;
-  - **credit-bureau records**: Equifax, and later the public credit bureau.
-- **Publications:**
-  - Frisancho (2023), *Economic Journal* 133(651): students and teachers, short and medium term;
-  - Frisancho (2023), *Journal of Financial Literacy and Wellbeing*: parents;
-  - Frisancho, García, Ventura & Chong (2025), "Lasting Lessons", CAF Working Paper 2025/09: about 60,000 people, seven years later;
-  - IDB Spanish reports: *Evaluación experimental del piloto Finanzas en mi Colegio*; *Educación financiera en la escuela secundaria*.
+  1. **Knowledge tests** (15 questions per grade), before and after. They included four questions from the US Jump$tart survey. Teachers never saw the student tests, so they could not "teach to the test", and results hold using only independent questions.
+  2. **Surveys** on saving, budgeting, shopping habits and financial autonomy.
+  3. **School records** of every student's grades for 2015–2017.
+  4. **Credit-bureau records (Equifax)** in June 2018 and June 2019, two and three years later. These show real borrowing and late payments, not self-reports.
+- **Context:** 40% of these 15-year-olds already worked. Their median monthly income was about US$33, so money decisions were already real for them.
 
-# 3. Results
+# 4. Results: students
 
-**Students**
+**Knowledge**
 
-- **Financial literacy: +0.14 SD** (some versions say 0.15–0.16). This is the effect of being *offered* the programme, including the classes that never got lessons.
-- **Dose matters:** classes that covered about half of the sessions gained close to **0.5 SD**.
-- **The gains were equal for all:**
-  - they did not widen the gaps between strong and weak students;
-  - they helped students regardless of their starting knowledge.
-- **Behaviour:** better self-control and buying habits, more financial autonomy and "savviness".
-- **Grades:** no effect on moving up a grade. The lessons did not crowd out other learning.
-- **Credit after three years:**
-  - no change in *whether* students took loans;
-  - among those who did, delinquent debt fell by about **20%**;
-  - fewer negative records for unpaid bills.
-- **Seven years later (about 60,000 people):** the study tracks debt, balances, loan sizes, credit terms and delinquency. The excerpts we have confirm the design, but the detailed seven-year estimates still need checking in the full paper.
+- **+0.16 SD** on average (Table 1). Close to the average of 10 school trials, 0.18 SD, and similar to Brazil and Spain.
+- **+0.20 SD** in schools where at least one teacher attended training (Table A.11):
+  - 9th grade +0.21;
+  - 10th grade +0.14;
+  - 11th grade +0.25.
+- **11th graders gained most**, and 10th graders about half as much.
+- **Gains were similar for boys and girls**, and slightly larger for better-off students.
 
-**Teachers**
+**No harm to other learning**
 
-- **Financial literacy: +0.30 to +0.32 SD**, more than twice the student effect. A pilot in Piura found +0.45 SD for teachers and +0.22 SD for students.
-- **Formal saving: +14 percentage points.**
-- **More use of budgets.**
-- **Better credit histories and lower interest rates** in later years (IDB researcher Juan Carlos Chong).
-- **Our reading:** training teachers to teach finance is also financial education *for teachers*. That matters in Latvia, where Latvijas Banka found teachers' knowledge of interest to be weak.
+- No effect on overall grades or on any subject in 2016.
+- In 2017, a **slight improvement in language grades**, with no drop in HGE or maths.
+- No effect on moving up a grade, or on plans for university (83% already planned to go).
 
-**Parents**
+**Behaviour right after the course**
 
-- Average effects on parents' credit were small.
-- But in **poorer households**, and among **parents of daughters**, there were clearer gains:
-  - lower default (about −26% in poorer households, from our earlier notes);
-  - higher credit scores;
-  - fewer arrears.
-- **Our reading:** the lessons travel home. Our family tasks make that deliberate rather than accidental.
+- **More saving:** +3.5 pp among 9th graders and +2.3 pp among 11th graders.
+- **More financial autonomy** among 11th graders: +0.08 SD.
+- **Shopping habits:**
+  - all grades more likely to **save before buying** something they cannot afford;
+  - 11th graders more likely to **compare prices and bargain**.
+- No change in keeping a budget.
 
-**Cost**
+**Credit behaviour, 2–3 years later (credit bureau)**
 
-- About **US$6.6 per student** (IDB); some summaries round it to about $5.
-- The IDB compares the return per dollar to about 2.2 extra PISA financial literacy points.
+- **By June 2018:** no clear differences.
+- **By June 2019:**
+  - treated students were **less likely to have a credit record**, mainly because they **held less debt**;
+  - **9th graders**, who had more years of potential exposure, were **6.5 pp less likely** to have a credit record.
+- **Where it ran twice (Piura, 2016 and 2018):**
+  - **6 pp less likely** to have a credit record overall;
+  - **15 pp less likely among 9th graders**;
+  - **better debt-to-income ratios**.
+- **Students who started behind gained most in behaviour:**
+  - among the weakest third at baseline, among girls and among poorer students, borrowing fell and debt-to-income ratios improved;
+  - **poorer students had fewer late payments** on loans and bills;
+  - **girls had fewer late payments** on bills and credit cards.
+- **Later versions** (published paper and "Lasting Lessons", 2025, about 60,000 people seven years on) report about **20% less delinquent debt** among students who borrowed. That figure is not in this 2021 manuscript.
 
-# 4. What went wrong, and why it matters for Latvia
+# 5. Results: teachers
 
-- **Implementation gap:**
-  - about **73%** of trained teachers attended at least one training session, but only **43%** attended all of them;
-  - at the end, about **one third** of the programme schools' teachers said they had **not taught a single lesson**;
-  - teachers struggled to fit the material into a full course.
-- **Why it happened:** the material was *offered* and *encouraged*, but not required, scheduled or checked.
-- **Lesson for Latvia:** this is the "compulsory on paper, missing in practice" problem in miniature. It argues directly for:
-  1. a **minimum number of lessons** written into the sample programmes and standards;
-  2. **teacher training that counts** toward the required 36 hours (Regulation No. 569), so teachers attend all of it;
-  3. **measuring delivery**, not just activity: a school-level check, plus the 9th-grade survey.
-- **The upside:** if the programme worked with a third of teachers not teaching, full delivery could do much more. Peru's ~0.5 SD for half delivery is a realistic stretch target.
+- **Knowledge:**
+  - **+0.32 SD**, twice the students' gain (Table 10);
+  - teachers who actually taught at least one lesson gained **+0.46 SD** (Table A.18). **Teaching it is how they learn it.**
+- **Saving:**
+  - **+8.7 pp** more likely to save;
+  - **+14 pp** more likely to save **formally**, in a bank;
+  - this is about double the effect found in a well-known classroom programme for poor urban households in India.
+- **Financial autonomy:** improved.
+- **Budgeting and shopping:** no change. Teachers already handled these.
+- **Late payments:**
+  - **−7.7 pp in 2018, a 40% improvement**;
+  - **gone by 2019**, so the effect on late payments faded without repetition.
 
-# 5. How we use Peru in the presentation
+# 6. Cost
 
-- **One line:** "Peru did what we propose: finance lessons inside the existing social-science course, workbooks and 20 hours of teacher training. Knowledge rose, delinquent debt fell by a fifth, and the effects lasted for years, for about $7 a student."
-- **For the regulation section:** "In Peru a third of trained teachers never taught the lessons, because nothing required it. That's why we ask for minimum lessons, not just materials."
-- **For results and KPIs:** our base case (+0.3 SD on the 9th-grade index) sits between Peru's offered effect (0.14) and its delivered effect (about 0.5). That makes it realistic, as long as delivery is enforced.
-- **For cost:** Peru's US$6.6 per student supports our estimate of €0.2–0.35m to set up and €0.1–0.2m a year.
+| Item | Amount |
+|---|---|
+| Writing the workbooks (one-off, fixed) | **US$56,100** |
+| Delivery cost per student (150 schools, 31,000 students) | **US$4.8** |
+| Implied delivery total | about **US$150,000** (31,000 × $4.8, our calculation) |
+| Cost per student for +1 SD of financial knowledge | **US$30.7** |
 
-# 6. Caveats
+- **Includes:** the extra resources schools used (training, materials, monitoring), costed with a standard method for education programmes (McEwan 2015).
+- **Compared with other education programmes:** of 21 cost-effective primary-school interventions, **all but one** cost more per unit of learning gained (Busso et al. 2017).
+- **Other sources:** an IDB summary gives US$6.6 per student, probably on a different cost basis. Use **US$4.8 (the paper)** and mention $6.6 only as an upper figure.
 
-- Peru is a middle-income country with a different school system. The **design** transfers; the exact sizes may not.
-- Most figures come from abstracts, author slides and IDB summaries. Before submission, check against the *Economic Journal* article and the IDB reports:
-  - the seven-year estimates;
-  - the parents' −26%;
-  - the 0.5 SD dose figure.
+# 7. What went wrong
+
+1. **Voluntary teacher take-up:**
+   - 73% attended at least one training session, but only **43% attended all** of them;
+   - 48% taught all the lessons, 21% taught some, and **about a third taught none**;
+   - the author still calls this high compliance, thanks to the certificate, the interest of economics teachers, good trainers and simple materials.
+2. **No stand-alone status:** because finance was not its own course or required unit, the ministry **could not enforce delivery**.
+3. **No time guidance:** teachers chose for themselves what to cut (history and politics).
+4. **Funding stopped after one year:**
+   - in 2017 workbooks were still printed, but there was **no training, no instructions and no monitoring**, and no one knows how much was taught;
+   - in 2018 only one region (Piura) re-ran it, with online training and certificates, **and that is where the long-term effects were largest**.
+5. **Teachers' improvement in late payments faded** within three years.
+
+**The author's conclusion:** the measured effects "constitute a lower bound… if they were to be included as a mandatory course or course portion, subject to regular evaluation. The formal inclusion of the content has the potential to improve compliance levels."
+
+# 8. What Latvia should copy, and what to fix
+
+| Peru did | Result | For Latvia |
+|---|---|---|
+| Lessons inside the existing social-science course | Worked; no harm to other subjects | Put the module inside social studies, grades 9 and 11 |
+| Ready-made workbooks and teacher guide; simple, active methods | Teachers could deliver without being experts | Ready-to-teach lesson plans, slides and games |
+| 16–32 hours per grade | High intensity, measurable gains | About 10–12 lessons per grade as the minimum |
+| 20-hour training; all grades' content together; professional trainers | Teachers +0.32 to +0.46 SD | A 20-hour certified course (Latvijas Banka's seminar cycle) |
+| **Certificate counting toward teacher evaluation** | Raised take-up | **Count it within the 36 hours required every 3 years (Regulation No. 569)** |
+| Transport and meals, principals asked to free teachers | Helped attendance | Training during work time; online options |
+| Phone monitoring | Two-thirds taught some or all lessons | Record finance lessons in the class journal (e-klase); 9th-grade survey |
+| **Not mandatory → a third taught nothing** | Effects held back | **Minimum lessons in the sample programmes; assessed outcomes in the standards** |
+| **Funding stopped after one year** | Effects faded except where repeated | **Multi-year funding; repetition in grades 9 and 11** |
+| Teachers chose what to cut | History and politics lost time | Give clear guidance on how the module fits the course |
+
+# 9. Lines for the presentation
+
+- **One line:** "Peru put finance lessons inside its existing social-science course, with workbooks and 20 hours of teacher training. Students learned more, teachers learned twice as much, and three years later students had less debt. All for under $5 a student."
+- **On teachers:** "In Peru, teachers who taught the lessons learned the most, +0.46 SD. Training worked best when it counted toward their career."
+- **On regulation:** "A third of Peru's trained teachers never taught it, because it wasn't required. The author's own conclusion: make it a mandatory part of the course. That's our ask."
+- **On sustainability:** "When the money stopped, so did the training. Where it was repeated, the effects on debt tripled. One-off pilots aren't enough."
 
 # Sources
 
-- Frisancho, V. (2023). Is school-based financial education effective? Immediate and long-lasting impacts on high school students. *Economic Journal*, 133(651), 1147–1180. https://ideas.repec.org/a/oup/econjl/v133y2023i651p1147-1180..html
-- Frisancho, V. (2018). The impact of school-based financial education on high school students and their teachers: Experimental evidence from Peru. IDB WP / SSRN. https://publications.iadb.org/en/impact-school-based-financial-education-high-school-students-and-their-teachers-experimental ; slides: https://gflec.org/wp-content/uploads/2018/09/Frisancho_FinancialEdYouthPeru_GFLEC.pdf
+- Frisancho, V. (2023). Is school-based financial education effective? Immediate and long-lasting impacts on high school students. *Economic Journal*, 133(651), 1147–1180. https://ideas.repec.org/a/oup/econjl/v133y2023i651p1147-1180..html ; author manuscript (August 2021): https://veronicafrisancho.net/wp-content/uploads/2021/10/manuscript_finedperu_aug2021.pdf. AEA RCT Registry AEARCTR-0004719.
+- Frisancho, V., García, Ventura & Chong (2025). Lasting lessons: The long-term impacts of school-based financial education. CAF WP 2025/09. https://veronicafrisancho.net/wp-content/uploads/2025/10/frisancho-et-al-2025-lasting-lessons.pdf
 - Frisancho, V. (2023). Spillover effects of financial education: The impact of school-based programs on parents. *Journal of Financial Literacy and Wellbeing*. https://www.cambridge.org/core/journals/journal-of-financial-literacy-and-wellbeing/article/spillover-effects-of-financial-education-the-impact-of-schoolbased-programs-on-parents/5640CEDED2AA1FA647DD0564E08D1674
-- Frisancho, V., García, Ventura & Chong (2025). Lasting lessons: The long-term impacts of school-based financial education. CAF WP 2025/09. https://scioteca.caf.com/bitstream/handle/123456789/2534/Lasting%20lessons.%20The%20long%20term%20impacts%20of%20school%20based%20financial%20education.pdf ; https://veronicafrisancho.net/wp-content/uploads/2025/10/frisancho-et-al-2025-lasting-lessons.pdf
-- IDB (Spanish). Evaluación experimental del piloto Finanzas en mi Colegio. https://publications.iadb.org/es/evaluacion-experimental-del-piloto-finanzas-en-mi-colegio ; Educación financiera en la escuela secundaria. https://publications.iadb.org/es/educacion-financiera-en-la-escuela-secundaria-evaluacion-de-impacto-de-finanzas-en-mi-colegio
+- IDB. Evaluación experimental del piloto Finanzas en mi Colegio. https://publications.iadb.org/es/evaluacion-experimental-del-piloto-finanzas-en-mi-colegio
 - SBS Peru. Finanzas en mi colegio. https://www.sbs.gob.pe/educacion-financiera/Otros-Programas/Finanzas-en-mi-colegio
-- APESEG. Finanzas en mi colegio: resultados. https://www.apeseg.org.pe/resultados/
-- Microfinanzas.pe. Interview with Juan Carlos Chong (teachers' credit histories). https://microfinanzas.pe/juan-carlos-chong-chong-la-educacion-financiera-de-los-docentes-evidencia-mejoras-en-su-historial-crediticio-y-acceden-a-mejores-tasas-de-interes/
-- Infomercado (BID study coverage). https://infomercado.pe/bid-finanzas-en-mi-colegio-del-gobierno-del-peru-muestra-que-el-cambio-de-habitos-financieros-puede-gestionarse-desde-la-educacion-basica/
