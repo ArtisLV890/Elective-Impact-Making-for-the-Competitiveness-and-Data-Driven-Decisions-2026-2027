@@ -461,10 +461,10 @@ src(s, "Aligned with the EU/OECD financial competence framework for children and
 // Slide: stakeholders
 s = slide("CONTENT", "(iii) Strategy");
 s.addText("Who we work with, and what we do", { placeholder: "title" });
-const quad = [["Policymakers", "IZM and VIAA; Saeima Education Committee; Interior Ministry fraud plan", "we send an evidence brief and draft amendments, and request a Saeima hearing"],
-  ["Central bank and industry", "Latvijas Banka's 28-partner working group; Finance Latvia and banks", "we join the working group; we ask banks to co-fund training and send volunteers (EU rules make them liable for weak fraud prevention)"],
-  ["Schools and families", "Social-studies teachers; 10 pilot schools; parents", "we recruit pilot schools, run the Olympiad and design the family tasks"],
-  ["Media", "LSM, Delfi, TVNet; Financial Literacy Week (March); teen social media", "we publish op-eds with our data and make scam-awareness content with student creators"]];
+const quad = [["Policymakers", "IZM and VIAA; Saeima financial literacy subcommittee; Interior Ministry fraud plan", "evidence brief; draft wording for a required 12-hour course (Reg. 569); Saeima hearing"],
+  ["Latvijas Banka and teacher training", "Latvijas Banka's 28-partner working group; VIAA or a university as course provider", "turn the bank's seminar cycle into an approved course, so it counts in full toward the 36 hours"],
+  ["Business", "Finance Latvia, banks, insurers, payment firms, mobile operators", "\"a day at the fraud desk\" placements for teachers (count under Reg. 569, point 19); an unbranded pooled fund with tax relief"],
+  ["Media", "LSM (2027 public-service order); regional and national outlets; finfluencers", "a finance and fraud strand at LSM; series pitched for the Media Support Fund; a responsible-creator pledge"]];
 quad.forEach((q, i) => {
   const x = 0.6 + (i % 2) * 6.13, y = 1.5 + Math.floor(i / 2) * 2.5;
   card(s, x, y, 6.0, 2.35);
@@ -472,13 +472,13 @@ quad.forEach((q, i) => {
   s.addText([{ text: "Who: ", options: { bold: true } }, { text: q[1], options: { breakLine: true } }, { text: "What we do: ", options: { bold: true, color: C.accent1 } }, { text: q[2] }],
     { x: x + 0.3, y: y + 0.7, w: 5.4, h: 1.55, fontSize: 14, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "Group text" });
 });
-src(s, "Two tracks: inside (working group, VIAA, comments on draft rules) and outside (media, pilot results). Never blame teachers: it is a system design gap.");
+src(s, "Business follows OECD/INFE guidelines: no branding or products in lessons. SEPLP (2026): LSM's economics coverage rated weaker (48% → 43%). Never blame teachers: it is a system design gap.");
 
 // Slide: roadmap
 s = slide("CONTENT", "(iii) Strategy");
 s.addText("Roadmap 2026–2030", { placeholder: "title" });
 const road = [["Dec 2026 – Feb 2027", "Evidence brief; meetings with Latvijas Banka, IZM, VIAA and Finance Latvia"],
-  ["March 2027", "Launch at Financial Literacy Week: media campaign, Olympiad, op-eds"],
+  ["March 2027", "Launch at Financial Literacy Week: evidence brief, media series, op-eds"],
   ["Spring 2027", "Pilot in 10 schools plus 10 comparison schools; test before and after"],
   ["Autumn 2027", "Proposals into the 2028+ strategy, the Education Development Guidelines and the regulations"],
   ["2028 – 2030", "Regulations adopted; rollout by region; PISA 2029"]];
@@ -609,7 +609,7 @@ s.addText("Make compulsory financial education real", { placeholder: "title" });
 s.addText([
   { text: "IZM and VIAA: ", options: { bold: true, color: C.accent2 } }, { text: "outcomes, minimum lessons and teacher training in regulation", options: { breakLine: true } },
   { text: "Latvijas Banka: ", options: { bold: true, color: C.accent2 } }, { text: "a school pillar with youth targets in the next strategy", options: { breakLine: true } },
-  { text: "Banks and Finance Latvia: ", options: { bold: true, color: C.accent2 } }, { text: "co-fund teacher training and send volunteer finance coaches" },
+  { text: "Banks and Finance Latvia: ", options: { bold: true, color: C.accent2 } }, { text: "host teacher placements at fraud desks and co-fund an unbranded training fund" },
 ], { placeholder: "body" });
 s.addNotes("Closing line: We already made financial literacy compulsory. Now let's make it real, before the scammers teach our teenagers first.");
 
@@ -631,7 +631,7 @@ callouts(s, 9.7, 1.45, 3.03, [
   { big: "21%", text: "decide together with their family", color: C.accent1 },
   { big: "Higher", text: "scores for pupils involved in family decisions", color: C.accent1 },
 ]);
-src(s, "Chart: Latvijas Banka / RAIT, 9th-grade assessment 2025, slide 13. This is why the strategy includes family tasks.");
+src(s, "Chart: Latvijas Banka / RAIT, 9th-grade assessment 2025, slide 13. Parents are a secondary channel: the lessons can travel home (Peru found effects on parents).");
 
 s = slide("CONTENT", "Appendix");
 s.addText("A3. New OECD evidence: fraud among Latvian adults (2026)", { placeholder: "title" });
