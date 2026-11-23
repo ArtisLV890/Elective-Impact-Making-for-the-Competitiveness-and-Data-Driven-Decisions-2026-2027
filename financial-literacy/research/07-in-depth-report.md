@@ -5,6 +5,9 @@ author: "Jaunie Ekonomisti | SSE Riga elective: Impact Making for the Competitiv
 date: "November 2026"
 ---
 
+> **Update (November 2026).** The strategy has since been narrowed to four ideas: (1) Latvijas Banka's seminars delivered as an approved course, (2) a required 12-hour financial literacy course for social-studies teachers (Regulation No. 569, new point 20.2), (3) teaching within the existing curriculum standard through VIAA's programmes, materials and tests, and (4) measurement (Latvijas Banka survey every 2 years, the PISA 2029 finance module, a yearly scorecard). The gamified practice, family tasks, bank volunteers and school pilot described below are no longer part of the proposal, and the standards are no longer proposed for amendment. See *Our four ideas* and *Legal review - ideas 2 and 4*.
+
+
 # Executive summary
 
 > **Key message.** Latvia made financial literacy compulsory in schools, but it is taught as one small topic inside social studies, with no minimum number of lessons and by teachers who lack confidence in the basics. The result: young Latvians are the least financially literate group in one of the least financially literate countries in the EU, at a time when three in four adults face fraud attempts. We propose to make compulsory financial education real, through a ready-to-teach module, mandatory teacher training, regular gamified practice, family involvement and measurement, and to fix it in four Cabinet-level regulatory decisions.

@@ -5,6 +5,9 @@ author: "Jaunie Ekonomisti | SSE Riga elective: Impact Making for the Competitiv
 date: "November 2026"
 ---
 
+> **Update (November 2026).** The strategy has since been narrowed to four ideas: (1) Latvijas Banka's seminars delivered as an approved course, (2) a required 12-hour financial literacy course for social-studies teachers (Regulation No. 569, new point 20.2), (3) teaching within the existing curriculum standard through VIAA's programmes, materials and tests, and (4) measurement (Latvijas Banka survey every 2 years, the PISA 2029 finance module, a yearly scorecard). The gamified practice, family tasks, bank volunteers and school pilot described below are no longer part of the proposal, and the standards are no longer proposed for amendment. See *Our four ideas* and *Legal review - ideas 2 and 4*.
+
+
 # Summary
 
 > **Key message.** Our strategy works on two tracks at once:
