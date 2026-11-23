@@ -429,8 +429,8 @@ s = slide("CONTENT", "(iii) Strategy");
 s.addText("Our strategy: four ideas from paper to practice", { placeholder: "title" });
 const steps = [["Training that counts", "Latvijas Banka's seminars run via VIAA or a university: 4 modules of about 12 hours that count in full toward teachers' 36 hours", "No rule change"],
   ["Required training", "12 hours every 3 years for social-studies and economics teachers, inside the 36 hours. Precedent: the 2025 swimming rule", "Reg. 569, new point 20.2"],
-  ["Curriculum fix", "add fraud, money mules and compound interest to the standard; about 12 lessons across grades 7–9, plus finance in maths", "Reg. 747; sample programmes"],
-  ["Measure and show", "9th-grade survey every 2 years; join PISA 2029 financial literacy; a yearly scorecard every March", "Latvijas Banka, IZM"]];
+  ["Teach it within the standard", "existing outcomes already allow fraud and compound interest; VIAA adds a finance thread to sample programmes, materials and state tests", "VIAA functions; Reg. 747 unchanged"],
+  ["Measure and show", "9th-grade survey every 2 years; opt into the PISA 2029 financial literacy module again (last: 2018); a yearly scorecard every March", "Latvijas Banka, IZM"]];
 steps.forEach((st, i) => {
   const x = 0.6 + i * 3.07;
   const dark = i === 1;
@@ -440,8 +440,8 @@ steps.forEach((st, i) => {
   s.addText(st[1], { x: x + 0.25, y: 3.3, w: 2.45, h: 2.3, fontSize: 14, color: dark ? C.background1 : C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Step text" });
   s.addText(st[2], { x: x + 0.25, y: 5.75, w: 2.45, h: 0.45, fontSize: 11.5, bold: true, color: dark ? C.accent3 : C.accent1, margin: 0, valign: "middle", isTextBox: true, objectName: "Step instrument" });
 });
-src(s, "Idea 3 decides what is taught, Ideas 1 and 2 make sure teachers can and do teach it, Idea 4 proves it worked. No new law and no company money needed.");
-s.addNotes("Teachers today choose their own training; Latvijas Banka's seminars count only partly (seminars are capped at 12 hours in 3 years unless they are an approved course). Idea 1 fixes that without any rule change. Idea 2 makes it stick for the teachers who teach the topic, on the model of the 2025 swimming rule. Idea 3 uses the ongoing social-studies redesign to add what is missing: fraud, money mules, compound interest. Idea 4 makes sure we can prove it worked.");
+src(s, "Ideas 1 and 3 need no rule change; Idea 2 is one new point in Reg. 569; Idea 4 proves it worked. No new law and no company money needed.");
+s.addNotes("Teachers today choose their own training; Latvijas Banka's seminars count only partly (seminars are capped at 12 hours in 3 years unless they are an approved course). Idea 1 fixes that without any rule change. Idea 2 makes it stick for the teachers who teach the topic, on the model of the 2025 swimming rule. Idea 3 works inside the existing standard: outcomes 5.4 and 3.3 and the maths percentage outcomes already allow fraud and compound interest; VIAA adds a finance thread to its sample programmes, materials and state tests. Idea 4 makes sure we can prove it worked.");
 
 // Slide: module content
 s = slide("CONTENT", "(iii) Strategy");
