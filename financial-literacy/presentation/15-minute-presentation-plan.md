@@ -161,7 +161,8 @@ date: "November 2026"
 | "Does financial education change behaviour?" | Knowledge effects are solid; behaviour effects are smaller (~+0.07 SD) and appear over years. That's why we start with knowledge KPIs and add repetition and family tasks |
 | "Teachers are already overloaded" | We use existing hours and existing required training (36 hours), and give ready-made materials, building on Latvijas Banka's seminar cycle |
 | "Who pays?" | IZM for training, Latvijas Banka for content, banks and Finance Latvia for co-funding (they now carry fraud liability), and EU funds |
-| "Why schools and not adults?" | School is the only place that reaches every young person; adults are covered by the OECD action plan, and our plan is its youth pillar |
+| "Why schools and not adults?" | School is the only place that reaches every young person. The OECD's own plan for Latvia (Nov 2026) says integrating digital financial literacy into primary and secondary education is "essential" (Action 4), but gives it no owner or timeline. We fill that gap |
+| "Doesn't the OECD say middle-aged adults are the main victims?" | Yes: 35–64-year-olds are more likely victims than 18–24-year-olds. Schools are prevention: build habits before people bank, shop and invest online at scale. And teenagers are already targeted: 48% offered "easy money", 18% asked to be money mules |
 | "Aren't your 18–19 numbers based on a small sample?" | Yes, about 30 people. But 20–29-year-olds (11.0) and the EU-wide data show the same pattern |
 | "What's your NGO's role?" | Evidence, the youth voice, and a working gamified format (the Olympiad). We are not asking to run the system |
 

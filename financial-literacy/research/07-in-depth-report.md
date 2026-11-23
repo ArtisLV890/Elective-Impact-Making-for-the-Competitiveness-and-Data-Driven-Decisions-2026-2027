@@ -188,7 +188,7 @@ Latvijas Banka's survey (Latvijas Fakti, October 2022, n = 1,007, face-to-face, 
 **Losses and cases**
 
 - **Finance Latvia Association (first half of 2026):** institutions prevented 10,960 attempts worth €11.0m, but 2,829 succeeded and residents lost **€7.83m**, of which €4.26m was phone fraud (1,333 cases).
-- **2025:** banks prevented more than €14m, while customers lost more than €12m in payments they approved themselves. The State Police puts total fraud losses at **€23.7m**, up from €16m in 2024. *[verify]*
+- **2025:** banks prevented more than €14m, while customers lost more than €12m in payments they approved themselves. The State Police puts online fraud losses at **€23.7m**, up from €16.1m in 2024 (+47%), with recorded cases roughly doubling to about 8,000 (OECD, 2026, p. 22).
 - **Money mules:**
   - in one phone-fraud case the police identified **170+ money mules** and illegal crypto exchangers (Prosecutor's Office, 18.03.2026);
   - another network involved **213** mules from Latvia, mostly young *[verify]*;
@@ -434,7 +434,7 @@ Fraud is not the only financial risk young Latvians meet early. Several separate
 
 **Value:**
 
-- **About 1%** of one year's fraud losses (€23.7m in 2025 *[verify]*; €7.8m in the first half of 2026 alone).
+- **About 1%** of one year's fraud losses (€23.7m in 2025; €7.8m in the first half of 2026 alone).
 - In Brazil, a comparable programme paid for itself through lower borrowing costs within ~5 years.
 - **Who could pay:** IZM (teacher training), Latvijas Banka (content), banks and Finance Latvia (co-funding, volunteers), EU funds.
 
@@ -515,9 +515,10 @@ None of these needs a new law. All are Cabinet regulations or strategy decisions
 | Knowledge 5.1 → 3.9; index by age; 40% simple interest among 18–19 | Latvijas Banka 2022 report | Verified (primary) |
 | 9th-grade figures (12.33; 36%; 48%; 18%; 31%) | Latvijas Banka 9th-grade report 2025 | Verified (primary) |
 | OECD/INFE 2023: 59% vs 63%; 46% vs 58% minimum; 18% fraud victims | Latvijas Banka press release, LSM | Verified (secondary) |
-| OECD 2026: 74% / 27% / 55% / 37% | Latvijas Banka, LSM 20.11.2026 | Verified (secondary; full report not opened) |
+| OECD 2026: 74% / 27% / 55% / 37% | OECD (2026) full report | Verified |
 | €7.83m lost in H1 2026 | Finance Latvia via LSM 21.07.2026 | Verified (secondary) |
-| €23.7m lost in 2025; 213 money mules | State Police via media | [verify] |
+| €23.7m lost in 2025 | State Police, cited in OECD (2026), p. 22 | Verified |
+| 213 money mules | State Police via media | [verify] |
 | Teachers 38% | Saeima slide (jumbled extraction) | [verify] |
 | Regulations No. 747, 416, 569; 2024 amendment of No. 569 | likumi.lv; LV portāls | Verified |
 | PISA 2025: Latvia's lowest results ever | OECD country note; LV portāls | Verified (secondary) |

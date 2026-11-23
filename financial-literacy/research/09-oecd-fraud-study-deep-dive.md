@@ -1,142 +1,228 @@
 ---
 title: "OECD fraud study 2026: what's in it and what it means for us"
-subtitle: "Improving Adults' Resilience Against Financial Scams and Frauds in Latvia (OECD, 20 November 2026)"
+subtitle: "Improving Adults' Resilience Against Financial Scams and Frauds in Latvia (OECD, 20 November 2026), full report"
 author: "Jaunie Ekonomisti"
 date: "November 2026"
 ---
 
 # Bottom line
 
-- **The OECD has just told Latvia to strengthen digital financial literacy in education.** This is one of its four recommendation areas. Our school proposal is therefore not a side project: it is the education part of an action plan the OECD has already written and Latvijas Banka has agreed to coordinate.
-- **Knowledge is rising, but so is fraud.** Digital financial literacy rose from 48 to 58 out of 100 between 2023 and 2026. Yet 27% of adults were victims in two years, against 18% in the 2023 OECD survey (the two surveys differ, so this is not a strict trend). The OECD's answer is **practice**: simulations, role-play and interactive tools. A 12-lesson module with scam simulations is exactly that.
-- **The window is open now.** The recommendations are being handed to the 28-partner national Financial Literacy working group, which Latvijas Banka chairs. The parts of the plan that have no owner yet are where an NGO can step in.
+1. **The OECD recommends exactly what we propose.** Cross-cutting Action 4 says: "Integrating digital financial literacy competencies into primary and secondary education in Latvia is **essential**." It asks for this across formal and extra-curricular education, based on the EU/OECD competence framework for children and youth (section 4.5.4).
+2. **But no one owns it yet.** Actions 1–13 each get an owner, a timeframe, KPIs and a priority in Annex B. **Action 4 gets none of these.** That is the gap our proposal fills, and the strongest pitch line we have.
+3. **The plan is meant to go into the 2028+ national strategy** as its digital financial literacy component (section 4.6.2). This is the same strategy in which we ask for a school pillar.
+4. **Be careful with age.** The OECD finds adults aged **35–64 more likely to be victims than 18–24-year-olds**. We must not say "young people are the main victims". Our argument is prevention plus exposure:
+   - teenagers are already being targeted (48% offered "easy money", 18% asked to be money mules);
+   - schools build habits before people start banking, shopping and investing online at scale.
+5. **Knowledge alone did not lower victimisation, but it changed behaviour.** Adults with higher digital and digital financial literacy were **more likely to take protective action**. Only **29%** reach the OECD minimum, while about **70%** rate their own knowledge as high. This supports teaching through practice and simulations, not just information.
 
-# 1. What the study is
+# 1. The study
 
 | Item | Detail |
 |---|---|
-| Title | *Improving Adults' Resilience Against Financial Scams and Frauds in Latvia: Proposal for a Digital Financial Literacy Action Plan* |
-| Published | 20 November 2026, presented with Latvijas Banka |
-| Project | EU Technical Support Instrument, 2024–2026. Partners: Latvijas Banka, Lietuvos bankas, OECD, European Commission |
-| Survey | Kantar, **1,400 adults aged 18–79**, fieldwork spring 2026 (first results shown on 24.04.2026) |
-| Twin report | *Empowering Consumers in Lithuania to Avoid Financial Scams and Frauds* (OECD, 19.11.2026): same method, 1,400+ adults plus interviews with 40 victims |
-| Wider context | OECD, *Protecting Consumers from Financial Scams and Frauds* (June 2026), 69 jurisdictions. The *Consumer Finance Risk Monitor 2026* names scams as the **top risk** for financial consumers worldwide |
+| Title | *Improving Adults' Resilience Against Financial Scams and Frauds in Latvia: Proposal for a Digital Financial Literacy Action Plan*, OECD Publishing, 2026, 82 pages |
+| Project | EU Technical Support Instrument (DG REFORM flagship on digitalisation in finance). Beneficiaries: Latvijas Banka and Lietuvos bankas |
+| Quantitative survey | About 1,400 adults aged 18–79, **July–September 2025**. Stratified by gender, age, nationality, region and settlement type; weighted; mostly online (CAWI). Includes a booster sample of about 500 victims. Run in Latvian and Russian |
+| Qualitative | 40 in-depth interviews with victims, Nov–Dec 2025 (not representative) |
+| Consultation | Stakeholder workshop in Riga on 24.04.2026; draft shared for consultation in October 2026 |
+| Fraud types | 17 types in 7 groups, including a "money mules" category (Annex C) |
 
-# 2. Key numbers (Latvia)
+**Note on figures from the press.** The "58 out of 100 digital financial literacy, +10 since 2023" figure comes from Latvijas Banka's April 2026 release. It is **not in the OECD report**. The report uses the OECD minimum-threshold measure: **29%** of adults reach it.
 
-**Exposure and victims**
+# 2. Scale of the problem
 
-- **74%** of adults faced at least one fraud attempt in the last two years.
-- **27%** became victims of at least one type of fraud. In Lithuania the figure is **44%**.
+**Police, central bank and bank data (section 3.1)**
+
+- **State Police:**
+  - recorded fraud cases **nearly doubled** from about 4,000 (2024) to more than 8,000 (2025): 3,165 with losses and 5,536 attempts;
+  - online fraud losses were **€8.5m (2023) → €16.1m (2024) → €23.7m (2025)**, +47% in the last year;
+  - phone fraud (vishing) caused the largest losses (€13.2m), followed by investment fraud (€6.7m);
+  - middle-aged adults (40–59) are the main targets for phishing and SMS scams; people aged 70+ report fraud most often; men are over-represented in reported investment fraud.
+- **Latvijas Banka:** about 35,700 fraudulent payments in 2025, worth €10.7m:
+  - the number was up 11% and the value down 10% on 2024;
+  - cards account for 80% of the cases, and credit transfers for 77% of the value.
+- **Finance Latvia (four largest banks):**
+  - fraud prevented rose from €5.6m (2022) to **€14.0m (2025)**;
+  - money lost to fraud that went through stayed flat at about €12m;
+  - in 2025 the banks stopped about 18,000 attempts, against about 6,000 cases with losses.
+- **Drivers named at the workshop:**
+  - deepfakes, phishing kits and AI social engineering;
+  - crypto-assets;
+  - low financial and digital literacy and overconfidence;
+  - social media as the channel for scams and **money-mule recruitment**.
+
+**OECD survey (sections 3.2–3.3)**
+
+- **74%** of adults were targeted and **27%** became victims (two years).
 - Of the victims:
-  - 61% were hit by one type of fraud;
-  - **25% by two types;**
-  - **14% by three or more types.**
-- **55%** of the victims lost money. The rest gave away personal or financial data but lost no money.
+  - 61% were hit by one type of fraud, 25% by two types, and 14% by three or more;
+  - **55%** lost money.
+- **Victims by type (share of all adults):**
+  - purchase scams **15%**;
+  - phishing **8%**;
+  - investment fraud **6.5%**;
+  - unauthorised transactions **6%**;
+  - entering a PIN, password or Smart-ID at a scammer's request **5%**;
+  - personal contact (friend-in-need or romance scams) **4.5%**;
+  - **money mules under 2%**.
+- **Digital exposure:**
+  - 99.5% of adults have internet access; 74% use social networks about every day;
+  - 5% hold crypto-assets.
+  - Higher use of digital financial services means a **higher** chance of being a victim, because of more exposure.
+- **Basic digital safety gaps:**
+  - 64% do not check whether a website is secure before entering data;
+  - 52% do not limit access to their social-media profiles;
+  - 13% use the same password everywhere;
+  - only 28% use a password manager.
 
-**Most common types (share of all adults)**
+# 3. Who becomes a victim (section 3.4, Table 3.1)
 
-| Type | Share | Example |
+**Results of the multivariate analysis, with other characteristics held constant**
+
+| Fraud type | Higher likelihood |
+|---|---|
+| Any type | High digital financial services use; **women**; **ages 35–64**; self-employed and business owners; residents of towns and Riga; "I make friends easily"; income not covering costs last month |
+| Purchase fraud | High digital use; self-employed; urban residents; not confident in protecting data online |
+| Phishing | High digital use; women; **single parents**; urban residents; shares a lot on social media |
+| Investment fraud | **Ages 55–64**; willing to take risks; believes "you can make money quickly with smart investments" |
+
+**Less likely to be victims**
+
+- people on medium and high incomes;
+- married people with children;
+- Russian speakers. They are *more* often targeted, but take more protective action. They may also not notice Russian-language scams as suspicious.
+
+**Young people specifically**
+
+- Ages 35–64 are more likely victims **"compared to younger adults (aged 18–24)"**.
+- Adults **over 25** report *lower* confidence in digital payments, so younger adults are the most confident.
+- Adults **under 35** prefer **social media and bank messages** as sources of fraud information (Box 4.1).
+- The Latvian report does not name young adults as a risk group. (The Lithuanian twin report does, for 18–30-year-olds and advance-payment and investment fraud.)
+
+# 4. Attitudes, overconfidence and behaviour (sections 3.5–3.7)
+
+**Overconfidence**
+
+- About **70%** rate their own digital financial knowledge as high, but only **29%** reach the OECD minimum.
+- 55% feel confident spotting scams on social media, and 66% feel confident spotting them in email.
+
+**Literacy and victimisation**
+
+- Digital financial literacy as a whole was **not** significantly linked to being a victim.
+- Two specific habits *were* linked to a lower risk:
+  - not writing down passwords and PINs;
+  - reading the safety instructions for payment services.
+- Higher digital and digital financial literacy **was** linked to **taking protective action** when targeted.
+
+**What people do when targeted**
+
+- 73% took at least one protective step: stopping the conversation, ignoring the message, blocking the sender or deleting the message.
+- Only **8% reported the attempt to the police**.
+- Warning signs people recognised:
+  - a foreign phone number (63%);
+  - a different language (57%);
+  - suspicious links (54%);
+  - grammar mistakes (38%);
+  - too-good-to-be-true offers (31%);
+  - **pressure to act urgently (only 29%)**.
+
+**Awareness by fraud type**
+
+- 78% know at least one fraud type.
+- Awareness is low for some types:
+  - **money mules 39%**;
+  - phishing 36%;
+  - and lower still for push-payment fraud, smishing and vishing.
+- 54% of those who avoided a scam already knew that type of scam.
+
+**Stereotypes**
+
+- 87% say anyone can be a victim.
+- But **69% link victims mainly to older adults**, and 35% to lower education.
+
+**After losing money**
+
+- 37% reported to no one.
+- Others told their family (33%) or their bank (31%); 20% went to the police; **20% tried to contact the scammer**.
+- Why people did not report:
+  - "it would change nothing" (57%);
+  - the loss was small (37%);
+  - shame (12%);
+  - didn't know whom to tell (16%);
+  - didn't know reporting was possible (8%).
+
+**Harm to victims**
+
+- 37% found it an emotional experience;
+- 12% lost trust in institutions;
+- 8% will never invest again.
+
+**Existing school activity the report lists (chapter 2)**
+
+- State Police "Safety Ambassadors" lessons, including on money-mule risk. A **new financial-security lesson on money mules is planned**.
+- Latvijas Banka: digital financial safety lessons for teachers and students (Global Money Week 2024: 35 schools, about 3,500 participants). Since December 2025, its Knowledge Centre has run sessions on fraud and money-muling.
+- Finance Latvia: Kahoot! fraud quizzes for young people; the FinQuest 2026 student competition on AI-powered scams.
+- **These are one-off activities, not a curriculum.** The report itself calls for curriculum integration.
+
+# 5. The action plan
+
+| Pillar | Actions (priority) | Relevance to us |
 |---|---|---|
-| Purchase fraud | **15%** | Paid for goods online that never came; paid a fake invoice |
-| Phishing | **8%** | Gave data after an email, call, SMS or social-media message |
-| Investment fraud | **6.5%** | Fake investment offers, crypto schemes |
-| Unauthorised transactions | **5.6%** | Payments made without the person's consent |
+| **I. Awareness** | 1. Central online hub (higher). 2. Campaign against stereotypes and stigma (higher). 3. Purchase-scam campaign with checklists (higher). 4. Continue phishing and investment campaigns (lower). 5. Add fraud messages to other campaigns (higher) | Our lessons can link to the hub and use the purchase-scam checklists |
+| **II. At-risk groups** | 6. Workplace education for ages 35–64 (higher). 7. Fraud content in existing programmes (higher). 8. Train-the-trainer for social workers (lower). 9. Pack for the self-employed (lower). 10. Tips in bank apps (higher) | Mostly adult-focused. Parents could be reached through our family tasks |
+| **III. Risky situations** | 11. **Scam simulations** (higher, from 2027). 12. Investment simulations (higher). 13. Investment and crypto education (lower, from 2027) | **Our module and games are classroom simulations.** Action 11's KPIs can be reused |
+| **IV. Cross-cutting** | CC1 coordination via the Financial Literacy Working Group. CC2 a **national reporting and support point**. CC3 regular surveys. **CC4 digital financial literacy in primary and secondary education.** CC5 a gender-sensitive approach | **CC4 is our proposal.** Teach CC2's "where to report" in class |
 
-**How people react**
+**Governance and timeline**
 
-- **70%** of those targeted took at least one protective step, such as ending the call, blocking the sender or deleting the message.
-- **37%** of those who lost money **told no one**:
-  - the most common reason was "reporting won't change anything";
-  - **16%** did not know whom to report to;
-  - for some, shame stopped them;
-  - small purchase frauds go unreported most often.
-- **About 20%** of victims contacted the scammers to try to get their money back. The State Police call this one of the worst mistakes, because it often leads to being scammed a second or third time.
+- **Latvijas Banka coordinates the education parts** through the Financial Literacy Working Group. The group meets at least quarterly and includes IZM and VISC.
+- Latvijas Banka would also coordinate an **annual implementation plan**.
+- The wider anti-fraud measures go to the national fraud-prevention framework, which is under review.
+- **Timeline:**
+  - 2026–2027: run within the current strategy;
+  - then fold the plan into the **revised strategy 2028+** as a digital financial literacy component.
 
-**Digital financial literacy**
+**KPIs and baselines we can borrow (Action 11, long-term indicators)**
 
-- The average score is **58 out of 100, up 10 points since 2023**.
-- People with higher digital financial literacy are **more likely to take protective action** when targeted.
-- Latvijas Banka: "the study breaks the stereotype that a fraud victim is one type of person. **Anyone can become a victim**, and different frauds hit different groups." Scammers exploit not only lack of knowledge but also **trust, urgency, impulsiveness and over-confidence** ("I would surely recognise a scam").
+- **Recognising warning signs** (2025 baseline):
+  - suspicious links 54%;
+  - urgency 29%;
+  - too-good-to-be-true offers 31%.
+- **Protective action when targeted:** 73% (2025 baseline).
+- **Simulation results:**
+  - % of participants correctly spotting simulated phishing, purchase and investment scams;
+  - change in recognising warning signs, before vs after;
+  - results in a follow-up simulation.
 
-# 3. What the OECD recommends: four areas
+# 6. What changes in our case
 
-The OECD says Latvia already has many anti-fraud initiatives. Its plan aims to **strengthen and improve what exists** rather than start from scratch.
+1. **New pitch line:** "On 20 November the OECD told Latvia that financial literacy in schools is essential, but gave that action no owner, no timeline and no KPI. We are offering to make it real."
+2. **Correct the age framing everywhere.**
+   - Don't say: "young people are the main fraud victims".
+   - Do say: "teenagers are already targets (48% offered easy money, 18% asked to be money mules). Prevention works best before habits form. And young adults are the most confident in digital payments, which is a risk when only 29% of adults reach the minimum."
+3. **Teach the specific behaviours the OECD found protective:**
+   - keep passwords and PINs safe;
+   - read the safety instructions for payment services;
+   - spot urgency (only 29% do);
+   - know where to report;
+   - never contact the scammer to get money back.
+4. **Use Action 11's KPIs in our results section.** Pre/post simulation tests in the 10-school pilot give hard numbers within months, alongside the 9th-grade index.
+5. **Regulation section:** "absorb the OECD action plan into the 2028+ strategy" is now the OECD's own proposal. Our ask becomes: make Action 4 concrete, with outcomes in Cabinet Regulations No. 747 and 416 and teacher training in No. 569.
+6. **Partners:**
+   - **State Police (Safety Ambassadors)** is already planning a money-mule lesson, so co-design with them rather than duplicate;
+   - Finance Latvia's prevented-fraud data (€14m) shows the banks' interest.
 
-| # | Area | What it means | Link to our proposal |
-|---|---|---|---|
-| 1 | **Awareness** | One trusted website on financial fraud; continue public campaigns; cover fraud types that get less attention in Latvia | Our module and media work can feed and use the single website |
-| 2 | **Target groups** | Tailor information and solutions to specific groups, and reach them through the channels that work: workplaces, bank apps, social services, libraries and other organisations | **Schools are the channel for young people.** This is our argument in one line |
-| 3 | **Practical training** | Scam simulations, interactive tools and role-play, so people *practise* safe behaviour at the moment they are under a scammer's influence | Our module's scam, money-mule and finfluencer lessons; escape-room games; the Olympiad format |
-| 4 | **Cooperation and system** | Stronger cooperation between institutions; clearer reporting and victim-support routes; regular data on fraud types and risks; **"strengthen digital financial literacy in education"** | Direct hook for our regulation asks: outcomes in the standards, teacher training, and the 9th-grade survey as regular data |
+**Changes made in the deck and plan**
 
-**Who does what**
-
-- **Latvijas Banka** will coordinate the financial literacy recommendations through the national **Financial Literacy working group (28 public, private and NGO partners)**.
-- **The wider fraud-prevention issues** go to the responsible state institutions and private partners: the Interior Ministry and State Police, banks, and CERT.lv.
-- **Finance Latvia Association** (Uldis Cērps): protecting people from fraud "must become a **national priority**". Scams are now "organised crime", with "scam factories" where tens or hundreds of thousands of people go to work every day.
-
-# 4. Young people: what we know and what we don't
-
-**What the Latvian press material does not include**
-
-- an age breakdown;
-- anything on schools, teachers or money mules.
-
-These are probably in the full report, which this session could not open (oecd.org blocks automated access).
-
-**What points the same way**
-
-- **Lithuanian twin report (same project and method):**
-  - names **young adults aged 18–30**, together with older people, as groups hit by advance-payment and investment fraud;
-  - says that **integrating digital financial literacy into primary and secondary education is "essential"**;
-  - warns that **knowledge alone does not guarantee protection**.
-- **Latvijas Banka 9th-grade assessment (2025):**
-  - **48%** of 15-year-olds have been offered "easy money" online;
-  - **18%** have been asked to pass money through their account;
-  - **16%** have already been scammed buying online.
-- **Purchase fraud is the single most common type (15%).** That is the type teenagers report most themselves (16%), and the type people report least.
-
-**Fair claim for the deck:** "The OECD's own recommendations call for digital financial literacy in education and for hands-on practice. In Latvia, the school channel does not exist in practice yet." Do **not** claim the Latvian report gives youth victim rates until we have seen it.
-
-# 5. What changes in our case
-
-1. **Reframe the strategy as the "youth and school pillar" of the OECD action plan.** This changes our position: we are not asking for a new programme, we are offering to deliver part of one that already exists.
-2. **Lead with practice, not information.** OECD area 3 and the scam-education evidence (effects fade without repetition) both support simulations and repeated practice through the year. This strengthens the module and gamification parts of our strategy.
-3. **Add reporting to the module.** The 37% who told no one, the 16% who didn't know whom to tell, and the 20% who contacted scammers show a skills gap that is easy to teach:
-   - report to the bank, the State Police and CERT.lv;
-   - never pay "recovery" fees.
-4. **Ask for a seat at the table.** Request that Jaunie Ekonomisti (or a youth representative) join the national Financial Literacy working group, or its sub-group on the action plan, as the youth voice.
-5. **Use OECD area 4 in the regulation section.** "Strengthen digital financial literacy in education" is now an OECD recommendation to Latvia. It supports adding financial and digital literacy outcomes to Cabinet Regulations No. 747 and 416, and to the teacher training rules (No. 569).
-6. **Media hook.** The study was released on 20.11.2026 and is being covered by LSM, Diena, NRA and regional papers. A short op-ed now ("the OECD says education; schools are missing") rides the news cycle.
-
-**Suggested slide text (fraud slide or "why now" slide)**
-
-- 74% of adults targeted, 27% victims, and **37% of those who lost money told no one** (OECD, 2026).
-- The OECD recommends **hands-on practice** and **digital financial literacy in education**.
-- Our school module is the youth pillar of that plan.
-
-# 6. Still to verify (needs the full OECD report)
-
-- Victim rates by age (18–29), and whether young adults are a named risk group in Latvia, as in Lithuania.
-- The exact wording of the education recommendation:
-  - is it schools, teachers or the curriculum?
-  - is there a named owner (IZM, VISC)?
-- Any KPIs, timeline or budget for the action plan.
-- Money mules: any mention, and of which age groups.
-- The digital financial literacy score by age, and the definition of the 0–100 scale.
-
-**How to get it:** download the PDF from the OECD page in a normal browser:
-oecd.org/en/publications/improving-adults-resilience-against-financial-scams-and-frauds-in-latvia_5c0aaf74-en.html.
-Drop it in the repo's uploads and I will extract the age tables and the action-plan detail.
+- A new slide in section (v): "The OECD's new plan for Latvia already asks for this".
+- Appendix A3 updated with the full-report facts.
+- The national strategy row now says "absorb the OECD plan as its digital component".
+- A new Q&A answer on the age finding.
+- The €23.7m figure is now verified.
 
 # Sources
 
-- OECD (2026). *Improving Adults' Resilience Against Financial Scams and Frauds in Latvia*. https://www.oecd.org/en/publications/improving-adults-resilience-against-financial-scams-and-frauds-in-latvia_5c0aaf74-en.html
+- OECD (2026). *Improving Adults' Resilience Against Financial Scams and Frauds in Latvia: Proposal for a Digital Financial Literacy Action Plan*. OECD Publishing, Paris. PDF ISBN 978-92-64-60750-7. https://doi.org/10.1787/5c0aaf74-en
 - OECD (2026). *Empowering Consumers in Lithuania to Avoid Financial Scams and Frauds*. https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/11/empowering-consumers-in-lithuania-to-avoid-financial-scams-and-frauds_71c50214/9cb71113-en.pdf
-- OECD (2026). *Protecting Consumers from Financial Scams and Frauds*. https://www.oecd.org/en/publications/protecting-consumers-from-financial-scams-and-frauds_d41817bb-en.html
-- LSM (20.11.2026). Pētījums: Katrs ceturtais Latvijas iedzīvotājs kļuvis par finanšu krāpšanas upuri; 37 % par notikušo neziņoja. https://www.lsm.lv/raksts/zinas/ekonomika/20.11.2026-petijums-katrs-ceturtais-latvijas-iedzivotajs-kluvis-par-finansu-krapsanas-upuri-37-par-notikuso-nezinoja.a672787/
+- LSM (20.11.2026). Pētījums: Katrs ceturtais Latvijas iedzīvotājs kļuvis par finanšu krāpšanas upuri. https://www.lsm.lv/raksts/zinas/ekonomika/20.11.2026-petijums-katrs-ceturtais-latvijas-iedzivotajs-kluvis-par-finansu-krapsanas-upuri-37-par-notikuso-nezinoja.a672787/
 - Latvijas Banka (2026). Population's digital financial literacy and resilience against financial fraud to be strengthened. https://www.bank.lv/en/news-and-events/news-and-articles/news/17655-populations-digital-financial-literacy-and-resilience-against-financial-fraud-to-be-strengthened
-- Latvijas Banka (2024). Building resilience to fraud and enhancing digital financial literacy with EU support in Latvia and Lithuania. https://www.bank.lv/en/news-and-events/news-and-articles/news/17032-building-resilience-to-fraud-and-enhancing-digital-financial-literacy-with-eu-support-in-latvia-and-lithuania
-- LSM (29.04.2026). Latvijas Banka izstrādā plānu iedzīvotāju digitālās finanšu pratības stiprināšanai. https://www.lsm.lv/raksts/zinas/ekonomika/29.04.2026-latvijas-banka-izstrada-planu-iedzivotaju-digitalas-finansu-pratibas-stiprinasanai.a645031/
-- NRA (2026). Pētījums: mēģināts apkrāpt 74% pieaugušo Latvijas iedzīvotāju. https://nra.lv/latvija/534875-petijums-meginats-apkrapt-74-pieauguso-latvijas-iedzivotaju.htm
+- Latvijas Banka 9th-grade assessment 2025 (Latvijas Banka / RAIT), for the teenage exposure figures.

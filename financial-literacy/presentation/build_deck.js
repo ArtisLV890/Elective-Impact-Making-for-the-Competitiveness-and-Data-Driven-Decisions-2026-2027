@@ -447,7 +447,7 @@ s.addTable([
   ["Education standards (Cabinet Regulations No. 747 and 416) and their sample programmes", "Explicit, assessed outcomes (compound interest, inflation, risk, digital fraud, money mules); a minimum block of about 10 lessons in grades 7–9 and 10–12", "IZM, VISC"],
   ["Teacher training rules (Cabinet Regulation No. 569: 36 hours every 3 years)", "Financial and digital literacy as a required topic for social-studies teachers. Precedent: a topic was added on 22.10.2024", "IZM"],
   ["Education Development Guidelines 2028+ (Cabinet-approved)", "Financial literacy among target skills, with an indicator and a teacher-training budget line", "IZM, Cabinet"],
-  ["National Financial Literacy Strategy 2028+ (partnership)", "School pillar with youth outcome targets, linked to the OECD action plan and the fraud-prevention plan", "Latvijas Banka"],
+  ["National Financial Literacy Strategy 2028+ (partnership)", "School pillar with youth outcome targets; absorb the OECD action plan as its digital component (as the OECD proposes)", "Latvijas Banka"],
   [{ text: "Quick wins (now)", options: { bold: true, color: C.accent1 } }, "Accredit Latvijas Banka's teacher seminars; join PISA 2029; tighter youth-targeted gambling ads", "IZM; Ministry of Finance"],
 ], tbl({ x: 0.6, y: 1.45, w: 12.13, colW: [3.9, 6.23, 2.0], rowH: [0.42, 0.95, 0.85, 0.75, 0.75, 0.75] }));
 s.addText([{ text: "EU tailwind: ", options: { bold: true, color: C.accent1 } },
@@ -455,6 +455,30 @@ s.addText([{ text: "EU tailwind: ", options: { bold: true, color: C.accent1 } },
   { x: 0.6, y: 6.0, w: 12.13, h: 0.55, fontSize: 13, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "EU note" });
 src(s, "Sources: likumi.lv (No. 747, 416, 569; Cabinet Order No. 436); Latvijas Vēstnesis 2024/207.5; EP resolution TA-10-2026-0156; COM(2025) 681.");
 s.addNotes("None of this needs a new law: Cabinet regulations and strategy decisions, achievable in one policy cycle.");
+
+// Slide: OECD action plan
+s = slide("CONTENT", "(v) Regulation");
+s.addText("The OECD's new plan for Latvia already asks for this", { placeholder: "title" });
+const pil = [["I", "Raise awareness", "Central fraud website; campaigns against victim stigma and purchase scams"],
+  ["II", "Target at-risk groups", "Workplaces, bank apps, social services; middle-aged and low-income adults"],
+  ["III", "Practise in risky situations", "Scam and investment simulations: learning by doing"],
+  ["IV", "Cross-cutting", "Coordination, one reporting point, regular data, and Action 4: digital financial literacy in primary and secondary education"]];
+pil.forEach((p, i) => {
+  const y = 1.45 + i * 1.24;
+  card(s, 0.6, y, 6.9, 1.1, i === 3 ? C.text2 : C.background2);
+  s.addText(p[0], { x: 0.75, y, w: 0.75, h: 1.1, fontFace: "Cambria", fontSize: 24, bold: true, color: i === 3 ? C.accent2 : C.accent1, margin: 0, valign: "middle", align: "center", isTextBox: true, objectName: "Pillar number" });
+  s.addText([{ text: p[1], options: { bold: true, breakLine: true } }, { text: p[2] }], { x: 1.6, y: y + 0.08, w: 5.75, h: 0.94, fontSize: 13, color: i === 3 ? C.background1 : C.text1, margin: 0, valign: "middle", isTextBox: true, objectName: "Pillar text" });
+});
+card(s, 7.78, 1.45, 4.95, 4.95);
+s.addText([
+  { text: "The gap we fill", options: { fontFace: "Cambria", bold: true, fontSize: 20, color: C.accent1, breakLine: true } },
+  { text: "The OECD calls school-level digital financial literacy \"essential\", but Action 4 has no owner, timeline or KPI.", options: { bullet: true, breakLine: true } },
+  { text: "Pillar III asks for practice; our module and games deliver it in class.", options: { bullet: true, breakLine: true } },
+  { text: "The OECD proposes folding the plan into the 2028+ national strategy, where we ask for a school pillar.", options: { bullet: true, breakLine: true } },
+  { text: "Owner: Latvijas Banka's Financial Literacy Working Group, which includes IZM and VISC.", options: { bullet: true } },
+], { x: 8.05, y: 1.65, w: 4.45, h: 4.6, fontSize: 14, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 8, isTextBox: true, objectName: "Gap text" });
+src(s, "Source: OECD (2026), Improving Adults' Resilience Against Financial Scams and Frauds in Latvia, ch. 4 (sections 4.5.4, 4.6) and Annex B.");
+s.addNotes("This is not a new idea from students: the OECD recommended it to Latvia on 20 November 2026. We offer to make Action 4 concrete. Be honest if asked: the OECD found 35-64-year-olds more likely to be victims than 18-24-year-olds; schools are about prevention before habits form.");
 
 // Slide: how the change happens
 s = slide("CONTENT", "(v) Regulation");
@@ -514,11 +538,11 @@ s.addText("A3. New OECD evidence: fraud among Latvian adults (2026)", { placehol
 s.addTable([
   [{ text: "Indicator (past two years)", options: hdr }, { text: "Latvia", options: hdr }],
   ["Faced a fraud attempt", "74%"], ["Became a victim", "27%"], ["Victims who lost money", "55%"],
-  ["Purchase fraud / phishing", "15% / 8%"], ["Investment fraud / unauthorised transactions", "6.5% / 5.6%"], ["Victims who told no one", "37%"],
+  ["Purchase fraud / phishing", "15% / 8%"], ["Investment fraud / unauthorised transactions", "6.5% / 6%"], ["Victims who told no one", "37%"],
 ], tbl({ x: 0.6, y: 1.45, w: 6.8, colW: [4.9, 1.9], rowH: 0.62, fontSize: 14 }));
 card(s, 7.75, 1.45, 4.98, 4.9);
-bullets(s, ["Main reason for not reporting: \"it would change nothing\" (57%)", "OECD proposes a digital financial literacy action plan, coordinated by Latvijas Banka", "OECD/INFE 2023: 18% of Latvian adults were fraud victims (Lithuania 14%)", "€7.8m lost in the first half of 2026 (Finance Latvia)"], 8.05, 1.7, 4.45, 4.5, 15);
-src(s, "Sources: OECD (2026), Improving Adults' Resilience Against Financial Scams and Frauds in Latvia; Kantar survey n = 1,400 (via Latvijas Banka and LSM, 20.11.2026).");
+bullets(s, ["Only 29% reach the OECD minimum for digital financial literacy, yet about 70% rate their own knowledge as high", "More likely victims: ages 35–64, women, city residents, self-employed, low incomes. 18–24-year-olds are less likely victims", "Literacy did not lower victimisation directly, but it raised protective action: the case for practice", "Police-recorded fraud doubled (about 4,000 to 8,000 cases, 2024–2025); losses €23.7m (+47%)"], 8.05, 1.7, 4.45, 4.5, 14);
+src(s, "Sources: OECD (2026), Improving Adults' Resilience Against Financial Scams and Frauds in Latvia; Kantar survey n = 1,400, July–September 2025; State Police data, pp. 22–28.");
 
 s = slide("CONTENT", "Appendix");
 s.addText("A4. Regulatory and policy timeline", { placeholder: "title" });
@@ -533,7 +557,7 @@ s.addTable([
   ["16.03.2026", "28-partner memorandum: pupils and teachers a priority to 2027", "Ready-made coalition"],
   ["30.04.2026", "European Parliament resolution on financial literacy (502–46)", "Financial education in school curricula"],
   ["08.09.2026", "PISA 2025: Latvia's weakest results ever", "Pressure on education policy"],
-  ["20.11.2026", "OECD action plan on digital financial literacy for Latvia", "Youth pillar needed"],
+  ["20.11.2026", "OECD action plan for Latvia: four pillars, 13 actions", "Calls for financial literacy in schools"],
 ], tbl({ x: 0.6, y: 1.4, w: 12.13, colW: [1.6, 6.33, 4.2], rowH: 0.45, fontSize: 12 }));
 src(s, "Sources: Skola2030; likumi.lv; Latvijas Banka; European Commission; European Parliament; OECD.");
 
