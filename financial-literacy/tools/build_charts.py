@@ -225,11 +225,13 @@ simple_bar("07_fraud_funnel_latvia_2026", "Financial fraud among Latvian adults,
            "Source: OECD & Latvijas Banka, Kantar survey (n = 1,400, ages 18–79), presented 20 Nov 2026. Lost money = 55% of victims. 37% of victims told no one.",
            hi=(1,))
 
-# 8. NEW: fraud types
-simple_bar("08_fraud_types_latvia_2026", "Most common types of financial fraud in Latvia, past two years (% of adults)",
-           ["Purchase fraud (goods never arrive, fake invoices)", "Phishing", "Investment fraud", "Unauthorised transactions"],
-           [15, 8, 6.5, 5.6],
-           "Source: OECD project survey with Latvijas Banka (2026), via Latvijas Banka press release.", hi=(0,), horizontal=True)
+# 8. NEW: fraud types (full OECD report, section 3.2)
+simple_bar("08_fraud_types_latvia_2026", "Adults who became victims, by type of fraud, past two years (% of adults)",
+           ["Purchase scam (goods never arrive, fake invoices)", "Phishing", "Investment fraud", "Unauthorised payment",
+            "Gave PIN, password or Smart-ID to a fraudster", "Friend-in-need or romance scam"],
+           [15, 8, 6.5, 6, 5, 4.5],
+           "Source: OECD (2026), Improving Adults' Resilience Against Financial Scams and Frauds in Latvia, section 3.2 (Kantar survey, n = 1,400, Jul–Sep 2025). Money mules: under 2%.",
+           hi=(0,), horizontal=True)
 
 # 9. NEW: two surveys over time
 simple_bar("09_fraud_victims_two_surveys", "Adults who were victims of financial fraud in the past two years (%)",
@@ -270,6 +272,32 @@ simple_bar("14_online_nonbank_loans", "New online (distance) non-bank consumer l
            ["2024", "2025"], [417, 550],
            "Source: PTAC non-bank consumer lending market review, H2 2025 (2025: €550.0m, +31.9%; 2024 derived). All new non-bank lending passed €1bn in 2025.",
            hi=(1,), fmt="€{:.0f}m", nf='"€"0"m"')
+
+# 15. NEW: online fraud losses reported to police
+simple_bar("15_fraud_losses_police", "Online fraud losses reported to the State Police (€ million)",
+           ["2023", "2024", "2025"], [8.5, 16.1, 23.7],
+           "Source: State Police data presented at the Riga workshop (April 2026), in OECD (2026), section 3.1.1. 2025: +47% on 2024.",
+           hi=(2,), fmt="€{:.1f}m", nf='"€"0.0"m"')
+
+# 16. NEW: police-recorded fraud events
+simple_bar("16_fraud_cases_police", "Fraud events recorded by the State Police",
+           ["2024", "2025"], [4000, 8701],
+           "Source: OECD (2026), section 3.1.1. 2024 is approximate (\"around 4 000\"); 2025 = 3,165 events with losses + 5,536 attempts.",
+           hi=(1,), fmt="{:,.0f}", nf="#,##0")
+
+# 17. NEW: bank fraud prevented vs realised
+grouped("17_bank_fraud_prevented_realised", "Fraud at the four largest banks: prevented vs realised (€ million)",
+        ["2022", "2025"], [("Prevented", [5.6, 14.0]), ("Realised (money lost)", [12.0, 12.2])],
+        "Source: Finance Latvia Association data (April 2026 workshop), in OECD (2026), section 3.1.1.",
+        fmt="€{:.1f}m", nf='"€"0.0"m"')
+
+# 18. NEW: warning signs recognised
+simple_bar("18_warning_signs_recognised", "Warning signs recognised by adults who were targeted (%)",
+           ["Foreign phone number", "Caller speaks another language", "Suspicious links", "Grammar mistakes",
+            "Offer too good to be true", "Pressure to act urgently"],
+           [63, 57, 54, 38, 31, 29],
+           "Source: OECD (2026), section 3.7.4. Only 8% of targeted adults reported the attempt to the police.",
+           hi=(5,), horizontal=True)
 
 # ---------------------------------------------------------------- ORIGINAL charts from the source reports
 from openpyxl.drawing.image import Image as XLImage

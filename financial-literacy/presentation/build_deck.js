@@ -222,28 +222,78 @@ callouts(s, 9.7, 1.45, 3.03, [
 src(s, "Chart: Latvijas Banka / RAIT, 9th-grade assessment 2025, slide 25 (blue = yes). Police detained money mules including minors, recruited via Telegram (2025–2026).");
 s.addNotes("Blue bars are 'yes'. Almost one in five 15-year-olds has been asked to act as a money mule, which can mean a criminal record.");
 
-// Slide: why now
+// Slide: why now (1) fraud statistics, native charts
+const K = THEME.colors;
+function chartCard(s, x, y, w, h, label, type, data, opts) {
+  card(s, x, y, w, h, "FFFFFF", "Chart card");
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y, w, h, fill: { type: "none" }, line: { color: "D5DDD8", width: 0.75 }, rectRadius: 0.12, objectName: "Chart border" });
+  s.addText(label, { x: x + 0.2, y: y + 0.1, w: w - 0.4, h: 0.5, fontSize: 13, bold: true, color: C.text1, margin: 0, valign: "middle", isTextBox: true, objectName: "Chart label" });
+  s.addChart(type, data, Object.assign({ x: x + 0.1, y: y + 0.62, w: w - 0.2, h: h - 0.72, showLegend: false, showValue: true,
+    dataLabelFontSize: 11, dataLabelColor: K.dk1, catAxisLabelFontSize: 10.5, catAxisLabelColor: K.dk1, valAxisHidden: true,
+    valGridLine: { style: "none" }, catAxisLineShow: false, barGapWidthPct: 45, objectName: "Native chart" }, opts));
+}
 s = slide("CONTENT", "(i) The issue");
-s.addText("Why now: the risks are growing and the window is open", { placeholder: "title" });
-const t5 = [["74% / 27%", "of adults faced fraud attempts / became victims in two years (OECD, 2026)", C.accent5],
-  ["€7.8m", "lost to fraud in the first half of 2026 alone", C.accent5],
-  ["29%", "of 15–16-year-olds gambled for money in the past year", C.accent2],
-  ["+32%", "growth in online non-bank loans in 2025 (to €550m)", C.accent1]];
+s.addText("Why now: fraud is rising fast, and teenagers are already targets", { placeholder: "title" });
+chartCard(s, 0.6, 1.45, 3.9, 3.4, "Online fraud losses reported to police (€m)", pres.charts.BAR,
+  [{ name: "Losses", labels: ["2023", "2024", "2025"], values: [8.5, 16.1, 23.7] }],
+  { barDir: "col", chartColors: [K.accent4, K.accent4, K.accent5], dataLabelFormatCode: '"€"0.0"m"', catAxisLabelFontSize: 12 });
+chartCard(s, 4.72, 1.45, 3.9, 3.4, "Adults who became victims, by type (%)", pres.charts.BAR,
+  [{ name: "Victims", labels: ["Friend / romance scam", "Gave PIN or Smart-ID", "Unauthorised payment", "Investment fraud", "Phishing", "Purchase scam"], values: [4.5, 5, 6, 6.5, 8, 15] }],
+  { barDir: "bar", chartColors: [K.accent3, K.accent3, K.accent3, K.accent3, K.accent3, K.accent1], dataLabelFormatCode: '0.#"%"', catAxisLabelFontSize: 10 });
+chartCard(s, 8.83, 1.45, 3.9, 3.4, "9th graders who have... (%)", pres.charts.BAR,
+  [{ name: "Yes", labels: ["Given passwords or PIN", "Opened strangers' files", "Been scammed online", "Been asked to be a money mule", "Been offered \"easy money\""], values: [6, 11, 16, 18, 48] }],
+  { barDir: "bar", chartColors: [K.accent3, K.accent3, K.accent3, K.accent5, K.accent5], dataLabelFormatCode: '0"%"', catAxisLabelFontSize: 10 });
+const t5 = [["74% / 27%", "of adults were targeted / became victims in two years", C.accent2],
+  ["×2", "police-recorded fraud cases: about 4,000 → 8,700 (2024 → 2025)", C.accent2],
+  ["37%", "of those who lost money told no one; 57% think reporting changes nothing", C.accent2],
+  ["29% vs 70%", "reach the minimum digital financial literacy vs rate themselves as good", C.accent2]];
+card(s, 0.6, 5.05, 12.13, 1.42, C.text2, "Stats band");
 t5.forEach((t, i) => {
-  const x = 0.6 + i * 3.08;
-  card(s, x, 1.5, 2.9, 2.75);
-  s.addText(t[0], { x: x + 0.25, y: 1.65, w: 2.45, h: 0.9, fontFace: "Cambria", fontSize: 32, bold: true, color: t[2], margin: 0, valign: "middle", isTextBox: true, objectName: "Tile value" });
-  s.addText(t[1], { x: x + 0.25, y: 2.65, w: 2.45, h: 1.5, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Tile text" });
+  const x = 0.8 + i * 3.0;
+  s.addText(t[0], { x, y: 5.13, w: 2.8, h: 0.6, fontFace: "Cambria", fontSize: 24, bold: true, color: t[2], margin: 0, valign: "middle", isTextBox: true, objectName: "Band value" });
+  s.addText(t[1], { x, y: 5.73, w: 2.75, h: 0.68, fontSize: 11.5, color: C.background1, margin: 0, valign: "top", isTextBox: true, objectName: "Band text" });
 });
-card(s, 0.6, 4.5, 12.13, 1.9, C.text2, "Window card");
-s.addText([
-  { text: "Our issue: ", options: { bold: true, color: C.accent2 } },
-  { text: "compulsory financial education that is not delivered, while the risks grow.", options: { color: C.background1, breakLine: true } },
-  { text: "The window is open: ", options: { bold: true, color: C.accent2 } },
-  { text: "the national strategy ends in 2027; the OECD proposed an action plan for Latvia (Nov 2026); a fraud-prevention plan is being drafted; PISA 2025 was Latvia's weakest ever.", options: { color: C.background1 } },
-], { x: 0.9, y: 4.65, w: 11.6, h: 1.6, fontSize: 16, margin: 0, valign: "middle", paraSpaceAfter: 8, isTextBox: true, objectName: "Window text" });
-src(s, "Sources: OECD & Latvijas Banka (Kantar, n = 1,400, 2026); Finance Latvia Association via LSM 21.07.2026; ESPAD 2024 (SPKC); PTAC (2026); OECD PISA 2025.");
-s.addNotes("Define the issue in one sentence, then explain why the timing is right.");
+src(s, "Sources: State Police data and OECD/Kantar survey of 1,400 adults (Jul–Sep 2025), in OECD (2026), Improving Adults' Resilience Against Financial Scams and Frauds in Latvia, pp. 22–36; Latvijas Banka / RAIT 9th-grade assessment 2025 (n = 1,159).");
+s.addNotes("Losses almost tripled in two years. The most common fraud is the simplest: paying for goods that never arrive. And it starts early: half of 15-year-olds have been offered easy money online, almost one in five asked to be a money mule. If asked: the OECD found 35-64-year-olds more likely to be victims than 18-24-year-olds, which is why prevention has to happen before adulthood.");
+
+// Slide: why now (2) the policy window
+s = slide("CONTENT", "(i) The issue");
+s.addText("Why now: every plan that matters is being written in 2027", { placeholder: "title" });
+const X0 = 4.05, YR = 1.43, xOf = (yr) => X0 + (yr - 2025) * YR; // axis 2025.0 to 2031.0
+// 2027 window band
+s.addShape(pres.shapes.RECTANGLE, { x: xOf(2027), y: 1.42, w: YR, h: 4.47, fill: { color: K.accent2, transparency: 78 }, line: { type: "none" }, objectName: "Window band" });
+s.addText("THE WINDOW", { x: xOf(2027), y: 1.42, w: YR, h: 0.3, fontSize: 10, bold: true, color: "8A5A12", align: "center", margin: 0, isTextBox: true, objectName: "Window label" });
+for (let yr = 2025; yr <= 2030; yr++) {
+  s.addText(String(yr), { x: xOf(yr), y: 1.72, w: YR, h: 0.3, fontSize: 12, bold: true, color: C.text1, align: "center", margin: 0, isTextBox: true, objectName: "Year" });
+  s.addShape(pres.shapes.LINE, { x: xOf(yr), y: 2.02, w: 0, h: 3.87, line: { color: "D5DDD8", width: 0.75, dashType: "dash" }, objectName: "Year line" });
+}
+// now marker (drawn before the bars so bars sit on top)
+s.addShape(pres.shapes.LINE, { x: xOf(2026.9), y: 2.02, w: 0, h: 3.87, line: { color: K.accent5, width: 2 }, objectName: "Now line" });
+s.addText("NOW", { x: xOf(2026.9) - 0.5, y: 1.42, w: 0.48, h: 0.3, fontSize: 10, bold: true, color: K.accent5, align: "right", margin: 0, isTextBox: true, objectName: "Now label" });
+const lanes = [
+  { name: "National Financial Literacy Strategy", owner: "Latvijas Banka + 28 partners", bars: [[2025, 2028, "2021–2027: ends", K.accent4], [2028, 2031, "2028+ strategy: drafted in 2027", K.accent1]] },
+  { name: "Education Development Guidelines", owner: "IZM; steer budget and EU funds", bars: [[2025, 2028, "2021–2027: ends", K.accent4], [2028, 2031, "2028+: budget 2028–31, EU funds 2028–34", K.accent1]] },
+  { name: "OECD action plan for Latvia", owner: "Latvijas Banka coordinates", bars: [[2026.88, 2028, "Published 20.11.2026", K.accent6], [2028, 2031, "Folded into the 2028+ strategy", K.accent1]] },
+  { name: "Fraud-prevention plan", owner: "Interior Ministry", bars: [[2026, 2027.6, "Drafting: no school measure yet", K.accent5]] },
+  { name: "EU push", owner: "Commission, Parliament", bars: [[2025.3, 2026.85, "EU strategy; EP vote 502–46", K.accent6], [2027, 2028, "EU review", K.accent3]] },
+  { name: "Test and measure", owner: "IZM, Latvijas Banka", bars: [[2026.0, 2027, "PISA 2025: worst ever", K.accent5], [2027, 2029.3, "Decide on PISA 2029 financial literacy", K.accent3]] },
+];
+lanes.forEach((l, i) => {
+  const y = 2.1 + i * 0.63;
+  s.addText([{ text: l.name, options: { bold: true, breakLine: true } }, { text: l.owner, options: { fontSize: 10, color: K.accent6 } }],
+    { x: 0.6, y, w: 3.35, h: 0.55, fontSize: 12, color: C.text1, margin: 0, valign: "middle", isTextBox: true, objectName: "Lane label" });
+  l.bars.forEach((b) => {
+    const dark = [K.accent1, K.accent5, K.accent6].includes(b[3]);
+    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: xOf(b[0]) + 0.03, y: y + 0.06, w: xOf(b[1]) - xOf(b[0]) - 0.06, h: 0.43, fill: { color: b[3] }, line: { type: "none" }, rectRadius: 0.08, objectName: "Plan bar" });
+    s.addText(b[2], { x: xOf(b[0]) + 0.1, y: y + 0.06, w: xOf(b[1]) - xOf(b[0]) - 0.2, h: 0.43, fontSize: 10, bold: true, color: dark ? "FFFFFF" : K.dk1, margin: 0, valign: "middle", fit: "shrink", isTextBox: true, objectName: "Bar text" });
+  });
+});
+card(s, 0.6, 6.0, 12.13, 0.55, C.text2, "Message band");
+s.addText([{ text: "If schools are not written into these plans in 2027, ", options: { color: C.background1 } },
+  { text: "the next chance is the following cycle, around 2034.", options: { bold: true, color: C.accent2 } }],
+  { x: 0.85, y: 6.0, w: 11.7, h: 0.55, fontSize: 15, margin: 0, valign: "middle", isTextBox: true, objectName: "Message" });
+src(s, "Sources: Latvijas Banka; Cabinet Order No. 436 (2021); OECD (2026), ch. 4.6; Interior Ministry (TAP portal, 2026); COM(2025) 681; EP resolution 30.04.2026; OECD PISA 2025. \"2034\" assumes a seven-year cycle.");
+s.addNotes("Three plans are being written at the same time: the OECD plan is being folded into the new national strategy, the Interior Ministry is drafting a fraud-prevention plan without a school measure, and the education guidelines that steer the budget are redrafted in 2027. That is why now.");
 
 // ======================= (ii) divider
 divider("(ii) Research and data", "(ii)", "How do research and data support our intention?", "School financial education works when it is intensive, taught by trained teachers and linked to real decisions. A mandate on paper is not enough.");
